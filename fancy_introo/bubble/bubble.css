@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bubble{
+    display: absolute;
+    background-color: rgb(50, 49, 73);
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+
+}
+.fix{
+    background-color: rgb(71, 102, 187);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

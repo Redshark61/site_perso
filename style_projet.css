@@ -1,0 +1,32 @@
+.card img {
+    width: 100%;
+}
+
+.card {
+    font-family: 'Nunito', sans-serif;
+    padding: 1rem;
+    margin: 2em 3em;
+    background-color: #717a76;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: #2d4e39 5px 10px 3px;
+    transition: all 1S ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .description {
+    padding: 1rem;
+}
+
+.card .mark {
+    color: green;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: contents;
+}

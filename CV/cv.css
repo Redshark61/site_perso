@@ -1,0 +1,94 @@
+
+@font-face
+{
+	font-family: 'font_pro';
+	src:url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.eot');
+	src:url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.eot') format('eot'),
+		url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.woff') format('woff'),
+		url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.ttf') format('truetype'),
+		url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.svg') format('svg');
+
+}
+
+p
+{
+	font-family: 'font_pro', 'Comic Sans MS';
+	font-size: 20px;
+	background-color: grey
+	opacity: 0.1; 
+}
+
+img
+{
+	box-shadow:5px 5px black;
+}
+strong
+{
+	color: red;
+}
+
+h1
+{
+	text-align: center;
+	border: 2px black solid;
+}
+
+body
+{
+	background: linear-gradient(#433F49, #727075);
+	color: #D8D8D9;
+}
+
+html
+{
+	height: 100%;
+}
+
+
+#liseret
+{
+	min-height: 600px;
+	width:10%;
+	background: repeating-linear-gradient(#11151a, #11151a33);
+	margin-right:3%;
+	border-radius: 10px;
+
+}
+
+#contenu, #liseret
+{
+	display: inline-block;
+    vertical-align: top;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#contenu
+{
+	width: 55%;
+}
+
+.titre_principal
+{
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px)
+{
+	#liseret
+	{
+		display: none;
+	}
+
+	section
+	{
+		display: block;
+		width: auto;
+	}
+}

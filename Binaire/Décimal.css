@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#binaire, #decimal{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 10%;
+    margin: 0 auto;
+}
+
+#binaire{
+    position: absolute;
+    top: 20vh;
+    margin-top: 1em;
+}

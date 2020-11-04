@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(image/kitchen-731351_1920.jpg);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(77, 77, 77, 0.85) ;
+}
+
+nav h1{
+    margin: 0 0 0 30px;
+    text-decoration: underline;
+    font-size: 3em;
+    width: 30%;
+    font-family: 'Satisfy', cursive;
+    font-weight: lighter;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.plat > li{
+    list-style: none;
+    border: black 1px solid;
+    height: 40vh;
+    width: 60vw;
+    overflow: hidden;
+    margin: 20px 100px;
+
+}
+
+.plat{
+    list-style: none;
+    padding: 0px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#lasagne{
+    background-image: url(image/lasagne.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#spaghetti img{
+    height: 100%;
+}
+
+#spaghetti{
+    display: flex;
+}
+
+#pizza{
+    background-image: url(image/pizza-3007395_1920.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#moule{
+    display: flex;
+}
+
+#moule img{
+    height: 100%;
+}
+
+#text-spaghetti{
+    text-align: right;
+}
+
+#text-moule{
+    text-align: right;
+}
+
+.texte{
+    margin: 40px 60px;
+}
+
+.texte > p{
+    margin: 10px 0 10px 0;
+}
+
+
+.liste{
+    background-color: rgba(77, 77, 77, 0.85);   
+}
+
+#plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    height: 100px;
+    cursor: pointer;
+}
+
+#slogan{
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(77, 77, 77, 0.85) ;
+}
+
+footer img{
+    height: max-content;
+    margin: 0 10px ;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 728px){
+
+    /*Section moule*/
+
+    #moule img{
+        display: none;
+    }
+
+
+    #moule{
+        background-image: url(image/mussels-3148439_1920.jpg);
+        background-size: cover;
+    }
+
+    #text-moule{
+        margin: 30px;
+        padding: 5px;
+        background-color: #373737dd;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*Section pizza*/
+    #pizza img{
+        display: none;
+    }
+
+    #pizza{
+        background-image: url(image/pizza-3007395_1920.jpg);
+        background-size: cover;
+    }
+
+    #text-pizza{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px;
+        padding: 20px;
+        background-color: #373737dd;
+    }
+
+    /*Section spaghetti*/
+    #spaghetti img{
+        display: none;
+    }
+
+    #spaghetti{
+        background-image: url(image/spaghetti-2931846_1920.jpg);
+        background-size: cover;
+    }
+
+    #text-spaghetti{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 30px;
+        padding: 20px;
+        background-color: #373737dd;
+    }
+
+    /*Section lasagne*/
+    #lasagne img{
+        display: none;
+    }
+
+    #lasagne{
+        background-image: url(image/lasagne.jpg);
+        background-size: cover;
+    }
+
+    #text-lasagne{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        margin: 30px;
+        background-color: #373737dd;
+    }
+
+    #plus{
+        font-size: 1em;
+    }
+
+    nav h1{
+        font-size: 2em;
+    }
+    nav li{
+        font-size: 13px;
+        margin: 0 0 0 10px;
+        text-align: center;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+}

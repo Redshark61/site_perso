@@ -22,6 +22,15 @@ nav h1 {
     font-size: 4rem;
     font-family: 'Syne Mono', sans-serif;
     margin-left: 5%;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+nav h1:hover {
+    background-color: #484041;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.767);
+    transition: all 500ms ease;
 }
 
 .div-nav {
@@ -176,4 +185,27 @@ section p, h2 {
 section h2 {
     font-size: 2em;
     margin-bottom: 1rem;
+}
+
+.alert {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    nav, main, .marquee {
+        display: none;
+    }
+    .alert {
+        padding: 2em;
+        text-align: center;
+        margin-left: 50%;
+        margin-top: 50%;
+        transform: translate(-50%);
+        display: block;
+        background-color: red;
+    }
+    .alert p {
+        font-size: x-large;
+        font-weight: 700;
+    }
 }

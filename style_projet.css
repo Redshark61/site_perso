@@ -7,7 +7,7 @@
     padding: 1rem;
     margin: 2em 3em;
     background-color: #717a76;
-    width: 30%;
+    width: 20%;
     border-radius: 10px;
     box-shadow: #2d4e39 5px 10px 3px;
     transition: all 1S ease;
@@ -29,4 +29,15 @@ a {
     color: black;
     text-decoration: none;
     display: contents;
+}
+
+.projet {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+#alert {
+    display: none;
 }

@@ -6,6 +6,11 @@ btn_decimal.addEventListener('click', affiche_decimal);
 function affiche_decimal() {
 
     var reponse_decimal = document.getElementById('input_decimal').value;
+
+    if (reponse_decimal == '') {
+        return
+    }
+
     var plouf_decimal = reponse_decimal;
     liste_decimal = [];
 
@@ -31,15 +36,7 @@ function affiche_decimal() {
     var compteur = 1
     for (var i = 0; i < liste_decimal.length; i++) {
         string_resultat_binaire.push(liste_decimal[i])
-        /*if (!(4 % string_resultat_binaire.length) && 4 % compteur) {
-            console.log('ok')
-            string_resultat_binaire.push('.')
-        }*/
         compteur++
-        console.log("string_resultat_binaire.length " + string_resultat_binaire.length)
-        console.log("4%string_resultat_binaire = " + string_resultat_binaire.length % 4)
-        console.log("compteur = " + compteur)
-        console.log("4%compteur = " + 4 % compteur)
     }
     string_resultat_binaire = string_resultat_binaire.reverse().join("")
     para_decimal.innerHTML = "Le nombre décimal " + plouf_decimal + " est égal à " + string_resultat_binaire + " en binaire";
@@ -54,6 +51,9 @@ function binaire() {
 
     //Récupération de la réponse :
     var reponse_binaire = document.getElementById('input_binaire').value;
+    if (reponse_binaire == '') {
+        return
+    }
     var plouf_binaire = reponse_binaire;
 
     //Création de la liste :

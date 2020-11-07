@@ -16,8 +16,10 @@ nav {
 }
 
 .onglets {
+    margin: 1rem;
     display: flex;
     width: 60vw;
+    align-items: center;
     justify-content: space-around;
     list-style: none;
     letter-spacing: 3px;
@@ -330,6 +332,11 @@ p {
 }
 
 #back {
+    display: inline-block;
+    word-wrap: break-word;
+    height: min-content;
+    width: 90%;
+    color: white;
     background-color: red;
-    padding: 15%;
+    padding: 5%;
 }

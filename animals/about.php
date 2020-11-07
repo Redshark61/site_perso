@@ -11,29 +11,7 @@
 
 <body>
 
-    <nav>
-        <div class="titre">
-            <h1>Animal Lover</h1>
-        </div>
-
-        <div class="nav">
-            <ul class="onglets">
-                <li><a href="../projet.html" id="back">Retour</a></li>
-                <li><a href="index.html"> Home</a></li>
-                <li><a href="#"> Animal</a></li>
-                <li><a href="#"> About me</a></li>
-                <li><a href="#"> Contact</a></li>
-                <li><a href="page_login.html"> Login</a></li>
-            </ul>
-        </div>
-
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-
+    <?php require 'nav.php' ?>
     <section id="presentation_profil">
         <img src="adult-1845814_1920.jpg" alt="photo_profil" id="photo_profil">
         <p id="presentation_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates aliquam autem

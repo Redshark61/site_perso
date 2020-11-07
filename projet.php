@@ -16,19 +16,11 @@
     <div id="alert">
         <p>CE SITE N'EST PAS ENCORE UTILISABLE SUR PORTABLE !</p>
     </div>
-
-    <nav>
-        <h1><a href="index.html" id="title">BeRedy</a></h1>
-        <div class="div-nav">
-            <button><a href="projet.html">Projet</a></button>
-            <button><a href="#">A propos</a></button>
-            <button><a href="#">Me contacter</a></button>
-        </div>
-    </nav>
+    <?php require 'nav.php' ?>
 
 
     <div class="projet">
-        <a href="animals/index.html">
+        <a href="animals/index.php">
             <div class="card">
                 <img src="animals/renne.jpg" alt="Image de présentation pour le site &#34Animal Lover&#34 ">
                 <div class="description">

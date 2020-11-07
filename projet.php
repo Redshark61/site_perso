@@ -16,8 +16,12 @@
     <div id="alert">
         <p>CE SITE N'EST PAS ENCORE UTILISABLE SUR PORTABLE !</p>
     </div>
+
     <?php require 'nav.php' ?>
 
+    <section class="explication">
+        <p>Voici mes différents projets. Vous pouvez les visiter, les tester, et revenir quand bon vous semble via le bouton &quot;Revenir à la page Projet&quot;</p>
+    </section>
 
     <div class="projet">
         <a href="animals/index.php">

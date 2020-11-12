@@ -7,16 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/style_projet.css">
+    <script src="responsive.js" defer></script>
+
     <title>Projets</title>
 </head>
 
 <body>
-
-    <div id="alert">
-        <p>CE SITE N'EST PAS ENCORE UTILISABLE SUR PORTABLE !</p>
-    </div>
-
     <?php require 'nav.php' ?>
 
     <section class="explication">

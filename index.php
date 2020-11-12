@@ -4,17 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <script src="responsive.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <title>BeRedy - Acceuil</title>
 </head>
 
 <body>
-
-    <div class="alert">
-        <p>CE SITE N'EST PAS ENCORE UTILISABLE SUR PORTABLE !</p>
-    </div>
 
     <?php require 'nav.php' ?>
 

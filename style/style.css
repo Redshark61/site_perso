@@ -5,7 +5,6 @@
 }
 
 html {
-    overflow-x: hidden;
     background-color: #2b2727;
 }
 
@@ -209,12 +208,13 @@ section:last-child {
 }
 
 .hamburger {
+    cursor: pointer;
     display: none;
 }
 
 .line {
     background-color: #000;
-    margin-bottom: 1.3vh;
+    margin-bottom: 7px;
     min-height: 4px;
-    width: 7vw;
+    width: 8vw;
 }

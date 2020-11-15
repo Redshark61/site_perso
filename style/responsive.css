@@ -44,4 +44,7 @@
     section {
         z-index: -1 !important;
     }
+    a .card {
+        width: 90vw;
+    }
 }

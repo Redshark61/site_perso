@@ -7,7 +7,6 @@
     padding: 1rem;
     margin: 2em 3em;
     background-color: #717a76;
-    width: 20%;
     border-radius: 10px;
     box-shadow: #2d4e39 5px 10px 3px;
     transition: all 1S ease;
@@ -34,15 +33,18 @@ a {
 .projet {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 1;
-}
-
-#alert {
-    display: none;
+    flex-flow: row wrap;
+    /*flex-shrink: 5;
+    flex-grow: 0.5;*/
 }
 
 section {
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+a .card {
+    flex: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
 }

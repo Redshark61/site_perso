@@ -45,6 +45,17 @@
                 </div>
             </div>
         </a>
+
+        <a href="CV/CV.html">
+            <div class="card">
+                <div class="description">
+                    <p>Adaptatif : <span class="mark">&#10003</span></p>
+                    <p>Titre : <span>CV (premier projet)</span></p>
+                    <p>Description : <span>Mon tout premier projet fait avec l'aide des cours d'OpenClassroom</span></p>
+                </div>
+            </div>
+        </a>
+
     </div>
 
 

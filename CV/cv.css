@@ -1,11 +1,4 @@
-@font-face {
-	font-family: 'font_pro';
-	src: url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.eot');
-	src: url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.eot') format('eot'), url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.woff') format('woff'), url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.ttf') format('truetype'), url('C:/Users/timva/Desktop/HTML/CV/adventpro-regular-webfont.svg') format('svg');
-}
-
 p {
-	font-family: 'font_pro', 'Comic Sans MS';
 	font-size: 20px;
 	background-color: grey;
 	padding: 1rem;
@@ -34,40 +27,25 @@ body {
 	background-repeat: no-repeat;
 }
 
-html {
-	height: 100%;
-}
-
-#liseret {
-	min-height: 600px;
-	width: 10%;
-	background: repeating-linear-gradient(#11151a, #11151a33);
-	margin-right: 3%;
-	border-radius: 10px;
-}
-
-#contenu, #liseret {
-	display: inline-block;
-	vertical-align: top;
-}
-
 section {
-	display: inline-block;
-	vertical-align: top;
 	width: 30%;
 	margin-right: 2%;
+	flex-basis: 200px;
+	flex-shrink: 1;
 }
 
 #contenu {
-	width: 55%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 100%;
 }
 
 .back {
-	position: absolute;
+	position: relative;
 	top: 10px;
 	right: 10px;
-	width: fit-content;
-	height: fit-content;
 	background-color: red;
 	padding: 1rem;
 	text-decoration: none;
@@ -83,19 +61,5 @@ section {
 	color: black;
 	border-radius: 10px;
 	width: 20vw;
-	position: absolute;
-	bottom: 0;
-	right: 0;
 	padding: 0.5rem;
-	font-family: 'font_pro', 'Comic Sans MS';
-}
-
-@media screen and (max-width: 700px) {
-	#liseret {
-		display: none;
-	}
-	section {
-		display: block;
-		width: auto;
-	}
 }

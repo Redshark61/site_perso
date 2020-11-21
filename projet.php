@@ -48,6 +48,7 @@
 
         <a href="CV/CV.html">
             <div class="card">
+                <img src="CV/cv.png" alt="Image de présentation de mon CV">
                 <div class="description">
                     <p>Adaptatif : <span class="mark">&#10003</span></p>
                     <p>Titre : <span>CV (premier projet)</span></p>

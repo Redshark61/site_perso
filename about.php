@@ -44,29 +44,29 @@
         <h2>Quels sont mes sources d'inspirations ?</h2>
         <p>Elles sont nombreuses ! On pourrait citer :</p>
         <ul>
-            <li><a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"><img src="ressources/deved.jpg" alt="Miniature de la chaîne Dev ed">Dev ed :</a>&nbsp;<p>
+            <li class="li-about"><a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"><img src="ressources/deved.jpg" alt="Miniature de la chaîne Dev ed">Dev ed :</a>&nbsp;<p>
                     Un savant mélange entre humour et tutoriel front-end
                 </p>
             </li>
-            <li><a href="https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw"><img src="ressources/benjamin_code.jpg" alt="Miniature de la chaîne Benjamin Code">Benjamin Code :</a>&nbsp;<p>
+            <li class="li-about"><a href="https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw"><img src="ressources/benjamin_code.jpg" alt="Miniature de la chaîne Benjamin Code">Benjamin Code :</a>&nbsp;<p>
                     Le meilleur des freelancer
                 </p>
             </li>
-            <li><a href="https://www.youtube.com/channel/UCj_iGliGCkLcHSZ8eqVNPDQ"><img src="ressources/grafikart.jpg" alt="Miniature de la chaîne Grafikart">Grafikart :</a>&nbsp;<p>
+            <li class="li-about"><a href="https://www.youtube.com/channel/UCj_iGliGCkLcHSZ8eqVNPDQ"><img src="ressources/grafikart.jpg" alt="Miniature de la chaîne Grafikart">Grafikart :</a>&nbsp;<p>
                     Un fullstack, un vrai
                 </p>
             </li>
-            <li><a href="https://www.youtube.com/channel/UCWr0mx597DnSGLFk1WfvSkQ"><img src="ressources/kalle.jpg" alt="Miniature de la chaîne Kalle Hallden">Kalle Hallden :</a>&nbsp;<p>
+            <li class="li-about"><a href="https://www.youtube.com/channel/UCWr0mx597DnSGLFk1WfvSkQ"><img src="ressources/kalle.jpg" alt="Miniature de la chaîne Kalle Hallden">Kalle Hallden :</a>&nbsp;<p>
                     La version pratique et automatique de python
                 </p>
             </li>
-            <li><a href="https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg"><img src="ressources/tim.jpg" alt="Miniature de la chaîne Tech With Tim">Tech with Tim : </a>&nbsp;<p>
+            <li class="li-about"><a href="https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg"><img src="ressources/tim.jpg" alt="Miniature de la chaîne Tech With Tim">Tech with Tim : </a>&nbsp;<p>
                     Django, Flutter, Python... Tant de savoir faire en un seul homme !
                 </p>
             </li>
         </ul>
     </section>
-    <p>Merci à <a href="https://www.flaticon.com/authors/roundicons/">FlatIcon</a> pour les icônes</p>
+    <p>Merci à <a href="https://www.flaticon.com/authors/roundicons/">FlatIcon</a> pour les icônes. Sauf pour l'icône Insta et le logo avec la loupe pour le projet de CV qui ont été faites à la main !</p>
 </body>
 
 </html>

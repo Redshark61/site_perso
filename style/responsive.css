@@ -8,9 +8,11 @@
     .div-nav a {
         flex-basis: 0;
         width: 100%;
+        display: block;
     }
     .div-nav a button {
         width: 80%;
+        margin-bottom: 1rem;
     }
     nav {
         height: 10vh;
@@ -46,5 +48,14 @@
     }
     a .card {
         width: 90vw;
+    }
+
+    .li-about{
+        flex-direction: column;
+        border-bottom: 1px solid var(--accentuate-color);
+        padding: 1.5rem 0;
+    }
+    .li-about:last-child{
+        border-bottom: none;
     }
 }

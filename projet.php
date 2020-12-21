@@ -50,7 +50,7 @@
             <div class="card">
                 <img src="ressources/loupe.svg" alt="Image de présentation de mon CV">
                 <div class="description">
-                    <p>Adaptatif : <span class="mark">&#10003</span></p>
+                    <p>Adaptatif : <span class="mark">&#10003;</span></p>
                     <p>Titre : <span>CV (premier projet)</span></p>
                     <p>Description : <span>Mon tout premier projet fait avec l'aide des cours d'OpenClassroom</span></p>
                 </div>
@@ -66,6 +66,17 @@
                 </div>
             </div>
         </a>
+        <a href="Liste sorter/index.html">
+            <div class="card">
+                <img src="ressources/Liste.svg" alt="Image de présentation pour le tri de listes">
+                <div class="description">
+                    <p>Adaptatif : <span class="mark">&#10003;</span></p>
+                    <p>Titre : <span>Tri de liste</span></p>
+                    <p>Description : <span>Utilisation de Bootstrap pour trier une liste</span></p>
+                </div>
+            </div>
+        </a>
+
 
     </div>
 

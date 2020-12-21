@@ -18,7 +18,7 @@
     <?php require 'nav.php' ?>
 
     <section class="explication">
-        <p>Voici mes différents projets. Vous pouvez les visiter, les tester, et revenir quand bon vous semble via le bouton &quot;Revenir à la page Projet&quot;</p>
+        <p>Voici mes différents projets. Vous pouvez les visiter, les tester, et revenir quand bon vous semble via le bouton &quot;Revenir à la page Projet&quot;. Ces prjets n'ont pour la pupart aucun but. Les boutons n'ont pas de fonction. C'est juste une galerie de présentations de mes nombreux talents &#x263A;.</p>
     </section>
 
     <div class="projet">
@@ -48,11 +48,21 @@
 
         <a href="CV/CV.html">
             <div class="card">
-                <img src="CV/cv.png" alt="Image de présentation de mon CV">
+                <img src="ressources/loupe.svg" alt="Image de présentation de mon CV">
                 <div class="description">
                     <p>Adaptatif : <span class="mark">&#10003</span></p>
                     <p>Titre : <span>CV (premier projet)</span></p>
                     <p>Description : <span>Mon tout premier projet fait avec l'aide des cours d'OpenClassroom</span></p>
+                </div>
+            </div>
+        </a>
+        <a href="fancy_introo/index.html">
+            <div class="card">
+                <img src="fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">
+                <div class="description">
+                    <p>Adaptatif : <span class="mark" style="color: red;">X</span></p>
+                    <p>Titre : <span>Affichage avec Gsap</span></p>
+                    <p>Description : <span>Essai d'affichage avec Gsap. Application du tutoriel de DevEd.</span></p>
                 </div>
             </div>
         </a>

@@ -1,15 +1,14 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*font-family: 'Lobster', cursive;*/
 }
 
-main{
+main {
     font-family: 'Heebo', sans-serif;
 }
 
-.landing{
+.landing {
     min-height: 100vh;
     background-image: url(hero.jpg);
     background-size: cover;
@@ -17,31 +16,31 @@ main{
     padding: 0rem 5rem;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 10vh;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
 
-.nav-links li{
+.nav-links li {
     padding-left: 10rem;
     font-size: 1.2rem;
 }
 
-#logo{
+#logo {
     font-family: "Lobster", sans-serif;
     font-weight: lighter;
     font-size: 2rem;
 }
 
-.big-text{
+.big-text {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -51,7 +50,7 @@ nav{
     color: #232428;
 }
 
-.intro{
+.intro {
     background-color: black;
     position: fixed;
     top: 0;
@@ -63,7 +62,7 @@ nav{
     align-items: center;
 }
 
-.slider{
+.slider {
     background-color: rgb(148, 148, 148);
     position: fixed;
     top: 0;
@@ -73,19 +72,29 @@ nav{
     transform: translateY(100%);
 }
 
-
-.text{
+.text {
     color: rgb(212, 212, 212);
     font-family: 'Heebo', sans-serif;
     font-size: 3rem;
 }
 
-.hide{
+.hide {
     background-color: black;
     overflow: hidden;
 }
 
-.hide span{
+.hide span {
     display: inline-block;
     transform: translateY(100%);
+}
+
+.back {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: red;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
 }

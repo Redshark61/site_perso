@@ -1,14 +1,14 @@
 .card img {
-    width: 100%;
+    width: 80%;
 }
 
 .card {
     font-family: 'Nunito', sans-serif;
     padding: 1rem;
     margin: 2em 3em;
-    background-color: #717a76;
+    background-color: var(--nav-button-color);
     border-radius: 10px;
-    box-shadow: #2d4e39 5px 10px 3px;
+    box-shadow: var(--accentuate-color  ) 5px 10px 3px;
     transition: all 1S ease;
 }
 
@@ -32,19 +32,11 @@ a {
 
 .projet {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    /*flex-shrink: 5;
-    flex-grow: 0.5;*/
+    display: grid;
+    grid-template-columns: repeat(2, auto);
 }
 
 section {
     margin-left: 50%;
     transform: translateX(-50%);
-}
-
-a .card {
-    flex: 1;
-    flex-shrink: 1;
-    flex-basis: 250px;
 }

@@ -1,5 +1,5 @@
 @media screen and (max-width: 700px) {
-    *{
+    html, body {
         overflow-x: hidden;
     }
     .hamburger {
@@ -7,6 +7,7 @@
     }
     .div-nav {
         display: none;
+        overflow-x: hidden;
     }
     .div-nav a {
         flex-basis: 0;
@@ -17,23 +18,23 @@
         width: 80%;
         margin: 1rem;
     }
-    nav h1{
+    nav h1 {
         margin: 0;
     }
     .unhide {
         background: #313153;
         z-index: 2;
         height: 100%;
-        width: max-content;
+        width: 100%;
         position: absolute;
         top: 109px;
         right: 0px;
         display: flex;
         flex-direction: column;
         justify-content: start;
-        align-items: flex-start;
         z-index: 2 !important;
         animation: move 1s ease;
+        text-align: center;
     }
     @keyframes move {
         from {
@@ -46,24 +47,21 @@
     .marquee {
         display: none;
     }
-    section {
-        z-index: -1 !important;
-    }
-
-    .li-about{
+    .li-about {
         flex-direction: column;
         border-bottom: 1px solid var(--accentuate-color);
         padding: 1.5rem 0;
     }
-    .li-about:last-child{
+    .li-about:last-child {
         border-bottom: none;
     }
-
-    .projet{
+    .projet {
         grid-template-columns: repeat(1, auto) !important;
     }
-
-    .card{
-        margin:2rem 10% !important;
+    .card {
+        margin: 2rem 10% !important;
+    }
+    nav {
+        overflow-x: hidden;
     }
 }

@@ -11,7 +11,10 @@
 
 html {
     background-color: var(--bg-color);
-    overflow-x: hidden;
+}
+
+body {
+    position: relative;
 }
 
 nav {

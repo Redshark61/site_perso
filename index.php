@@ -16,23 +16,6 @@
 
     <?php require 'nav.php' ?>
 
-    <div class="marquee">
-        <div class="track1 track">
-            <span>Web</span><span>Projets </span> <span>Fun </span> <span>Code </span> <span>Découverte </span>
-        </div>
-        <div class="track2 track">
-            <span>Web</span><span>Projets </span> <span>Fun </span> <span>Code </span> <span>Découverte </span>
-        </div>
-        <div class="track3 track">
-            <span>Web</span><span>Projets </span> <span>Fun </span> <span>Code </span> <span>Découverte </span>
-        </div>
-        <div class="track4 track">
-            <span>Web</span><span>Projets </span> <span>Fun </span> <span>Code </span> <span>Découverte </span>
-        </div>
-
-
-    </div>
-
     <main>
         <section>
             <h2>Pourquoi un blog ?</h2>

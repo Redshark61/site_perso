@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/style_projet.css">
     <script src="responsive.js" defer></script>
-
+    <script src="cursor.js" defer></script>
     <title>Projets</title>
 </head>
 
 <body>
+    <div class="cursor"></div>
     <?php require 'nav.php' ?>
 
     <section class="explication">

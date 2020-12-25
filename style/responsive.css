@@ -15,6 +15,8 @@
         display: block;
     }
     .div-nav a button {
+        color:var(--bg-color);
+        background-color: #313153;
         width: 80%;
         margin: 1rem;
     }

@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/responsive.css">
     <script src="responsive.js" defer></script>
+    <script src="cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <title>BeRedy - Acceuil</title>
 </head>
 
 <body>
-
+<div class="cursor"></div>
     <?php require 'nav.php' ?>
 
     <main>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/about.css">
     <script src="responsive.js" defer></script>
+    <script src="cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
 
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+    <div class="cursor"></div>
     <?php require 'nav.php' ?>
     <section>
         <h2>Où me retrouver ?</h2>

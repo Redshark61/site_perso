@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <script src="responsive.js" defer></script>
     <script src="cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
@@ -19,23 +19,23 @@
     <div class="cursor"></div>
     <?php require 'nav.php' ?>
     <section>
-        <h2>Où me retrouver ?</h2>
+        <h2 class="titre_about">Où me retrouver ?</h2>
 
         <div class="div_insta">
             <a href="https://www.instagram.com/little_french_dev/">
-                <?php require 'ressources/Insta logo.svg' ?>
+                <img src="ressources/Insta logo.svg" alt="insta">
                 <p>&nbsp; : @little_french_dev</p>
             </a>
         </div>
 
         <div class="div_twitter">
-            <?php require 'ressources/twitter.svg' ?>
+            <img src='ressources/twitter.svg' alt="twitter">
             <p>&nbsp; : @TimothéeVannier</p>
         </div>
 
         <div class="div_git">
             <a href="https://github.com/Redshark61">
-                <?php require 'ressources/github.svg' ?>
+                <img src="ressources/github.svg" alt="github">
                 <p>&nbsp; : @Redshark61</p>
             </a>
         </div>
@@ -43,7 +43,7 @@
     </section>
 
     <section>
-        <h2>Quels sont mes sources d'inspirations ?</h2>
+        <h2 class="titre_about">Quels sont mes sources d'inspirations ?</h2>
         <p>Elles sont nombreuses ! On pourrait citer :</p>
         <ul>
             <li class="li-about"><a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"><img src="ressources/deved.jpg" alt="Miniature de la chaîne Dev ed">Dev ed :</a>&nbsp;<p>

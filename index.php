@@ -24,6 +24,8 @@
                 un
                 moyen d'apprendre, de mettre à l'épreuve mes capacités.</p>
         </section>
+        <img src="ressources/computer.svg" alt="Ordi logo" id="svg_1">
+        <img src="ressources/flash.svg" alt="Foudre logo" id="svg_2">
         <section>
             <h2>Et BeRedy alors ?</h2>
             <p>BeRedy est tout simplement une allusion à mon nom de joueur dans les jeux-vidéo : Redshark61. Bien sûr,

@@ -1,4 +1,10 @@
 @media screen and (max-width: 700px) {
+    * {
+        cursor: default;
+    }
+    .cursor {
+        display: none;
+    }
     html, body {
         overflow-x: hidden;
     }
@@ -15,7 +21,7 @@
         display: block;
     }
     .div-nav a button {
-        color:var(--bg-color);
+        color: var(--bg-color);
         background-color: #313153;
         width: 80%;
         margin: 1rem;
@@ -65,5 +71,11 @@
     }
     nav {
         overflow-x: hidden;
+    }
+    #svg_1, #svg_2 {
+        display: none;
+    }
+    section{
+        width: auto;
     }
 }

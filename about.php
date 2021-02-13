@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style/responsive.css">
     <script src="responsive.js" defer></script>
     <script src="cursor.js" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
 
     <title>A propos</title>

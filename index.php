@@ -20,19 +20,20 @@
 
     <main>
         <section>
-            <h2>Pourquoi un blog ?</h2>
-            <p>Pour montrer mes compétences, pour un futur employeur, et simplement pour le fun. C'est aussi, et surtout
+            <h2>Hey !</h2>
+            <p>Salut, moi c'est Timothée ! J'ai 18 ans, et je suis un jeune développeur web.
+                J'ai fait ce site pour montrer mes compétences, pour un futur employeur, et simplement pour le fun. C'est aussi, et surtout
                 un
                 moyen d'apprendre, de mettre à l'épreuve mes capacités.</p>
         </section>
-        <img src="ressources/computer.svg" alt="Ordi logo" id="svg_1">
-        <img src="ressources/flash.svg" alt="Foudre logo" id="svg_2">
+        <a href="projet.php"><button class="projet"> Va voir mes projets ! <div class="arrow-right"></div></button></a>
         <section>
             <h2>Et BeRedy alors ?</h2>
             <p>BeRedy est tout simplement une allusion à mon nom de joueur dans les jeux-vidéo : Redshark61. Bien sûr,
                 vous avez intêret à être prêt, car du lourd arrive pour ce site, du très très lourd... Alors, be ready !
             </p>
         </section>
+
 
     </main>
 

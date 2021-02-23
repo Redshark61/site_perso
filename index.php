@@ -26,7 +26,7 @@
                 un
                 moyen d'apprendre, de mettre à l'épreuve mes capacités.</p>
         </section>
-        <a href="projet.php"><button class="projet"> Va voir mes projets ! <div class="arrow-right"></div></button></a>
+        <div class="action-button"><a href="projet.php"><button class="projet"> Va voir mes projets ! <div class="arrow-right"></div></button></a></div>
         <section>
             <h2>Et BeRedy alors ?</h2>
             <p>BeRedy est tout simplement une allusion à mon nom de joueur dans les jeux-vidéo : Redshark61. Bien sûr,

@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.div_git{
+.div_git {
     width: 100%;
 }
 
@@ -30,7 +30,6 @@
     justify-content: start;
     align-items: center;
     flex-direction: row;
-    max-width: max-content;
 }
 
 section {
@@ -57,14 +56,14 @@ li a {
     justify-content: start;
     white-space: nowrap;
     text-decoration: underline;
-    color: blanchedalmond;
+    color: var(--accentuate-color);
+    ;
 }
 
 p {
     margin-left: 1rem;
-    white-space: nowrap;
 }
 
-div img{
+div img {
     max-width: 60px;
 }

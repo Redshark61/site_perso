@@ -24,21 +24,21 @@
         <div class="div_insta">
             <a href="https://www.instagram.com/little_french_dev/">
                 <img src="ressources/Insta logo.svg" alt="insta">
-                <p>&nbsp; : @little_french_dev</p>
+                <p>&nbsp; : &nbsp;@little_french_dev</p>
             </a>
         </div>
 
         <div class="div_twitter">
             <img src='ressources/twitter.svg' alt="twitter">
-            <p>&nbsp; : @TimothéeVannier</p>
+            <p>&nbsp; : &nbsp;@TimothéeVannier</p>
         </div>
-
         <div class="div_git">
             <a href="https://github.com/Redshark61">
                 <img src="ressources/github.svg" alt="github">
-                <p>&nbsp; : @Redshark61</p>
+                <p>&nbsp; : &nbsp;@Redshark61</p>
             </a>
         </div>
+
 
     </section>
 

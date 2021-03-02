@@ -11,6 +11,7 @@
     <script src="responsive.js" defer></script>
     <script src="cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="bubble.js" defer></script>
     <title>BeRedy - Acceuil</title>
 </head>
 
@@ -26,7 +27,13 @@
                 un
                 moyen d'apprendre, de mettre à l'épreuve mes capacités.</p>
         </section>
-        <div class="action-button"><a href="projet.php"><button class="projet"> Va voir mes projets ! <div class="arrow-right"></div></button></a></div>
+        <div class="action-button">
+            <button class="projet"> Va voir mes projets !
+                <div class="bubble" data-width='0'></div>
+
+                <div class="arrow-right"></div>
+            </button>
+        </div>
         <section>
             <h2>Et BeRedy alors ?</h2>
             <p>BeRedy est tout simplement une allusion à mon nom de joueur dans les jeux-vidéo : Redshark61. Bien sûr,

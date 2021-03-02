@@ -206,6 +206,7 @@ button.projet:hover {
 }
 
 .bubble {
+    z-index: 3;
     display: none;
     width: 1px;
     height: 1px;

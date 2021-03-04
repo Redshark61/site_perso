@@ -79,12 +79,28 @@ nav h1 {
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
-.hovered:hover {
-    cursor: none;
-    background-color: #afafaf;
-    transition: all 800ms ease;
+.hovered {
+    position: relative;
+}
+
+.hovered::after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #4059AD;
+    transition: all 0.3s ease;
+    width: 0;
+}
+
+.hovered:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 .div-nav {
@@ -96,6 +112,7 @@ nav h1 {
 }
 
 .div-nav button {
+    padding: 0.5rem;
     font-size: calc(var(--font-size)/3.5);
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.2em;

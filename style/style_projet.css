@@ -1,5 +1,6 @@
 .card img {
-    width: 80%;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -8,8 +9,12 @@
     margin: 2em 3em;
     background-color: var(--nav-button-color);
     border-radius: 10px;
-    box-shadow: var(--accentuate-color  ) 5px 10px 3px;
+    box-shadow: var(--accentuate-color) 5px 10px 3px;
     transition: all 1S ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .card:hover {
@@ -39,4 +44,17 @@ a {
 section {
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: calc(var(--font-size)/3);
+    margin: 1rem;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: calc(var(--font-size)/3.5);
+    margin-bottom: 0.7rem;
 }

@@ -13,7 +13,6 @@
     }
     .div-nav {
         display: none;
-        overflow-x: hidden;
     }
     .div-nav a {
         flex-basis: 0;
@@ -21,6 +20,7 @@
         display: block;
     }
     .div-nav a button {
+        outline: 0;
         color: var(--bg-color);
         background-color: #313153;
         width: 80%;
@@ -31,8 +31,8 @@
     }
     .unhide {
         background: #313153;
-        z-index: 2;
-        height: 100%;
+        z-index: 3;
+        height: 100vh;
         width: 100%;
         position: absolute;
         top: 109px;
@@ -52,9 +52,6 @@
             transform: translateX(0%);
         }
     }
-    .marquee {
-        display: none;
-    }
     .li-about {
         flex-direction: column;
         border-bottom: 1px solid var(--accentuate-color);
@@ -69,9 +66,6 @@
     }
     .card {
         margin: 2rem 10% !important;
-    }
-    nav {
-        overflow-x: hidden;
     }
     #svg_1, #svg_2 {
         display: none;
@@ -95,5 +89,25 @@
         width: 100%;
         justify-content: center;
         padding: 0.5rem;
+    }
+    .home-container {
+        padding-top: 6rem;
+    }
+    .home-container h1 {
+        font-size: calc(var(--font-size) - 20px);
+    }
+    .home-container h3 {
+        font-size: calc(var(--font-size) / 4);
+    }
+    .arrow-right {
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid var(--accentuate-color);
+    }
+    button.projet {
+        font-size: calc(var(--font-size)/5);
+    }
+    main {
+        display: block;
     }
 }

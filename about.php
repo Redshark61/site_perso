@@ -18,6 +18,23 @@
 <body>
     <div class="cursor"></div>
     <?php require 'nav.php' ?>
+
+    <section>
+        <h2>Hey !</h2>
+        <p>Salut, moi c'est Timothée ! J'ai 18 ans, et je suis un jeune développeur web.
+            J'ai fait ce site pour montrer mes compétences, pour un futur employeur, et simplement pour le fun. C'est aussi, et surtout
+            un
+            moyen d'apprendre, de mettre à l'épreuve mes capacités.</p>
+    </section>
+
+    <section>
+        <h2>Et BeRedy alors ?</h2>
+        <p>BeRedy est tout simplement une allusion à mon nom de joueur dans les jeux-vidéo : Redshark61. Bien sûr,
+            vous avez intêret à être prêt, car du lourd arrive pour ce site, du très très lourd... Alors, be ready !
+        </p>
+    </section>
+
+
     <section>
         <h2 class="titre_about">Où me retrouver ?</h2>
 

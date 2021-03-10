@@ -1,3 +1,5 @@
+@forward "abstracts/variables";
+
 main {
     position: relative;
     width: 100%;
@@ -15,27 +17,27 @@ main {
     width: 70%;
     display: flex;
     justify-content: flex-end;
-}
-
-.action-button a {
-    text-decoration: none;
+    a {
+        text-decoration: none;
+    }
 }
 
 button.projet {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: calc(var(--font-size) / 4);
+    font-size: $font-size / 4;
     padding: 1rem;
-    background-color: var(--text-color);
+    background-color: $text-color;
     border: none;
     box-shadow: 0px 20px 20px rgba(44, 44, 44, 0.24);
     transition: all 500ms ease;
-}
+    width: auto;
 
-button.projet:hover {
-    position: relative;
-    border-radius: 50px;
+    &:hover {
+        position: relative;
+        border-radius: 50px;
+    }
 }
 
 .arrow-right {
@@ -44,7 +46,7 @@ button.projet:hover {
     height: 0;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
-    border-left: 30px solid var(--accentuate-color);
+    border-left: 30px solid $accentuate-color;
 }
 
 .bubble {
@@ -63,36 +65,34 @@ button.projet:hover {
 .home-container {
     color: rgb(255, 255, 255);
     position: relative;
-    line-height: var(--font-size);
+    line-height: $font-size;
     width: 100%;
+    h1 {
+        font-size: $font-size - 10px;
+    }
+    h1,
+    h3 {
+        text-align: center;
+    }
+    h3 {
+        font-size: $font-size / 3;
+    }
 }
 
-.home-container h1 {
-    font-size: calc(var(--font-size) - 10px);
-}
-
-.home-container h1,
-.home-container h3 {
-    text-align: center;
-}
-
-.home-container h3 {
-    font-size: calc(var(--font-size) / 3);
-}
-
-h1 .bold {
-    position: relative;
-    color: var(--text-color);
-}
-
-h1 .bold::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background-color: #4059ad;
-    animation: portfolio 1s ease-in-out forwards 0.5s;
+h1 {
+    .bold {
+        position: relative;
+        color: $text-color;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            height: 100%;
+            width: 0;
+            background-color: #4059ad;
+            animation: portfolio 1s ease-in-out forwards 0.5s;
+        }
+    }
 }
 
 @keyframes portfolio {

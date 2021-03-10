@@ -1,3 +1,5 @@
+@forward 'abstracts/variables';
+
 @media screen and (max-width: 700px) {
     * {
         cursor: default;
@@ -9,26 +11,29 @@
     body {
         overflow-x: hidden;
     }
-    .hamburger {
-        display: block;
-    }
     .div-nav {
         display: none;
+        a {
+            flex-basis: 0;
+            width: 100%;
+            display: block;
+            button {
+                outline: 0;
+                color: $bg-color;
+                background-color: #313153;
+                width: 80%;
+                margin: 1rem;
+            }
+        }
     }
-    .div-nav a {
-        flex-basis: 0;
-        width: 100%;
-        display: block;
-    }
-    .div-nav a button {
-        outline: 0;
-        color: var(--bg-color);
-        background-color: #313153;
-        width: 80%;
-        margin: 1rem;
-    }
-    nav h1 {
-        margin: 0;
+    nav {
+        .hamburger {
+            display: block;
+        }
+
+        h1 {
+            margin: 0;
+        }
     }
     .unhide {
         background: #313153;
@@ -55,12 +60,12 @@
     }
     .li-about {
         flex-direction: column;
-        border-bottom: 1px solid var(--accentuate-color);
+        border-bottom: 1px solid $accentuate-color;
         padding: 1.5rem 0;
         margin-right: 1rem;
-    }
-    .li-about:last-child {
-        border-bottom: none;
+        &:last-child {
+            border-bottom: none;
+        }
     }
     .projet {
         grid-template-columns: repeat(1, auto) !important;
@@ -94,20 +99,21 @@
     }
     .home-container {
         padding-top: 6rem;
+        h1 {
+            font-size: $font-size - 20px;
+        }
+        h3 {
+            font-size: $font-size / 4;
+        }
     }
-    .home-container h1 {
-        font-size: calc(var(--font-size) - 20px);
-    }
-    .home-container h3 {
-        font-size: calc(var(--font-size) / 4);
-    }
+
     .arrow-right {
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
-        border-left: 10px solid var(--accentuate-color);
+        border-left: 10px solid $accentuate-color;
     }
     button.projet {
-        font-size: calc(var(--font-size) / 5);
+        font-size: $font-size / 5;
     }
     main {
         display: block;

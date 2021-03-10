@@ -1,0 +1,181 @@
+@forward 'abstracts/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+html {
+    background-color: $bg-color;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.cursor {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: #000 1px solid;
+    border-radius: 50%;
+    z-index: 5;
+    pointer-events: none;
+    transition: transform 1s ease;
+}
+
+.down {
+    animation: down 500ms ease forwards;
+}
+
+@keyframes down {
+    to {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.up {
+    animation: up 300ms ease forwards;
+}
+
+@keyframes up {
+    from {
+        width: 30px;
+        height: 30px;
+    }
+    to {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $bg-color;
+
+    h1 {
+        font-size: $font-size;
+        font-family: "Syne Mono", sans-serif;
+        margin-left: 5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+
+        a {
+            font-size: $font-size;
+        }
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .line {
+        background-color: #000;
+        margin-bottom: 7px;
+        min-height: 4px;
+        width: 8vw;
+    }
+}
+
+.hovered {
+    position: relative;
+
+    &::after {
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #4059ad;
+        transition: all 0.3s ease;
+        width: 0;
+    }
+
+    &:hover::after {
+        width: 100%;
+        left: 0;
+    }
+}
+
+.div-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        font-family: "Nunito", sans-serif;
+        padding: 0.5rem;
+        font-size: $font-size / 3.5;
+        letter-spacing: 0.2em;
+        font-weight: 700;
+        text-decoration: none;
+        border: none;
+        color: black;
+        background-image: linear-gradient(120deg, #f4b942 0%, #e7bd6a 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: 0 88%;
+        transition: background-size 0.25s ease-in;
+        background-color: transparent;
+
+        &:hover {
+            cursor: none;
+            background-size: 100% 88%;
+        }
+    }
+}
+
+#title {
+    text-decoration: none;
+    color: $text-color;
+    font-family: "Newsreader", serif;
+}
+
+section {
+    line-height: 30px;
+    z-index: 0;
+    margin: 5% auto 0 10%;
+    max-width: 800px;
+    width: 50vw;
+    padding: 2em;
+    padding-top: 0;
+
+    &:last-child {
+        margin-bottom: 10%;
+    }
+}
+
+section {
+    p {
+        font-size: $font-size / 4;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: $font-size / 3;
+        line-height: 60px;
+    }
+}

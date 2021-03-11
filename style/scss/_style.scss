@@ -31,11 +31,17 @@ body {
     border-radius: 50%;
     z-index: 5;
     pointer-events: none;
-    transition: transform 1s ease;
-}
+    transition: background-color 0.3s ease;
 
-.down {
-    animation: down 500ms ease forwards;
+    &.white-cursor {
+        background-color: rgba(240, 255, 255, 0.527);
+    }
+    &.down {
+        animation: down 500ms ease forwards;
+    }
+    &.up {
+        animation: up 300ms ease forwards;
+    }
 }
 
 @keyframes down {
@@ -43,10 +49,6 @@ body {
         width: 30px;
         height: 30px;
     }
-}
-
-.up {
-    animation: up 300ms ease forwards;
 }
 
 @keyframes up {
@@ -72,7 +74,6 @@ nav {
 
     h1 {
         font-size: $font-size;
-        font-family: "Syne Mono", sans-serif;
         margin-left: 5%;
         margin-top: 1rem;
         margin-bottom: 1rem;

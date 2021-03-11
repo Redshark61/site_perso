@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/style_projet.css">
-    <link rel="stylesheet" href="style/responsive.css"> -->
+    <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/main.css">
     <script src="responsive.js" defer></script>
     <script src="cursor.js" defer></script>

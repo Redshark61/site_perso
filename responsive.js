@@ -1,6 +1,5 @@
 const hamburger = document.getElementsByClassName("hamburger")[0];
 const nav = document.getElementsByClassName("div-nav")[0];
-const main = document.getElementsByTagName("main");
 const title = document.querySelector("nav h1");
 is_overflow = true;
 

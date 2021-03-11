@@ -181,6 +181,7 @@ button.projet:hover {
 }
 
 .bubble {
+  z-index: 5;
   display: none;
   width: 1px;
   height: 1px;
@@ -287,15 +288,22 @@ body {
   border-radius: 50%;
   z-index: 5;
   pointer-events: none;
-  -webkit-transition: -webkit-transform 1s ease;
-  transition: -webkit-transform 1s ease;
-  transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
-.down {
+.cursor.white-cursor {
+  background-color: rgba(240, 255, 255, 0.527);
+}
+
+.cursor.down {
   -webkit-animation: down 500ms ease forwards;
           animation: down 500ms ease forwards;
+}
+
+.cursor.up {
+  -webkit-animation: up 300ms ease forwards;
+          animation: up 300ms ease forwards;
 }
 
 @-webkit-keyframes down {
@@ -310,11 +318,6 @@ body {
     width: 30px;
     height: 30px;
   }
-}
-
-.up {
-  -webkit-animation: up 300ms ease forwards;
-          animation: up 300ms ease forwards;
 }
 
 @-webkit-keyframes up {
@@ -360,7 +363,6 @@ nav {
 
 nav h1 {
   font-size: 64px;
-  font-family: "Syne Mono", sans-serif;
   margin-left: 5%;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -658,6 +660,7 @@ h3 {
     -webkit-transform: translate(0);
             transform: translate(0);
     margin-left: 10px;
+    margin-right: 10px;
     width: auto;
     padding: 0;
     margin-bottom: 2rem;

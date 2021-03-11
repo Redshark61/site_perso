@@ -1,6 +1,7 @@
 const cursor = document.querySelector(".cursor");
 const html = document.querySelector("html");
 const body = document.querySelector("body");
+const main = document.querySelector("main");
 
 var isMobile = {
     Android: function () {
@@ -38,12 +39,6 @@ if (isMobile.any()) {
         cursor.style.left = e.pageX + "px";
     });
 
-    // body.addEventListener("scroll", function (event) {
-    //     cursor.style.top = event.pageY + "px";
-    //     cursor.style.left = event.pageX + "px";
-    //     console.log(event.clientY);
-    // });
-
     window.addEventListener("mousedown", function () {
         cursor.classList.add("down");
         if (cursor.classList.contains("up")) {
@@ -53,5 +48,12 @@ if (isMobile.any()) {
     window.addEventListener("mouseup", function () {
         cursor.classList.remove("down");
         cursor.classList.add("up");
+    });
+
+    main.addEventListener("mouseenter", () => {
+        cursor.classList.add("white-cursor");
+    });
+    main.addEventListener("mouseleave", () => {
+        cursor.classList.remove("white-cursor");
     });
 }

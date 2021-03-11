@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <!-- <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/about.css">
-    <link rel="stylesheet" href="style/responsive.css"> -->
+    <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
     <script src="responsive.js" defer></script>
     <script src="cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">

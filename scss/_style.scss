@@ -71,6 +71,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: $bg-color;
+    box-shadow: 0 0 10px 4px $accentuate-color;
 
     h1 {
         font-size: $font-size;

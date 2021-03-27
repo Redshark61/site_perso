@@ -31,9 +31,31 @@
         flex-direction: row;
     }
 }
+h2.about__title {
+    text-decoration: underline 4px $accentuate-color;
+    text-align: center;
+    margin-top: 15vh;
+    font-size: $font-size;
+}
 
-section {
-    width: auto;
+section.about {
+    display: flex;
+    width: 60vw;
+    height: auto;
+    max-width: none;
+    padding: 1rem;
+    flex-direction: row;
+    img {
+        height: 50vh;
+        width: auto;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.199);
+        border-right: $text-color 10px solid;
+    }
+}
+
+p {
+    text-align: center;
+    max-width: 70vw;
 }
 
 li {
@@ -62,6 +84,6 @@ p {
     margin-left: 1rem;
 }
 
-div img {
+.svg_logo {
     max-width: 60px;
 }

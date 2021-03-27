@@ -17,20 +17,20 @@
 <body>
     <div class="cursor"></div>
     <?php require 'nav.php' ?>
+    <h2 class="about__title">Hey !</h2>
 
-    <section>
-        <h2>Hey !</h2>
-        <p>Salut, moi c'est Timothée ! J'ai 18 ans, et je suis un jeune développeur web.
-            J'ai fait ce site pour montrer mes compétences, pour un futur employeur, et simplement pour le fun. C'est aussi, et surtout
-            un
-            moyen d'apprendre, de mettre à l'épreuve mes capacités.</p>
-    </section>
+    <section class="about">
+        <img src="ressources/photo_profil.jpg" alt="Moi">
 
-    <section>
-        <h2>Et BeRedy alors ?</h2>
-        <p>BeRedy est tout simplement une allusion à mon nom de joueur dans les jeux-vidéo : Redshark61. Bien sûr,
-            vous avez intêret à être prêt, car du lourd arrive pour ce site, du très très lourd... Alors, be ready !
-        </p>
+        <div class="about__presentation ">
+            <p>Salut, moi c'est Timothée ! J'ai 18 ans, et je suis un jeune développeur web.
+                J'ai fait ce site pour montrer mes compétences, pour un futur employeur, et simplement pour le fun. C'est aussi, et surtout
+                un
+                moyen d'apprendre, de mettre à l'épreuve mes capacités.</p>
+
+            <h2>Quel est mon parcours ?</h2>
+            <p>J'ai commencé la programmation au collège. Par la suite, j'ai appris le Python, Java, C++... Cela fait désormais quelques années que je me concentre sur le développement web, dans le but d'en faire mon métier. Vous pouvez aller voir ma page Github (sous le nom Redshark61) afin d'avoir un aperçu de mes différents projets.</p>
+        </div>
     </section>
 
 
@@ -39,18 +39,18 @@
 
         <div class="div_insta">
             <a href="https://www.instagram.com/little_french_dev/">
-                <img src="ressources/Insta logo.svg" alt="insta">
+                <img class="svg_logo" src="ressources/Insta logo.svg" alt="insta">
                 <p>&nbsp; : &nbsp;@little_french_dev</p>
             </a>
         </div>
 
         <div class="div_twitter">
-            <img src='ressources/twitter.svg' alt="twitter">
+            <img class="svg_logo" src='ressources/twitter.svg' alt="twitter">
             <p>&nbsp; : &nbsp;@TimothéeVannier</p>
         </div>
         <div class="div_git">
             <a href="https://github.com/Redshark61">
-                <img src="ressources/github.svg" alt="github">
+                <img class="svg_logo" src="ressources/github.svg" alt="github">
                 <p>&nbsp; : &nbsp;@Redshark61</p>
             </a>
         </div>

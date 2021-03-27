@@ -84,6 +84,28 @@
         width: auto;
         padding: 0;
         margin-bottom: 2rem;
+
+        &.about {
+            padding: 0;
+            width: auto;
+            flex-direction: column;
+            margin-right: 10px;
+
+            h2 {
+                margin: 2rem 0 auto 0;
+            }
+
+            img {
+                height: auto;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .about__presentation p {
+        padding: 0;
+        margin: 0;
+        max-width: none;
+        text-align: justify;
     }
     div img:not(.projet img) {
         max-width: 30px;
@@ -91,7 +113,7 @@
     }
     .titre_about {
         line-height: 30px;
-        margin-bottom: 2rem;
+        margin: auto 0 2rem 0;
     }
     .action-button {
         width: 100%;

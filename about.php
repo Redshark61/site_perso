@@ -20,7 +20,10 @@
     <h2 class="about__title">Hey !</h2>
 
     <section class="about">
-        <img src="ressources/photo_profil.jpg" alt="Moi">
+        <picture>
+            <source srcset="ressources/grand_photo_profil.jpg" alt="Moi" media="(min-width: 1000px)">
+            <img src="ressources/photo_profil.jpg" alt="Moi">
+        </picture>
 
         <div class="about__presentation ">
             <p>Salut, moi c'est Timothée ! J'ai 18 ans, et je suis un jeune développeur web.

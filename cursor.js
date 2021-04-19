@@ -35,8 +35,8 @@ if (isMobile.any()) {
     html.style.cursor = "default";
 } else {
     window.addEventListener("mousemove", function (e) {
-        cursor.style.top = e.pageY + "px";
-        cursor.style.left = e.pageX + "px";
+        cursor.style.top = e.clientY + "px";
+        cursor.style.left = e.clientX + "px";
     });
 
     window.addEventListener("mousedown", function () {
@@ -50,10 +50,12 @@ if (isMobile.any()) {
         cursor.classList.add("up");
     });
 
-    main.addEventListener("mouseenter", () => {
-        cursor.classList.add("white-cursor");
-    });
-    main.addEventListener("mouseleave", () => {
-        cursor.classList.remove("white-cursor");
-    });
+    if (main !== null) {
+        main.addEventListener("mouseenter", () => {
+            cursor.classList.add("white-cursor");
+        });
+        main.addEventListener("mouseleave", () => {
+            cursor.classList.remove("white-cursor");
+        });
+    }
 }

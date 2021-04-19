@@ -4,13 +4,16 @@
     * {
         cursor: default;
     }
+
     .cursor {
         display: none;
     }
+
     html,
     body {
         overflow-x: hidden;
     }
+
     .div-nav {
         display: none;
         a {
@@ -26,6 +29,7 @@
             }
         }
     }
+
     nav {
         .hamburger {
             display: block;
@@ -35,6 +39,7 @@
             margin: 0;
         }
     }
+
     .unhide {
         background: #313153;
         z-index: 3;
@@ -46,10 +51,10 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
-        z-index: 2 !important;
         animation: move 1s ease;
         text-align: center;
     }
+
     @keyframes move {
         from {
             transform: translateX(100%);
@@ -58,25 +63,15 @@
             transform: translateX(0%);
         }
     }
-    .li-about {
-        flex-direction: column;
-        border-bottom: 1px solid $accentuate-color;
-        padding: 1.5rem 0;
-        margin-right: 1rem;
-        &:last-child {
-            border-bottom: none;
-        }
-    }
+
     .projet {
         grid-template-columns: repeat(1, auto) !important;
     }
+
     .card {
         margin: 2rem 10% !important;
     }
-    #svg_1,
-    #svg_2 {
-        display: none;
-    }
+
     section {
         transform: translate(0);
         margin-left: 10px;
@@ -85,29 +80,13 @@
         padding: 0;
         margin-bottom: 2rem;
 
-        &.about {
-            padding: 0;
-            width: auto;
-            flex-direction: column;
-            margin-right: 10px;
-
-            h2 {
-                margin: 2rem 0 auto 0;
-            }
-
-            img {
-                height: auto;
-                margin-bottom: 1rem;
-            }
+        img {
+            max-width: none;
+            height: auto;
+            margin-bottom: 1rem;
         }
     }
-    .about__presentation p {
-        padding: 0;
-        margin: 0;
-        max-width: none;
-        text-align: justify;
-    }
-    div img:not(.projet img) {
+    div > img:not(.projet img) {
         max-width: 30px;
         height: auto;
     }
@@ -140,5 +119,57 @@
     }
     main {
         display: block;
+    }
+    .contact__links {
+        margin-left: 10px;
+    }
+    h2.contact__title {
+        width: 100%;
+        font-size: $font-size/2.5;
+        white-space: nowrap;
+    }
+
+    #title {
+        font-size: $font-size/1.4;
+    }
+
+    .about_intro {
+        flex-direction: column;
+        picture {
+            width: 100%;
+            margin-left: 10px;
+            margin-bottom: 1rem;
+        }
+        section.about {
+            width: 100%;
+            h2.about__title {
+                font-size: $font-size/2;
+                margin-left: 10px;
+            }
+
+            p.about__description {
+                margin: 0 0 0 10px;
+                max-width: none;
+                font-size: $font-size/4;
+            }
+        }
+    }
+
+    section.competence {
+        h3 {
+            font-size: $font-size/2;
+        }
+        .wrapper .container_competence {
+            margin: 0 10px 1rem 10px;
+
+            img {
+                max-width: 5rem;
+                height: auto;
+            }
+
+            p {
+                font-size: $font-size/4;
+            }
+        }
     }
 }

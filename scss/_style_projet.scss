@@ -1,7 +1,6 @@
 @forward 'abstracts/variables';
 
 .card {
-    font-family: "Nunito", sans-serif;
     padding: 1rem;
     margin: 2em 3em;
     background-color: $nav-button-color;
@@ -17,6 +16,7 @@
         width: 100%;
         margin-bottom: 2rem;
         max-width: none;
+        max-height: 340px;
     }
     &:hover {
         transform: scale(1.05);
@@ -46,7 +46,7 @@ section {
     transform: translateX(-50%);
 }
 
-h2 {
+.h2_prohjets {
     width: 100%;
     text-align: center;
     font-size: $font-size / 3;

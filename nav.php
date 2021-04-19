@@ -8,6 +8,6 @@
         <div class="div-nav">
             <a href="projet.php"><button>Projets</button></a>
             <a href="about.php"><button>A propos</button></a>
-            <a href="#"><button>Me contacter</button></a>
+            <a href="contact.php"><button>Me contacter</button></a>
         </div>
     </nav>

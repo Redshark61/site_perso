@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/main.css">
     <script src="responsive.js" defer></script>
@@ -24,7 +25,7 @@
     <div class="projet">
         <a href="animals/index.php">
             <div class="card">
-                <h2>Mini blog animal</h2>
+                <h2 class="h2_projets">Mini blog animal</h2>
                 <img src="animals/renne.jpg" alt="Image de présentation pour le site &#34Animal Lover&#34 ">
                 <div class="projet-description">
                     <h3>Adaptatif : <span class="mark">&#10003</span></h3>
@@ -37,7 +38,7 @@
 
         <a href="Binaire/Décimal.html">
             <div class="card">
-                <h2>Conversion Binaire / Décimal</h2>
+                <h2 class="h2_projets">Conversion Binaire / Décimal</h2>
                 <img src="Binaire/binaire.jpg" alt="Image de présentation pour le site &#34Conversion en Binaire#34 ">
                 <div class="projet-description">
                     <h3>Adaptatif : <span class="mark">&#10003</span></h3>
@@ -48,7 +49,7 @@
 
         <a href="CV/CV.html">
             <div class="card">
-                <h2>CV (premier projet)</h2>
+                <h2 class="h2_projets">CV (premier projet)</h2>
                 <img src="ressources/loupe.svg" alt="Image de présentation de mon CV">
                 <div class="projet-description">
                     <h3>Adaptatif : <span class="mark">&#10003;</span></h3>
@@ -59,7 +60,7 @@
 
         <a href="fancy_introo/index.html">
             <div class="card">
-                <h2>Affichage avec Gsap</h2>
+                <h2 class="h2_projets">Affichage avec Gsap</h2>
                 <img src="fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">
                 <div class="projet-description">
                     <h3>Adaptatif : <span class="mark" style="color: red;">X</span></h3>
@@ -69,7 +70,7 @@
         </a>
         <a href="Liste sorter/index.html">
             <div class="card">
-                <h2>Tri de liste</h2>
+                <h2 class="h2_projets">Tri de liste</h2>
                 <img src="ressources/Liste.svg" alt="Image de présentation pour le tri de listes">
                 <div class="projet-description">
                     <h3>Adaptatif : <span class="mark">&#10003;</span></h3>
@@ -77,6 +78,18 @@
                 </div>
             </div>
         </a>
+
+        <a href="login/index.html">
+            <div class="card">
+                <h2 class="h2_projets">Page d'inscription</h2>
+                <img src="ressources/login.jpg" alt="Image de présentation pour le projet de login">
+                <div class="projet-description">
+                    <h3>Adaptatif : <span class="mark">&#10003;</span></h3>
+                    <p>Essai avec les regex js pour un formulaire très simple d'inscription</p>
+                </div>
+            </div>
+        </a>
+
 
 
     </div>

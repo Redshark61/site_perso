@@ -10,7 +10,7 @@ if (window.innerWidth <= 700) {
 
     let scene = new ScrollMagic.Scene({
         triggerElement: ".competence__appris",
-        duration: "100%",
+        duration: "65%",
         triggerHook: 0.6,
     })
         .setTween(timeline)

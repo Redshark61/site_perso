@@ -2,7 +2,7 @@
 
 .card {
     padding: 1rem;
-    margin: 2em 3em;
+    margin: 2rem 3rem;
     background-color: $nav-button-color;
     border-radius: 10px;
     box-shadow: $accentuate-color 5px 10px 3px;
@@ -14,7 +14,7 @@
 
     img {
         width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         max-width: none;
         max-height: 340px;
     }
@@ -46,15 +46,16 @@ section {
     transform: translateX(-50%);
 }
 
-.h2_prohjets {
+.h3_projets {
     width: 100%;
     text-align: center;
-    font-size: $font-size / 3;
+    font-size: $font-size-h3;
     margin: 1rem;
+    margin-bottom: 3rem;
     text-decoration: underline;
 }
 
-h3 {
-    font-size: $font-size / 3.5;
-    margin-bottom: 0.7rem;
+.h3--petit {
+    font-size: $font-size-h3 - 5px;
+    margin-bottom: 1rem;
 }

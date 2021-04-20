@@ -21,9 +21,13 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-size: $font-size-p;
+    cursor: none;
 }
 
 .cursor {
+    cursor: none;
+
     position: fixed;
     transform: translate(-50%, -50%);
     width: 40px;
@@ -75,16 +79,16 @@ nav {
     box-shadow: 0 0 10px 4px $accentuate-color;
 
     h1 {
-        font-size: $font-size;
+        font-size: $font-size-h1;
         margin-left: 5%;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 4px;
         transition: all 0.3s ease;
 
         a {
-            font-size: $font-size;
+            font-size: $font-size-p;
         }
     }
 
@@ -130,18 +134,19 @@ nav {
 
     button {
         padding: 0.5rem;
-        font-size: $font-size / 3.5;
-        letter-spacing: 0.2em;
+        font-size: $font-size-p;
+        letter-spacing: 0.5rem;
         font-weight: 700;
         text-decoration: none;
         border: none;
         color: black;
         background-image: linear-gradient(120deg, #f4b942 0%, #e7bd6a 100%);
         background-repeat: no-repeat;
-        background-size: 100% 0.2em;
+        background-size: 100% 0.4rem;
         background-position: 0 88%;
         transition: background-size 0.25s ease-in;
         background-color: transparent;
+        outline: none;
 
         &:hover {
             cursor: none;
@@ -154,6 +159,7 @@ nav {
     text-decoration: none;
     color: $text-color;
     font-family: "Newsreader", serif;
+    font-size: $font-size-h1;
 }
 
 section {
@@ -162,7 +168,7 @@ section {
     margin: 5% auto 0 10%;
     max-width: 800px;
     width: 50vw;
-    padding: 2em;
+    padding: 2rem;
     padding-top: 0;
 
     &:last-child {
@@ -172,12 +178,12 @@ section {
 
 section {
     p {
-        font-size: $font-size / 4;
+        font-size: $font-size-p;
         line-height: 30px;
     }
 
     h2 {
-        font-size: $font-size / 3;
+        font-size: $font-size-h2;
         line-height: 60px;
     }
 }

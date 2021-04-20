@@ -39,18 +39,18 @@
   position: relative;
 }
 
-.about_intro section.about h2.about__title {
+.about_intro section.about h1.about__title {
   font-weight: 600;
   -webkit-text-decoration: underline 4px #4059ad;
           text-decoration: underline 4px #4059ad;
   font-size: 64px;
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   padding: 0;
 }
 
 .about_intro section.about .about__description {
-  font-size: 21.33333px;
+  font-size: 18px;
   font-weight: 300;
   max-width: 20vw;
   margin: 0;
@@ -67,11 +67,11 @@ section.competence {
   overflow-x: hidden;
 }
 
-section.competence h3 {
+section.competence h2 {
   text-align: center;
   -webkit-text-decoration: underline 4px #4059ad;
           text-decoration: underline 4px #4059ad;
-  font-size: 64px;
+  font-size: 32px;
   margin: 0;
   padding: 1rem;
 }
@@ -98,10 +98,10 @@ section.competence .container_competence {
           box-sizing: border-box;
 }
 
-section.competence .container_competence p {
+section.competence .container_competence h3 {
   -webkit-text-decoration: underline 4px #4059ad;
           text-decoration: underline 4px #4059ad;
-  font-size: 42.66667px;
+  font-size: 26px;
   margin: 3rem;
   padding: 0;
 }
@@ -147,6 +147,7 @@ main {
 }
 
 .action-button {
+  margin-top: 1rem;
   position: relative;
   height: -webkit-min-content;
   height: -moz-min-content;
@@ -174,8 +175,8 @@ button.projet {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 16px;
-  padding: 1rem;
+  font-size: 18px;
+  padding: 0.5rem;
   background-color: #f4b942;
   border: none;
   -webkit-box-shadow: 0px 20px 20px rgba(44, 44, 44, 0.24);
@@ -218,12 +219,12 @@ button.projet:hover {
 .home-container {
   color: white;
   position: relative;
-  line-height: 64px;
+  line-height: 18px;
   width: 100%;
 }
 
 .home-container h1 {
-  font-size: 54px;
+  font-size: 64px;
 }
 
 .home-container h1,
@@ -232,7 +233,11 @@ button.projet:hover {
 }
 
 .home-container h3 {
-  font-size: 21.33333px;
+  font-size: 26px;
+}
+
+h1 {
+  margin-bottom: 3rem;
 }
 
 h1 .bold {
@@ -296,9 +301,12 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-size: 18px;
+  cursor: none;
 }
 
 .cursor {
+  cursor: none;
   position: fixed;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -388,14 +396,14 @@ nav h1 {
   margin-left: 5%;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 4px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 nav h1 a {
-  font-size: 64px;
+  font-size: 18px;
 }
 
 nav .hamburger {
@@ -449,19 +457,20 @@ nav .line {
 
 .div-nav button {
   padding: 0.5rem;
-  font-size: 18.28571px;
-  letter-spacing: 0.2em;
+  font-size: 18px;
+  letter-spacing: 0.5rem;
   font-weight: 700;
   text-decoration: none;
   border: none;
   color: black;
   background-image: linear-gradient(120deg, #f4b942 0%, #e7bd6a 100%);
   background-repeat: no-repeat;
-  background-size: 100% 0.2em;
+  background-size: 100% 0.4rem;
   background-position: 0 88%;
   -webkit-transition: background-size 0.25s ease-in;
   transition: background-size 0.25s ease-in;
   background-color: transparent;
+  outline: none;
 }
 
 .div-nav button:hover {
@@ -473,6 +482,7 @@ nav .line {
   text-decoration: none;
   color: #f4b942;
   font-family: "Newsreader", serif;
+  font-size: 64px;
 }
 
 section {
@@ -481,7 +491,7 @@ section {
   margin: 5% auto 0 10%;
   max-width: 800px;
   width: 50vw;
-  padding: 2em;
+  padding: 2rem;
   padding-top: 0;
 }
 
@@ -490,19 +500,19 @@ section:last-child {
 }
 
 section p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
 }
 
 section h2 {
-  font-size: 21.33333px;
+  font-size: 32px;
   line-height: 60px;
 }
 
 @forward 'abstracts/variables';
 .card {
   padding: 1rem;
-  margin: 2em 3em;
+  margin: 2rem 3rem;
   background-color: #6b9ac4;
   border-radius: 10px;
   -webkit-box-shadow: #4059ad 5px 10px 3px;
@@ -526,7 +536,7 @@ section h2 {
 
 .card img {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   max-width: none;
   max-height: 340px;
 }
@@ -564,17 +574,18 @@ section {
           transform: translateX(-50%);
 }
 
-.h2_prohjets {
+.h3_projets {
   width: 100%;
   text-align: center;
-  font-size: 21.33333px;
+  font-size: 26px;
   margin: 1rem;
+  margin-bottom: 3rem;
   text-decoration: underline;
 }
 
-h3 {
-  font-size: 18.28571px;
-  margin-bottom: 0.7rem;
+.h3--petit {
+  font-size: 21px;
+  margin-bottom: 1rem;
 }
 
 @forward 'abstracts/variables';
@@ -590,6 +601,9 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 2rem 0;
 }
 
@@ -598,10 +612,11 @@ h3 {
   width: 10vh;
 }
 
-h2.contact__title {
+h1.contact__title {
   font-family: "Nunito Sans";
   font-weight: 600;
   font-size: 64px;
+  margin-bottom: 3rem;
 }
 
 @forward 'abstracts/variables';
@@ -720,10 +735,10 @@ h2.contact__title {
     padding-top: 6rem;
   }
   .home-container h1 {
-    font-size: 44px;
+    font-size: 54px;
   }
   .home-container h3 {
-    font-size: 16px;
+    font-size: 26px -10px;
   }
   .arrow-right {
     border-top: 10px solid transparent;
@@ -731,7 +746,7 @@ h2.contact__title {
     border-left: 10px solid #4059ad;
   }
   button.projet {
-    font-size: 12.8px;
+    font-size: 8px;
   }
   main {
     display: block;
@@ -741,11 +756,11 @@ h2.contact__title {
   }
   h2.contact__title {
     width: 100%;
-    font-size: 25.6px;
+    font-size: 22px;
     white-space: nowrap;
   }
   #title {
-    font-size: 45.71429px;
+    font-size: 54px;
   }
   .about_intro {
     -webkit-box-orient: vertical;
@@ -762,16 +777,16 @@ h2.contact__title {
     width: 100%;
   }
   .about_intro section.about h2.about__title {
-    font-size: 32px;
+    font-size: 22px;
     margin-left: 10px;
   }
   .about_intro section.about p.about__description {
     margin: 0 0 0 10px;
     max-width: none;
-    font-size: 16px;
+    font-size: 8px;
   }
   section.competence h3 {
-    font-size: 32px;
+    font-size: 26px -10px;
   }
   section.competence .wrapper .container_competence {
     margin: 0 10px 1rem 10px;
@@ -781,7 +796,7 @@ h2.contact__title {
     height: auto;
   }
   section.competence .wrapper .container_competence p {
-    font-size: 16px;
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=main.css.map */

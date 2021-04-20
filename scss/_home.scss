@@ -12,6 +12,7 @@ main {
 }
 
 .action-button {
+    margin-top: 1rem;
     position: relative;
     height: min-content;
     width: 70%;
@@ -26,8 +27,8 @@ button.projet {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: $font-size / 4;
-    padding: 1rem;
+    font-size: $font-size-p;
+    padding: 0.5rem;
     background-color: $text-color;
     border: none;
     box-shadow: 0px 20px 20px rgba(44, 44, 44, 0.24);
@@ -66,21 +67,22 @@ button.projet {
 .home-container {
     color: rgb(255, 255, 255);
     position: relative;
-    line-height: $font-size;
+    line-height: $font-size-p;
     width: 100%;
     h1 {
-        font-size: $font-size - 10px;
+        font-size: $font-size-h1;
     }
     h1,
     h3 {
         text-align: center;
     }
     h3 {
-        font-size: $font-size / 3;
+        font-size: $font-size-h3;
     }
 }
 
 h1 {
+    margin-bottom: 3rem;
     .bold {
         position: relative;
         color: $text-color;

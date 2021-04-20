@@ -27,16 +27,16 @@
         transform: translate(0);
         position: relative;
 
-        h2.about__title {
+        h1.about__title {
             font-weight: 600;
             text-decoration: underline 4px $accentuate-color;
-            font-size: $font-size;
+            font-size: $font-size-h1;
             margin: 0;
-            margin-bottom: 1rem;
+            margin-bottom: 3rem;
             padding: 0;
         }
         .about__description {
-            font-size: $font-size/3;
+            font-size: $font-size-p;
             font-weight: 300;
             max-width: 20vw;
             margin: 0;
@@ -53,10 +53,10 @@ section.competence {
     max-width: 100%;
     overflow-x: hidden;
 
-    h3 {
+    h2 {
         text-align: center;
         text-decoration: underline 4px $accentuate-color;
-        font-size: $font-size;
+        font-size: $font-size-h2;
         margin: 0;
         padding: 1rem;
     }
@@ -73,9 +73,9 @@ section.competence {
         background-clip: padding-box;
         border: solid 1px transparent;
         box-sizing: border-box;
-        p {
+        h3 {
             text-decoration: underline 4px $accentuate-color;
-            font-size: $font-size/1.5;
+            font-size: $font-size-h3;
             margin: 3rem;
             padding: 0;
         }

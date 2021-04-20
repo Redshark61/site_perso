@@ -25,37 +25,37 @@
             <img src="ressources/photo_profil.jpg" alt="Moi">
         </picture>
         <section class="about">
-            <h2 class="about__title">Hey !</h2>
+            <h1 class="about__title">Hey !</h1>
             <p class="about__description">Salut, moi c'est Timothée ! J'ai 18 ans, et je suis un jeune développeur web.</p>
         </section>
     </div>
 
     <section class="competence">
-        <h3 class="competence__appris">J'ai appris :</h3>
+        <h2 class="competence__appris">J'ai appris :</h2>
 
         <div class="wrapper" id="wrapper_python">
             <div class="container_competence" id="container_python">
-                <p>Python</p><img id="python" src="ressources/python.png">
+                <h3>Python</h3><img id="python" src="ressources/python.png">
             </div>
         </div>
 
         <div class="wrapper" id="wrapper_php">
             <div class="container_competence" id="container_php">
                 <img id="php" src="ressources/php-mysql-logo.png">
-                <p>PHP et MySQL</p>
+                <h3>PHP et MySQL</h3>
             </div>
         </div>
 
         <div class="wrapper" id="wrapper_cpp">
             <div class="container_competence" id="container_cpp">
-                <p>C++</p><img id="cpp" src="ressources/cpp.svg">
+                <h3>C++</h3><img id="cpp" src="ressources/cpp.svg">
             </div>
         </div>
 
         <div class="wrapper" id="wrapper_java">
             <div class="container_competence" id="container_java">
                 <img id="java" src="ressources/java_logo.png">
-                <p>Java</p>
+                <h3>Java</h3>
             </div>
         </div>
 

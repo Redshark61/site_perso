@@ -22,7 +22,7 @@
 
 
     <section class="contact__links">
-        <h2 class="contact__title">Où me retrouver ?</h2>
+        <h1 class="contact__title">Où me retrouver ?</h1>
 
         <div class="container_contact">
             <a href="https://www.instagram.com/little_french_dev/">

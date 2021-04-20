@@ -219,12 +219,29 @@ button.projet:hover {
 .home-container {
   color: white;
   position: relative;
-  line-height: 18px;
   width: 100%;
 }
 
 .home-container h1 {
   font-size: 64px;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+.home-container h1 .bold {
+  position: relative;
+  color: #f4b942;
+}
+
+.home-container h1 .bold::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #4059ad;
+  -webkit-animation: portfolio 1s ease-in-out forwards 0.5s;
+          animation: portfolio 1s ease-in-out forwards 0.5s;
 }
 
 .home-container h1,
@@ -234,26 +251,6 @@ button.projet:hover {
 
 .home-container h3 {
   font-size: 26px;
-}
-
-h1 {
-  margin-bottom: 3rem;
-}
-
-h1 .bold {
-  position: relative;
-  color: #f4b942;
-}
-
-h1 .bold::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 0;
-  background-color: #4059ad;
-  -webkit-animation: portfolio 1s ease-in-out forwards 0.5s;
-          animation: portfolio 1s ease-in-out forwards 0.5s;
 }
 
 @-webkit-keyframes portfolio {
@@ -735,10 +732,10 @@ h1.contact__title {
     padding-top: 6rem;
   }
   .home-container h1 {
-    font-size: 54px;
+    font-size: 44px;
   }
   .home-container h3 {
-    font-size: 26px -10px;
+    font-size: 16px;
   }
   .arrow-right {
     border-top: 10px solid transparent;
@@ -767,6 +764,8 @@ h1.contact__title {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
+    margin: 1rem 0px 0 10px;
   }
   .about_intro picture {
     width: 100%;
@@ -778,21 +777,21 @@ h1.contact__title {
   }
   .about_intro section.about h2.about__title {
     font-size: 22px;
-    margin-left: 10px;
   }
   .about_intro section.about p.about__description {
-    margin: 0 0 0 10px;
     max-width: none;
-    font-size: 8px;
+    font-size: 18px;
   }
   section.competence h3 {
-    font-size: 26px -10px;
+    font-size: 16px;
   }
   section.competence .wrapper .container_competence {
     margin: 0 10px 1rem 10px;
+    padding: 10px;
   }
   section.competence .wrapper .container_competence img {
-    max-width: 5rem;
+    max-width: 4rem;
+    max-height: 4rem;
     height: auto;
   }
   section.competence .wrapper .container_competence p {

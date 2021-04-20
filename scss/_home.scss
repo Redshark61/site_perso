@@ -67,10 +67,24 @@ button.projet {
 .home-container {
     color: rgb(255, 255, 255);
     position: relative;
-    line-height: $font-size-p;
     width: 100%;
     h1 {
         font-size: $font-size-h1;
+        line-height: 3rem;
+        margin-bottom: 3rem;
+        .bold {
+            position: relative;
+            color: $text-color;
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                height: 100%;
+                width: 0;
+                background-color: #4059ad;
+                animation: portfolio 1s ease-in-out forwards 0.5s;
+            }
+        }
     }
     h1,
     h3 {
@@ -78,23 +92,6 @@ button.projet {
     }
     h3 {
         font-size: $font-size-h3;
-    }
-}
-
-h1 {
-    margin-bottom: 3rem;
-    .bold {
-        position: relative;
-        color: $text-color;
-        &::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            height: 100%;
-            width: 0;
-            background-color: #4059ad;
-            animation: portfolio 1s ease-in-out forwards 0.5s;
-        }
     }
 }
 

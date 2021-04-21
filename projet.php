@@ -90,10 +90,20 @@
             </div>
         </a>
 
+        <a href="threejs/src/index.html">
+            <div class="card">
+                <h3 class="h3_projets">Balle 3D avec ThreeJs</h3>
+                <img src="ressources/three_ball.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
+                <div class="projet-description">
+                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
+                    <p>Tout premier projet de 3D avec ThreeJs.</p>
+                </div>
+            </div>
+        </a>
+
 
 
     </div>
-
 
 </body>
 

@@ -68,14 +68,14 @@ section.competence {
         margin: 5rem;
         background: linear-gradient(to bottom right, $nav-button-color, $secondary-color);
         border-radius: 2rem;
-        height: 20vh;
-        padding: 5rem 0;
+        padding: 2rem 0;
         background-clip: padding-box;
         border: solid 1px transparent;
         box-sizing: border-box;
         h3 {
+            line-height: $font-size-h1;
             text-decoration: underline 4px $accentuate-color;
-            font-size: $font-size-h3;
+            font-size: $font-size-h3 + 10px;
             margin: 3rem;
             padding: 0;
         }

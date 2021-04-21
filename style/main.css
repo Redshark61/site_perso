@@ -90,8 +90,7 @@ section.competence .container_competence {
   background: -webkit-gradient(linear, left top, right bottom, from(#6b9ac4), to(#97d8c4));
   background: linear-gradient(to bottom right, #6b9ac4, #97d8c4);
   border-radius: 2rem;
-  height: 20vh;
-  padding: 5rem 0;
+  padding: 2rem 0;
   background-clip: padding-box;
   border: solid 1px transparent;
   -webkit-box-sizing: border-box;
@@ -99,9 +98,10 @@ section.competence .container_competence {
 }
 
 section.competence .container_competence h3 {
+  line-height: 64px;
   -webkit-text-decoration: underline 4px #4059ad;
           text-decoration: underline 4px #4059ad;
-  font-size: 26px;
+  font-size: 36px;
   margin: 3rem;
   padding: 0;
 }
@@ -534,7 +534,7 @@ section h2 {
 .card img {
   width: 100%;
   margin-bottom: 3rem;
-  max-width: none;
+  max-width: 340px;
   max-height: 340px;
 }
 
@@ -613,6 +613,7 @@ h1.contact__title {
   font-family: "Nunito Sans";
   font-weight: 600;
   font-size: 64px;
+  line-height: 64px;
   margin-bottom: 3rem;
 }
 

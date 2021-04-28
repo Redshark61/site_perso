@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="sources/ressources/logo.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="style/main.css">
-    <script src="responsive.js" defer></script>
-    <script src="cursor.js" defer></script>
+    <link rel="stylesheet" href="sources/style/main.css">
+    <script src="sources/js/responsive.js" defer></script>
+    <script src="sources/js/cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-    <script src="bubble.js" defer></script>
+    <script src="sources/js/bubble.js" defer></script>
     <title>BeRedy - Acceuil</title>
 </head>
 

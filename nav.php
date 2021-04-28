@@ -6,8 +6,8 @@
             <div class="line"></div>
         </div>
         <div class="div-nav">
-            <a href="projet.php"><button>Projets</button></a>
-            <a href="about.php"><button>A propos</button></a>
-            <a href="contact.php"><button>Me contacter</button></a>
+            <a href="sources/projet.php"><button>Projets</button></a>
+            <a href="sources/about.php"><button>A propos</button></a>
+            <a href="sources/contact.php"><button>Me contacter</button></a>
         </div>
     </nav>

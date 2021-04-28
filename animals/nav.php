@@ -5,7 +5,7 @@
 
     <div class="nav">
         <ul class="onglets">
-            <li><a href="../projet.php" id="back">Retour à la page &#34;Projets&#34;</a></li>
+            <li><a href="../sources/projet.php" id="back">Retour à la page &#34;Projets&#34;</a></li>
             <li><a href="index.php"> Home</a></li>
             <li><a href="about.php"> About me</a></li>
             <li><a href="page_login.php"> Login</a></li>

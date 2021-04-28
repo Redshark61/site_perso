@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Convertion</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="Décimal.css" />
+        <script src="Décimal.js" defer></script>
+    </head>
 
-<head>
-    <title>Convertion</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="Décimal.css">
-    <script src="Décimal.js" defer></script>
-</head>
+    <body>
+        <main>
+            <a href="../sources/projet.php" class="back">Retour à la page &quot; Projets &quot;</a>
 
-<body>
+            <div id="decimal">
+                <input placeholder="Veuillez mettre votre chiffre décimal" id="input_decimal" />
+                <button id="button_decimal">Conversion</button>
+            </div>
+            <p id="p_decimal"></p>
 
-
-    <main>
-        <a href="../projet.php" class="back">Retour à la page &quot; Projets &quot;</a>
-
-        <div id="decimal">
-            <input placeholder="Veuillez mettre votre chiffre décimal" id="input_decimal">
-            <button id="button_decimal">Conversion</button>
-        </div>
-        <p id="p_decimal"></p>
-
-
-        <div id="binaire">
-            <input placeholder="Veuillez mettre votre chiffre binaire" id="input_binaire">
-            <button id="button_binaire">Conversion</button>
-        </div>
-        <p id="para_binaire"></p>
-
-    </main>
-</body>
-
+            <div id="binaire">
+                <input placeholder="Veuillez mettre votre chiffre binaire" id="input_binaire" />
+                <button id="button_binaire">Conversion</button>
+            </div>
+            <p id="para_binaire"></p>
+        </main>
+    </body>
 </html>

@@ -90,11 +90,25 @@ section.competence .container_competence {
   background: -webkit-gradient(linear, left top, right bottom, from(#6b9ac4), to(#97d8c4));
   background: linear-gradient(to bottom right, #6b9ac4, #97d8c4);
   border-radius: 2rem;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   background-clip: padding-box;
   border: solid 1px transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+section.competence .container_competence::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0));
+  margin: -2px;
+  border-radius: 2rem;
 }
 
 section.competence .container_competence h3 {
@@ -109,20 +123,6 @@ section.competence .container_competence h3 {
 section.competence .container_competence img {
   max-width: 40vh;
   height: 20vh;
-}
-
-.container_competence::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -5;
-  background: -webkit-gradient(linear, left top, right bottom, from(white), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0));
-  margin: -2px;
-  border-radius: 2rem;
 }
 
 @forward "abstracts/variables";
@@ -615,6 +615,69 @@ h1.contact__title {
   font-size: 64px;
   line-height: 64px;
   margin-bottom: 3rem;
+}
+
+@forward 'abstracts/variables';
+.container_article {
+  display: block;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5rem;
+  background: -webkit-gradient(linear, left top, right bottom, from(#6b9ac4), to(#97d8c4));
+  background: linear-gradient(to bottom right, #6b9ac4, #97d8c4);
+  border-radius: 2rem;
+  padding: 2rem 1rem;
+  background-clip: padding-box;
+  border: solid 1px transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container_article::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0));
+  margin: -2px;
+  border-radius: 2rem;
+}
+
+.container_article h3 {
+  font-size: 26px;
+  margin-bottom: 26px;
+}
+
+.container_article h2 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.container_article h2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.container_article p {
+  font-size: 18px;
+  margin-bottom: 18px;
+  max-width: 20vw;
 }
 
 @forward 'abstracts/variables';

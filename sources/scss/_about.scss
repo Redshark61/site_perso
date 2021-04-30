@@ -1,4 +1,5 @@
 @forward 'abstracts/variables';
+@import "componenents/card_style";
 
 .about_intro {
     margin: 5rem 0 10rem 0;
@@ -61,17 +62,7 @@ section.competence {
         padding: 1rem;
     }
     .container_competence {
-        position: relative;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 5rem;
-        background: linear-gradient(to bottom right, $nav-button-color, $secondary-color);
-        border-radius: 2rem;
-        padding: 2rem 0;
-        background-clip: padding-box;
-        border: solid 1px transparent;
-        box-sizing: border-box;
+        @include container-card(space-around);
         h3 {
             line-height: $font-size-h1;
             text-decoration: underline 4px $accentuate-color;
@@ -84,17 +75,4 @@ section.competence {
             height: 20vh;
         }
     }
-}
-
-.container_competence::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -5;
-    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
-    margin: -2px;
-    border-radius: 2rem;
 }

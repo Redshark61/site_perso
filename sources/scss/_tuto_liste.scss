@@ -1,0 +1,28 @@
+@forward 'abstracts/variables';
+@import "componenents/card_style";
+
+.container_article {
+    display: block;
+    @include container-card(space-between);
+    h3 {
+        font-size: $font-size-h3;
+        margin-bottom: $font-size-h3;
+    }
+    h2 {
+        font-size: $font-size-h2;
+        margin-bottom: $font-size-h2;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            height: 100%;
+        }
+    }
+    p {
+        font-size: $font-size-p;
+        margin-bottom: $font-size-p;
+        max-width: 20vw;
+    }
+}

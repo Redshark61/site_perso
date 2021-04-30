@@ -9,5 +9,6 @@
             <a href="projet.php"><button>Projets</button></a>
             <a href="about.php"><button>A propos</button></a>
             <a href="contact.php"><button>Me contacter</button></a>
+            <a href="affiche_liste.php"><button>Tutoriels</button></a>
         </div>
     </nav>

@@ -9,5 +9,6 @@
             <a href="sources/projet.php"><button>Projets</button></a>
             <a href="sources/about.php"><button>A propos</button></a>
             <a href="sources/contact.php"><button>Me contacter</button></a>
+            <a href="sources/affiche_liste.php"><button>Tutoriels</button></a>
         </div>
     </nav>

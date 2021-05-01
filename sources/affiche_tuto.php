@@ -18,13 +18,10 @@ $donnees = $reponse->fetch();
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="prism/prism.css">
-    <script src="js/responsive.js" defer></script>
     <script src="prism/prism.js" defer></script>
-    <script src="js/cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="prism.css">
     <title><?= $donnees['titre'] ?></title>
 </head>
 <body>
@@ -36,6 +33,5 @@ $donnees = $reponse->fetch();
     ?>
     <script src="js/responsive.js"></script>
     <script src="js/cursor.js"></script>
-    <script src="prism.js"></script>
 </body>
 </html>

@@ -639,6 +639,8 @@ h1.contact__title {
   border: solid 1px transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 10vh 10vw;
+  padding: auto 10vw;
 }
 
 .container_article::before {
@@ -657,11 +659,14 @@ h1.contact__title {
 
 .container_article h3 {
   font-size: 26px;
+  margin: auto 5vw;
   margin-bottom: 26px;
+  margin-top: 2rem;
 }
 
 .container_article h2 {
   font-size: 32px;
+  margin: auto 5vw;
   margin-bottom: 32px;
   position: relative;
 }
@@ -677,7 +682,17 @@ h1.contact__title {
 .container_article p {
   font-size: 18px;
   margin-bottom: 18px;
-  max-width: 20vw;
+  margin: auto 10vw;
+}
+
+span.code {
+  background: #626262;
+  color: #acacac;
+}
+
+.tuto_contenu {
+  height: 100%;
+  margin: 2rem 10vw;
 }
 
 .tuto_contenu {
@@ -864,6 +879,12 @@ h1.contact__title {
   }
   section.competence .wrapper .container_competence p {
     font-size: 8px;
+  }
+  a.container_article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=main.css.map */

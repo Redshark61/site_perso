@@ -18,6 +18,8 @@ $donnees = $reponse->fetch();
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="prism/prism.css">
+        <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
+
     <script src="js/responsive.js" defer></script>
     <script src="prism/prism.js" defer></script>
     <script src="js/cursor.js" defer></script>

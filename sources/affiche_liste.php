@@ -11,12 +11,14 @@ $reponse = $bdd->query('SELECT * FROM tuto');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="style/main.css">
+        <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
+
     <script src="js/responsive.js" defer></script>
     <script src="js/cursor.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Tutoriels</title>
 </head>
 <body>
 <div class="cursor"></div>
@@ -24,6 +26,7 @@ $reponse = $bdd->query('SELECT * FROM tuto');
 require 'nav.php';
 
 while ($donnees = $reponse->fetch()) {
+    if($donnees['readable']):
 ?>
     <a href="http://<?=$_SERVER['HTTP_HOST']?>/site_perso/sources/affiche_tuto.php?name=<?= $donnees['file_name'] ?>" class="container_article">
         <h2><?= $donnees['titre'] ?></h2>
@@ -32,6 +35,7 @@ while ($donnees = $reponse->fetch()) {
     </a>
 
 <?php
+endif;
 }
 $reponse->closeCursor();
 ?>

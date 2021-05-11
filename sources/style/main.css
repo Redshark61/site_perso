@@ -693,10 +693,7 @@ span.code {
 .tuto_contenu {
   height: 100%;
   margin: 2rem 10vw;
-}
-
-.tuto_contenu {
-  margin: 3rem 10rem;
+  white-space: pre-wrap;
 }
 
 @forward 'abstracts/variables';

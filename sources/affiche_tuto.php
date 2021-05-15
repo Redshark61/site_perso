@@ -29,7 +29,12 @@ $donnees = $reponse->fetch();
 <div class="cursor"></div>
     <?php
     require 'nav.php';
-    echo $donnees['contenu'];
+    if ($_SERVER['SERVER_NAME'] == 'beredy.tk'){
+    $contenu = str_replace('img src="ressources/tuto', '<img src="http://create-tuto.beredy.tk/ressources/tuto', $donnees['contenu']);    }elseif($_SERVER['SERVER_NAME'] == 'localhost'){
+        $contenu = str_replace('img src="ressources/tuto', '<img src="http://localhost/BDD-MySQL/ressources/tuto', $donnees['contenu']);
+    }
+    
+    echo $contenu;
     $reponse->closeCursor();
     ?>
     <script src="js/responsive.js"></script>

@@ -23,40 +23,7 @@
     </section>
 
     <div class="projet">
-        <a href="../animals/index.php">
-            <div class="card">
-                <h3 class="h3_projets">Mini blog animal</h3>
-                <img src="../animals/renne.jpg" alt="Image de présentation pour le site &#34Animal Lover&#34 ">
-                <div class="projet-description">
-                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003</span></h3>
-                    <p>Petit blog pour tester les lien, les carroussels d'images... Fait en partie
-                        au
-                        lycée</p>
-                </div>
-            </div>
-        </a>
-
-        <a href="../Binaire/Décimal.html">
-            <div class="card">
-                <h3 class="h3_projets">Conversion Binaire / Décimal</h3>
-                <img src="../Binaire/binaire.jpg" alt="Image de présentation pour le site &#34Conversion en Binaire#34 ">
-                <div class="projet-description">
-                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003</span></h3>
-                    <p>Site pour convertir le binaire en décimal et vice-versa</p>
-                </div>
-            </div>
-        </a>
-
-        <a href="../CV/CV.html">
-            <div class="card">
-                <h3 class="h3_projets">CV (premier projet)</h3>
-                <img src="ressources/loupe.svg" alt="Image de présentation de mon CV">
-                <div class="projet-description">
-                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
-                    <p>Mon tout premier projet fait avec l'aide des cours d'OpenClassroom</p>
-                </div>
-            </div>
-        </a>
+        
 
         <a href="../fancy_introo/index.html">
             <div class="card">
@@ -68,27 +35,6 @@
                 </div>
             </div>
         </a>
-        <a href="../Liste sorter/index.html">
-            <div class="card">
-                <h3 class="h3_projets">Tri de liste</h3>
-                <img src="ressources/Liste.svg" alt="Image de présentation pour le tri de listes">
-                <div class="projet-description">
-                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
-                    <p>Utilisation de Bootstrap pour trier une liste</p>
-                </div>
-            </div>
-        </a>
-
-        <a href="../login/index.html">
-            <div class="card">
-                <h3 class="h3_projets">Page d'inscription</h3>
-                <img src="ressources/login.jpg" alt="Image de présentation pour le projet de login">
-                <div class="projet-description">
-                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
-                    <p>Essai avec les regex js pour un formulaire très simple d'inscription</p>
-                </div>
-            </div>
-        </a>
 
         <a href="../threejs/src/index.html">
             <div class="card">
@@ -97,6 +43,16 @@
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Tout premier projet de 3D avec ThreeJs.</p>
+                </div>
+            </div>
+        </a>
+        <a href="../particules/src/index.html">
+            <div class="card">
+                <h3 class="h3_projets">Particules 3D avec ThreeJs</h3>
+                <img src="ressources/three_particles.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
+                <div class="projet-description">
+                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
+                    <p>Essaie de particules 3D avec ThreeJs.</p>
                 </div>
             </div>
         </a>

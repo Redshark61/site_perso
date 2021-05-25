@@ -30,8 +30,9 @@ $donnees = $reponse->fetch();
     <?php
     require 'nav.php';
     if ($_SERVER['SERVER_NAME'] == 'beredy.tk'){
-    $contenu = str_replace('img src="ressources/tuto', '<img src="http://create-tuto.beredy.tk/ressources/tuto', $donnees['contenu']);    }elseif($_SERVER['SERVER_NAME'] == 'localhost'){
-        $contenu = str_replace('img src="ressources/tuto', '<img src="http://localhost/BDD-MySQL/ressources/tuto', $donnees['contenu']);
+    $contenu = str_replace('img src="ressources/tuto', 'img src="http://create-tuto.beredy.tk/ressources/tuto', $donnees['contenu']);    }
+    elseif($_SERVER['SERVER_NAME'] == 'localhost'){
+        $contenu = str_replace('img src="ressources/tuto', 'img src="http://localhost/BDD-MySQL/ressources/tuto', $donnees['contenu']);
     }
     
     echo $contenu;

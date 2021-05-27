@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #252525;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: block;
+    z-index: -1;
+}
+
+path {
+    stroke: red;
+    fill: none;
+}
+
+h1 {
+    font-size: 5rem;
+    color: red;
+    font-family: "Josefin Slab", serif;
+    pointer-events: none;
+    &::before {
+        content: "The shwabble-dabble";
+        white-space: nowrap;
+        position: absolute;
+        top: 20%;
+        left: -10%;
+        font-size: 20rem;
+        color: #2a2a2a;
+        z-index: -2;
+    }
+}

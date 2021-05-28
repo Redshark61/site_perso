@@ -59,7 +59,7 @@
         <a href="../raycasting/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Raycasting avec ThreeJs</h3>
-                <img src="ressources/three_raycasting.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
+                <img src="ressources/three_raycasting.png" alt="Image de présentation pour le projet de raycasting avec ThreeJs">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Effet de cartes et essai d'interaction avec ThreeJs</p>
@@ -69,10 +69,20 @@
         <a href="../svg_bouncing_line/index.html">
             <div class="card">
                 <h3 class="h3_projets">Animation de SVG</h3>
-                <img src="ressources/svg_bouncing_line.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
+                <img src="ressources/svg_bouncing_line.png" alt="Image de présentation pour le projet d'animation de SVG">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Animation de SVG avec Gsap</p>
+                </div>
+            </div>
+        </a>
+        <a href="../three_blender/src/index.html">
+            <div class="card">
+                <h3 class="h3_projets">Modélisation avec Blender</h3>
+                <img src="ressources/three_blender.png" alt="Image de présentation pour le projet d'intégration d'objet 3D fait avec Blender dans ThreeJs">
+                <div class="projet-description">
+                    <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
+                    <p>Essai d'intégration d'objet 3D fait avec Blender dans ThreeJs</p>
                 </div>
             </div>
         </a>

@@ -23,8 +23,7 @@
 .about_intro picture img {
   max-width: none;
   z-index: 1;
-  height: 60vh;
-  width: auto;
+  max-height: 60vh;
   -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.199);
           box-shadow: 0 20px 35px rgba(0, 0, 0, 0.199);
   border-right: #f4b942 10px solid;
@@ -778,7 +777,7 @@ h1.contact__title {
     height: 100vh;
     width: 100%;
     position: absolute;
-    top: 109px;
+    top: 90px;
     right: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -852,6 +851,8 @@ h1.contact__title {
   }
   .home-container {
     padding-top: 6rem;
+    margin: 0 10vw;
+    width: auto;
   }
   .home-container h1 {
     font-size: 44px;
@@ -865,7 +866,7 @@ h1.contact__title {
     border-left: 10px solid #4059ad;
   }
   button.projet {
-    font-size: 8px;
+    font-size: 18px;
   }
   main {
     display: block;
@@ -887,15 +888,17 @@ h1.contact__title {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    margin: 1rem 0px 0 10px;
+    margin: 0;
   }
   .about_intro picture {
-    width: 100%;
-    margin-left: 10px;
     margin-bottom: 1rem;
+    margin: 10vh 10vw;
+  }
+  .about_intro picture img {
+    margin: 0;
   }
   .about_intro section.about {
-    width: 100%;
+    margin: 0 10vw;
   }
   .about_intro section.about h2.about__title {
     font-size: 22px;
@@ -943,6 +946,10 @@ h1.contact__title {
   .div-nav button {
     font-size: 16px;
     letter-spacing: 0.1rem;
+  }
+  .home-container {
+    margin: 0 10vw;
+    width: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */

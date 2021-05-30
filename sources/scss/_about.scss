@@ -14,8 +14,7 @@
         img {
             max-width: none;
             z-index: 1;
-            height: 60vh;
-            width: auto;
+            max-height: 60vh;
             box-shadow: 0 20px 35px rgba(0, 0, 0, 0.199);
             border-right: $text-color 10px solid;
         }

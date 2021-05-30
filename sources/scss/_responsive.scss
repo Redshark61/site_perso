@@ -46,7 +46,7 @@
         height: 100vh;
         width: 100%;
         position: absolute;
-        top: 109px;
+        top: 90px;
         right: 0px;
         display: flex;
         flex-direction: column;
@@ -102,6 +102,8 @@
 
     .home-container {
         padding-top: 6rem;
+        margin: 0 10vw;
+        width: auto;
         h1 {
             font-size: $font-size-h1 - 20px;
         }
@@ -117,7 +119,7 @@
     }
 
     button.projet {
-        font-size: $font-size-p - 10px;
+        font-size: 18px;
     }
 
     main {
@@ -141,14 +143,17 @@
     .about_intro {
         flex-direction: column;
         width: 100%;
-        margin: 1rem 0px 0 10px;
+        margin: 0;
         picture {
-            width: 100%;
-            margin-left: 10px;
             margin-bottom: 1rem;
+            margin: 10vh 10vw;
+
+            img {
+                margin: 0;
+            }
         }
         section.about {
-            width: 100%;
+            margin: 0 10vw;
             h2.about__title {
                 font-size: $font-size-h2 - 10px;
             }
@@ -198,5 +203,10 @@
     .div-nav button {
         font-size: 16px;
         letter-spacing: 0.1rem;
+    }
+
+    .home-container {
+        margin: 0 10vw;
+        width: auto;
     }
 }

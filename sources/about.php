@@ -130,6 +130,18 @@
             </div>
         </div>
 
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>Flutter</h3>
+                    <img id="flutter" src="ressources/flutter.png">
+                </div>
+                <div class="back face">
+                    <p>J'ai eu une période de <em>dévellopement d'application mobile</em>. Pour cela, j'ai décidé d'apprendre <em>Flutter</em>. J'ai réalisé quelques projets, comme une appli de chat ou qui affiche l'heure en fonction des pays. Cela m'a appris à utiliser des <em>API</em> et des <em>firebase</em>.</p>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 

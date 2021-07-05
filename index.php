@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="sources/style/main.css">
     <script src="sources/js/responsive.js" defer></script>
     <script src="sources/js/cursor.js" defer></script>
+    <script src="sources/js/home_effect.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
             <h1 class="intro">Bienvenue sur mon <span class="bold">portfolio</span> !</h1>
             <h3>Viens découvrir mes créations, et en apprendre sur moi et mon travail !</h3>
             <div class="action-button">
-                <button class="projet"> Va voir mes projets !
+                <button class="projet"> <p>Va voir mes projets !</p>
                     <div class="bubble" data-width='0'></div>
 
                     <div class="arrow-right"></div>

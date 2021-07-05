@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
     <script src="js/responsive.js" defer></script>
     <script src="js/cursor.js" defer></script>
+    <script src="./js/about_cards.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-
     <title>A propos</title>
 </head>
 
@@ -30,41 +31,108 @@
         </section>
     </div>
 
+    <h2 class="h2__appris">J'ai appris :</h2>
     <section class="competence">
-        <h2 class="competence__appris">J'ai appris :</h2>
 
-        <div class="wrapper" id="wrapper_python">
-            <div class="container_competence" id="container_python">
-                <h3>Python</h3><img id="python" src="ressources/python.png">
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>Python</h3>
+                    <img id="python" src="ressources/python.png">
+                </div>
+                <div class="back face">
+                    <p>Cela fait désormais 4 ans que j'ai appris le python. J'ai par exemple fais un <em>bot discord</em> et différents scripts plus ou moins utile. Pour cela j'ai été amené à utiliser différentes librairies tel que <em>Tkinter</em>, la <em>reconnaissance vocal</em> de google ou des librairies pour communiquer avec des cartes <em>Arduino</em>.</p>
+                </div>
             </div>
         </div>
 
-        <div class="wrapper" id="wrapper_php">
-            <div class="container_competence" id="container_php">
-                <img id="php" src="ressources/php-mysql-logo.png">
-                <h3>PHP et MySQL</h3>
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>PHP et MySQL</h3>
+                    <img id="php" src="ressources/php-mysql-logo.png">
+                </div>
+                <div class="back face">
+                    <p>Ce site en entier est construit en <em>PHP</em>, et que j'ai fait mon propre <em>CMS</em> afin de facilement gérer les différents tutoriels qui seront écrits. J'ai suivi en entier le <em>cours PHP et MySQL</em> d'OpenClassrooms. Je n'ai pas peur d'utiliser les <em>bases de données</em>, puisque moi même j'en utilises.</p>
+                </div>
             </div>
         </div>
 
-        <div class="wrapper" id="wrapper_cpp">
-            <div class="container_competence" id="container_cpp">
-                <h3>C++</h3><img id="cpp" src="ressources/cpp.svg">
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>C++</h3>
+                    <img id="cpp" src="ressources/cpp.svg">
+                </div>
+                <div class="back face">
+                    <p>Je ne vais pas m'étendre sur <em>C++</em>. C'est un langage que j'ai appris par <em>curiosité</em>. J'aime me documenter, et apprendre. Il le semblait donc tout indiqué d'essayer au moins une fois le C++. Je ne l'ai pas appris afin de devenir un pro, mais simplement pour <em>découvrir de nouveaux horizons</em>.</p>
+                </div>
             </div>
         </div>
 
-        <div class="wrapper" id="wrapper_java">
-            <div class="container_competence" id="container_java">
-                <img id="java" src="ressources/java_logo.png">
-                <h3>Java</h3>
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>Java</h3>
+                    <img id="java" src="ressources/java_logo.png">
+                </div>
+                <div class="back face">
+                    <p>De la même façon que pour le C++, <em>Java</em> est un langage appris par curiosité. Mais contrairement au C++, je suis allé plus loin dans mon apprentissage du Java, car j'avais comme objectif de <em>créer un jeux-vidéo</em> ! La bonne blague, je ne suis pas allé plus loin que les bases d'un <em>GUI</em>.</p>
+                </div>
             </div>
         </div>
+
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>JQuery</h3>
+                    <img id="jquery" src="ressources/jquery.png">
+                </div>
+                <div class="back face">
+                    <p>Au début de mon apprentissage de <em>Javascript</em>, je souhaitais ne jamais utiliser le JQuery pour la simple et bonne raison que je n'en voyais pas l'utilité. Mais suite à la <em>formation Développeur Web</em>, je vois JQuery tout autrement, et il m'est désormais d'une <em>aide précieuses</em>.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>React</h3>
+                    <img id="react" src="ressources/react.png">
+                </div>
+                <div class="back face">
+                    <p><em>React</em> est sur ma To-Do List de bibliothèque Js à apprendre. J'ai déjà commencé à apprendre les bases, et sais créer des <em>composants</em>, mais j'ai encore beaucoup à apprendre de cette <em>outil puissant</em>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>GSAP</h3>
+                    <img id="gsap" src="ressources/gsap.png">
+                </div>
+                <div class="back face">
+                    <p>J'ai déjà utilisé <em>GSAP</em> dans différents projets que vous pouvez retrouver sur ce site. Cette librairie simple d'utilisation dévoile tout son potentiel lorsqu'elle est utilisé de pair avec d'autres outils, tel que <em>ThreeJs</em>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="container_competence">
+                <div class="front face">
+                    <h3>ThreeJs</h3>
+                    <img id="gsap" src="ressources/three.png">
+                </div>
+                <div class="back face">
+                    <p><em>ThreeJs</em> est une bibliothèque que j'ai toujours voulu essayer. Grâce à l'aide nombreux tutoriels Youtube, j'ai pu toucher du doigt les possibilité qu'offre ThreeJs et ainsi produire quelques projets que vous trouvez ici. ThreeJs m'a également permis d'essayer la <em>modélisation 3D</em> avec <em>Blender</em>.</p>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
-    <script src="js/about_effect.js"></script>
 
 </body>
 

@@ -27,7 +27,6 @@ body {
 
 .cursor {
     cursor: none;
-
     position: fixed;
     transform: translate(-50%, -50%);
     width: 40px;
@@ -73,7 +72,7 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: $bg-color;
     box-shadow: 0 0 10px 4px $accentuate-color;
@@ -104,29 +103,32 @@ nav {
     }
 }
 
-.hovered {
-    position: relative;
+.main-title {
+    margin-right: 2rem;
+    &.hovered {
+        position: relative;
 
-    &::after {
-        bottom: 0;
-        content: "";
-        display: block;
-        height: 2px;
-        left: 50%;
-        position: absolute;
-        background: #4059ad;
-        transition: all 0.3s ease;
-        width: 0;
-    }
+        &::after {
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: #4059ad;
+            transition: all 0.3s ease;
+            width: 0;
+        }
 
-    &:hover::after {
-        width: 100%;
-        left: 0;
+        &:hover::after {
+            width: 100%;
+            left: 0;
+        }
     }
 }
 
 .div-nav {
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -135,7 +137,7 @@ nav {
     button {
         padding: 0.5rem;
         font-size: $font-size-p;
-        letter-spacing: 0.5rem;
+        letter-spacing: 3px;
         font-weight: 700;
         text-decoration: none;
         border: none;

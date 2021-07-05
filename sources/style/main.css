@@ -1,4 +1,9 @@
 @forward 'abstracts/variables';
+html,
+body {
+  height: auto;
+}
+
 .about_intro {
   margin: 5rem 0 10rem 0;
   width: 100%;
@@ -56,17 +61,7 @@
   padding: 0;
 }
 
-section.competence {
-  margin: 0;
-  padding: 0;
-  -webkit-transform: translate(0);
-          transform: translate(0);
-  width: 100vw;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-section.competence h2 {
+.h2__appris {
   text-align: center;
   -webkit-text-decoration: underline 4px #4059ad;
           text-decoration: underline 4px #4059ad;
@@ -75,53 +70,120 @@ section.competence h2 {
   padding: 1rem;
 }
 
+section.competence {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 3rem;
+  margin: 0 0 5vh 0;
+  padding: 4rem;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  width: 100%;
+  overflow-x: hidden;
+  max-width: none;
+}
+
+section.competence:last-child {
+  margin-bottom: 0;
+}
+
 section.competence .container_competence {
+  -webkit-box-shadow: 0px 13px 20px -2px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 13px 20px -2px rgba(0, 0, 0, 0.6);
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  width: 100%;
+  min-height: 30vh;
+  height: 100%;
+  -webkit-transition: -webkit-transform 600ms ease-out, -webkit-box-shadow 200ms ease-out;
+  transition: -webkit-transform 600ms ease-out, -webkit-box-shadow 200ms ease-out;
+  transition: transform 600ms ease-out, box-shadow 200ms ease-out;
+  transition: transform 600ms ease-out, box-shadow 200ms ease-out, -webkit-transform 600ms ease-out, -webkit-box-shadow 200ms ease-out;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background: #292929;
+  color: #d1d1d1;
+}
+
+section.competence .container_competence h3 {
+  line-height: 64px;
+  -webkit-text-decoration: underline 4px #f4b942;
+          text-decoration: underline 4px #f4b942;
+  font-size: 36px;
+  padding: 0;
+}
+
+section.competence .container_competence img {
+  max-width: 80%;
+  height: auto;
+  max-height: 15vh;
+}
+
+section.competence .container_competence.flipped {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+section.competence .container_competence:hover {
+  -webkit-box-shadow: 0px 13px 20px 4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 13px 20px 4px rgba(0, 0, 0, 0.6);
+}
+
+.wrapper {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
   position: relative;
+  overflow-x: visible;
+}
+
+.wrapper .front {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 5rem;
-  background: -webkit-gradient(linear, left top, right bottom, from(#6b9ac4), to(#97d8c4));
-  background: linear-gradient(to bottom right, #6b9ac4, #97d8c4);
-  border-radius: 2rem;
-  padding: 2rem 1rem;
-  background-clip: padding-box;
-  border: solid 1px transparent;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
-section.competence .container_competence::before {
+.wrapper .back {
+  z-index: -1;
   position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: 0px;
   left: 0;
-  z-index: -5;
-  background: -webkit-gradient(linear, left top, right bottom, from(white), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(to bottom right, white, rgba(255, 255, 255, 0));
-  margin: -2px;
-  border-radius: 2rem;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  padding: 1rem;
 }
 
-section.competence .container_competence h3 {
-  line-height: 64px;
-  -webkit-text-decoration: underline 4px #4059ad;
-          text-decoration: underline 4px #4059ad;
-  font-size: 36px;
-  margin: 3rem;
-  padding: 0;
+.wrapper .back em {
+  color: #f4b942;
+  font-weight: bold;
+  font-style: normal;
 }
 
-section.competence .container_competence img {
-  max-width: 40vh;
-  height: 20vh;
+.wrapper .face {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 @forward "abstracts/variables";
@@ -143,6 +205,10 @@ main {
           align-items: center;
   height: 100%;
   background-image: url("../ressources/bg-home.jpg");
+  -webkit-transition: all 50ms ease-out;
+  transition: all 50ms ease-out;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 
 .action-button {
@@ -151,17 +217,12 @@ main {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.action-button a {
-  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 button.projet {
@@ -183,14 +244,18 @@ button.projet {
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   width: auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
-button.projet:hover {
-  position: relative;
-  border-radius: 50px;
+button.projet p {
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
 }
 
 .arrow-right {
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
   margin-left: 2rem;
   width: 0;
   height: 0;
@@ -377,8 +442,9 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -413,11 +479,15 @@ nav .line {
   width: 8vw;
 }
 
-.hovered {
+.main-title {
+  margin-right: 2rem;
+}
+
+.main-title.hovered {
   position: relative;
 }
 
-.hovered::after {
+.main-title.hovered::after {
   bottom: 0;
   content: "";
   display: block;
@@ -430,13 +500,13 @@ nav .line {
   width: 0;
 }
 
-.hovered:hover::after {
+.main-title.hovered:hover::after {
   width: 100%;
   left: 0;
 }
 
 .div-nav {
-  width: 100%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,7 +524,7 @@ nav .line {
 .div-nav button {
   padding: 0.5rem;
   font-size: 18px;
-  letter-spacing: 0.5rem;
+  letter-spacing: 3px;
   font-weight: 700;
   text-decoration: none;
   border: none;
@@ -765,6 +835,10 @@ h1.contact__title {
     width: 80%;
     margin: 1rem;
   }
+  nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   nav .hamburger {
     display: block;
   }
@@ -907,12 +981,25 @@ h1.contact__title {
     max-width: none;
     font-size: 18px;
   }
-  section.competence h3 {
-    font-size: 16px;
+  section.competence {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5vw;
+    padding-bottom: 10vh;
   }
-  section.competence .wrapper .container_competence {
-    margin: 0 10px 1rem 10px;
-    padding: 10px;
+  section.competence .wrapper {
+    width: 100%;
   }
   section.competence .wrapper .container_competence img {
     max-width: 4rem;
@@ -920,7 +1007,10 @@ h1.contact__title {
     height: auto;
   }
   section.competence .wrapper .container_competence p {
-    font-size: 8px;
+    font-size: 13px;
+  }
+  section.competence h3 {
+    font-size: 16px;
   }
   a.container_article {
     -webkit-box-orient: vertical;

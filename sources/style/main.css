@@ -220,9 +220,9 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 button.projet {
@@ -283,13 +283,12 @@ button.projet p {
 .home-container {
   color: white;
   position: relative;
-  width: 100%;
 }
 
 .home-container h1 {
   font-size: 64px;
   line-height: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .home-container h1 .bold {
@@ -300,6 +299,7 @@ button.projet p {
 .home-container h1 .bold::after {
   content: "";
   position: absolute;
+  top: 0;
   left: 0;
   height: 100%;
   width: 0;
@@ -310,10 +310,13 @@ button.projet p {
 
 .home-container h1,
 .home-container h3 {
-  text-align: center;
+  text-align: left;
 }
 
 .home-container h3 {
+  margin-bottom: 3rem;
+  color: #d1d1d1;
+  font-weight: 100;
   font-size: 26px;
 }
 
@@ -432,6 +435,7 @@ body {
 }
 
 nav {
+  font-family: "Newsreader", serif;
   position: relative;
   z-index: 2;
   width: 100%;
@@ -449,8 +453,6 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   background-color: #d1d1d1;
-  -webkit-box-shadow: 0 0 10px 4px #4059ad;
-          box-shadow: 0 0 10px 4px #4059ad;
 }
 
 nav h1 {
@@ -522,10 +524,11 @@ nav .line {
 }
 
 .div-nav button {
+  font-family: "Newsreader", serif;
   padding: 0.5rem;
   font-size: 18px;
   letter-spacing: 3px;
-  font-weight: 700;
+  font-weight: 100;
   text-decoration: none;
   border: none;
   color: black;
@@ -918,10 +921,9 @@ h1.contact__title {
   }
   .action-button {
     width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0.5rem;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
   .home-container {
     padding-top: 6rem;
@@ -929,9 +931,11 @@ h1.contact__title {
     width: auto;
   }
   .home-container h1 {
+    text-align: left;
     font-size: 44px;
   }
   .home-container h3 {
+    text-align: left;
     font-size: 16px;
   }
   .arrow-right {
@@ -995,15 +999,14 @@ h1.contact__title {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 5vw;
+    padding: 0 10vw;
     padding-bottom: 10vh;
   }
   section.competence .wrapper {
     width: 100%;
   }
   section.competence .wrapper .container_competence img {
-    max-width: 4rem;
-    max-height: 4rem;
+    max-height: 10vh;
     height: auto;
   }
   section.competence .wrapper .container_competence p {
@@ -1025,6 +1028,11 @@ h1.contact__title {
             flex-direction: column;
     max-width: none;
     margin: 0;
+  }
+  .h2__appris {
+    text-align: left;
+    padding: 0;
+    margin: 5vh 10vw 2vh;
   }
 }
 

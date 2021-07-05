@@ -18,7 +18,7 @@ main {
     position: relative;
     height: min-content;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 button.projet {
@@ -66,17 +66,17 @@ button.projet {
 .home-container {
     color: rgb(255, 255, 255);
     position: relative;
-    width: 100%;
     h1 {
         font-size: $font-size-h1;
         line-height: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         .bold {
             position: relative;
             color: $text-color;
             &::after {
                 content: "";
                 position: absolute;
+                top: 0;
                 left: 0;
                 height: 100%;
                 width: 0;
@@ -87,9 +87,12 @@ button.projet {
     }
     h1,
     h3 {
-        text-align: center;
+        text-align: left;
     }
     h3 {
+        margin-bottom: 3rem;
+        color: $bg-color;
+        font-weight: 100;
         font-size: $font-size-h3;
     }
 }

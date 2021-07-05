@@ -67,6 +67,7 @@ body {
 }
 
 nav {
+    font-family: "Newsreader", serif;
     position: relative;
     z-index: 2;
     width: 100%;
@@ -75,7 +76,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: $bg-color;
-    box-shadow: 0 0 10px 4px $accentuate-color;
 
     h1 {
         font-size: $font-size-h1;
@@ -135,10 +135,12 @@ nav {
     align-items: center;
 
     button {
+        font-family: "Newsreader", serif;
+
         padding: 0.5rem;
         font-size: $font-size-p;
         letter-spacing: 3px;
-        font-weight: 700;
+        font-weight: 100;
         text-decoration: none;
         border: none;
         color: black;

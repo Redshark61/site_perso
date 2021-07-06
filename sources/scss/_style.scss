@@ -154,7 +154,12 @@ nav {
 
         &:hover {
             cursor: none;
-            background-size: 100% 88%;
+            background-size: 100% 100%;
+        }
+        &.current_location {
+            cursor: none;
+            background-size: 100% 100%;
+            background-image: linear-gradient(120deg, $accentuate-color 0%, $nav-button-color 100%);
         }
     }
 }

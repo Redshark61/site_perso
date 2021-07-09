@@ -8,7 +8,7 @@
     ?>
 
     <nav>
-        <h1 class="hovered main-title"><a href="index.php" id="title">BeRedy</a></h1>
+        <h1 class="hovered main-title"><a href="../index.php" id="title">BeRedy</a></h1>
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>

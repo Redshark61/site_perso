@@ -453,21 +453,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   background-color: #d1d1d1;
-}
-
-nav h1 {
-  font-size: 64px;
-  margin-left: 5%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border-radius: 4px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-nav h1 a {
-  font-size: 18px;
+  min-height: 10vh;
 }
 
 nav .hamburger {
@@ -482,7 +468,15 @@ nav .line {
 }
 
 .main-title {
-  margin-right: 2rem;
+  margin-left: 5vw;
+}
+
+.main-title #title {
+  text-align: center;
+  text-decoration: none;
+  color: #f4b942;
+  font-family: "Newsreader", serif;
+  font-size: 42px;
 }
 
 .main-title.hovered {
@@ -551,13 +545,6 @@ nav .line {
   cursor: none;
   background-size: 100% 100%;
   background-image: linear-gradient(120deg, #4059ad 0%, #6b9ac4 100%);
-}
-
-#title {
-  text-decoration: none;
-  color: #f4b942;
-  font-family: "Newsreader", serif;
-  font-size: 64px;
 }
 
 section {
@@ -829,7 +816,38 @@ h1.contact__title {
     overflow-x: hidden;
   }
   .div-nav {
-    display: none;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    background: #313153;
+    z-index: 3;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+    right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    text-align: center;
+    -webkit-transition: -webkit-transform 500ms ease-out;
+    transition: -webkit-transform 500ms ease-out;
+    transition: transform 500ms ease-out;
+    transition: transform 500ms ease-out, -webkit-transform 500ms ease-out;
+  }
+  .div-nav.show_nav {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    -webkit-transition: -webkit-transform 500ms ease-in;
+    transition: -webkit-transform 500ms ease-in;
+    transition: transform 500ms ease-in;
+    transition: transform 500ms ease-in, -webkit-transform 500ms ease-in;
   }
   .div-nav a {
     -ms-flex-preferred-size: 0;
@@ -844,6 +862,9 @@ h1.contact__title {
     width: 80%;
     margin: 1rem;
   }
+  .div-nav a button:hover {
+    background-size: 100% 0.4rem;
+  }
   nav {
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -853,48 +874,6 @@ h1.contact__title {
   }
   nav h1 {
     margin: 0;
-  }
-  .unhide {
-    background: #313153;
-    z-index: 3;
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 90px;
-    right: 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    -webkit-animation: move 1s ease;
-            animation: move 1s ease;
-    text-align: center;
-  }
-  @-webkit-keyframes move {
-    from {
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-    }
-    to {
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-    }
-  }
-  @keyframes move {
-    from {
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-    }
-    to {
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-    }
   }
   .projet {
     -ms-grid-columns: (auto)[1] !important;

@@ -15,7 +15,23 @@
     }
 
     .div-nav {
-        display: none;
+        transform: translate(100%);
+        background: #313153;
+        z-index: 3;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 10vh;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+        transition: transform 500ms ease-out;
+        &.show_nav {
+            transform: translate(0);
+            transition: transform 500ms ease-in;
+        }
         a {
             flex-basis: 0;
             width: 100%;
@@ -26,6 +42,10 @@
                 background-color: #313153;
                 width: 80%;
                 margin: 1rem;
+
+                &:hover {
+                    background-size: 100% 0.4rem;
+                }
             }
         }
     }
@@ -38,30 +58,6 @@
 
         h1 {
             margin: 0;
-        }
-    }
-
-    .unhide {
-        background: #313153;
-        z-index: 3;
-        height: 100vh;
-        width: 100%;
-        position: absolute;
-        top: 90px;
-        right: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        animation: move 1s ease;
-        text-align: center;
-    }
-
-    @keyframes move {
-        from {
-            transform: translateX(100%);
-        }
-        to {
-            transform: translateX(0%);
         }
     }
 

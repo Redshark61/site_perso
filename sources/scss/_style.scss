@@ -76,20 +76,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: $bg-color;
-
-    h1 {
-        font-size: $font-size-h1;
-        margin-left: 5%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding: 0.5rem;
-        border-radius: 4px;
-        transition: all 0.3s ease;
-
-        a {
-            font-size: $font-size-p;
-        }
-    }
+    min-height: 10vh;
 
     .hamburger {
         display: none;
@@ -104,7 +91,14 @@ nav {
 }
 
 .main-title {
-    margin-right: 2rem;
+    margin-left: 5vw;
+    #title {
+        text-align: center;
+        text-decoration: none;
+        color: $text-color;
+        font-family: "Newsreader", serif;
+        font-size: $font-size-h2 + 10px;
+    }
     &.hovered {
         position: relative;
 
@@ -164,12 +158,20 @@ nav {
     }
 }
 
-#title {
-    text-decoration: none;
-    color: $text-color;
-    font-family: "Newsreader", serif;
-    font-size: $font-size-h1;
-}
+// .unhide {
+//     background: #313153;
+//     z-index: 3;
+//     height: 100vh;
+//     width: 100%;
+//     position: absolute;
+//     top: 10vh;
+//     right: 0px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: start;
+//     transform: translate(100%);
+//     text-align: center;
+// }
 
 section {
     line-height: 30px;

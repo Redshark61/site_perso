@@ -20,14 +20,5 @@ window.addEventListener("resize", () => {
 });
 
 hamburger.addEventListener("click", () => {
-    nav.classList.toggle("unhide");
-
-    if (is_overflow) {
-        html.style.overflow = "hidden";
-        body.style.overflow = "hidden";
-        is_overflow = false;
-    } else {
-        html.style.overflow = "auto";
-        body.style.overflow = "auto";
-    }
+    $(".div-nav").toggleClass("show_nav");
 });

@@ -757,6 +757,7 @@ h1.contact__title {
 
 .tuto_contenu img {
   max-width: 100%;
+  min-width: 100%;
 }
 
 .tuto_contenu span.code {

@@ -751,7 +751,6 @@ h1.contact__title {
 }
 
 .tuto_contenu {
-  height: 100%;
   margin: 2rem 10vw;
   white-space: pre-wrap;
 }
@@ -764,7 +763,7 @@ h1.contact__title {
   background: rgba(98, 98, 98, 0.514);
   padding: 0.3rem;
   color: white;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .tuto_contenu p {
@@ -797,10 +796,6 @@ h1.contact__title {
   width: 20vw;
   max-width: 80px;
   margin-right: 3rem;
-}
-
-.tuto_contenu .question p {
-  font-weight: bold;
 }
 
 @forward 'abstracts/variables';
@@ -1006,13 +1001,20 @@ h1.contact__title {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .tuto_contenu {
+    font-size: 16px;
+  }
   .tuto_contenu .question {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: none;
-    margin: 0;
+    margin: 2rem 0;
+    padding: 1rem;
+  }
+  .tuto_contenu .question .question-img img {
+    margin: 0.5rem 0 2rem 0;
   }
   .h2__appris {
     text-align: left;

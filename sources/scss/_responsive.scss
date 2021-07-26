@@ -193,10 +193,21 @@
         flex-direction: column;
     }
 
+    .tuto_contenu {
+        font-size: 16px;
+    }
+
     .tuto_contenu .question {
         flex-direction: column;
         max-width: none;
-        margin: 0;
+        margin: 2rem 0;
+        padding: 1rem;
+
+        .question-img {
+            img {
+                margin: 0.5rem 0 2rem 0;
+            }
+        }
     }
 
     .h2__appris {

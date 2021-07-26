@@ -34,7 +34,6 @@
 }
 
 .tuto_contenu {
-    height: 100%;
     margin: 2rem 10vw;
     white-space: pre-wrap;
     img {
@@ -44,7 +43,7 @@
         background: rgba(98, 98, 98, 0.514);
         padding: 0.3rem;
         color: white;
-        border-radius: 30px;
+        border-radius: 10px;
     }
     p {
         line-height: 1.8rem;
@@ -68,9 +67,6 @@
                 max-width: 80px;
                 margin-right: 3rem;
             }
-        }
-        p {
-            font-weight: bold;
         }
     }
 }

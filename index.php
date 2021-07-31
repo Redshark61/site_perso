@@ -27,10 +27,10 @@
         <div class="home-container">
             <h1 class="intro">Bienvenue sur mon <span class="bold">portfolio</span> !</h1>
             <h3>Viens découvrir mes créations, et en apprendre sur moi et mon travail !</h3>
+            <div class="bubble" data-width='0'></div>
             <div class="action-button">
                 <button class="projet">
                     <p>Va voir mes projets !</p>
-                    <div class="bubble" data-width='0'></div>
 
                     <div class="arrow-right"></div>
                 </button>

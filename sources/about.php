@@ -41,7 +41,7 @@
                     <img id="python" src="ressources/python.png">
                 </div>
                 <div class="back face">
-                    <p>Cela fait désormais 4 ans que j'ai appris le python. J'ai par exemple fais un <em>bot discord</em> et différents scripts plus ou moins utile. Pour cela j'ai été amené à utiliser différentes librairies tel que <em>Tkinter</em>, la <em>reconnaissance vocal</em> de google ou des librairies pour communiquer avec des cartes <em>Arduino</em>.</p>
+                    <p>Cela fait désormais 4 ans que j'ai appris le python. J'ai par exemple fais un <em>bot discord</em> et différents scripts qui m'ont amené à utiliser différentes librairies tel que <em>Tkinter</em>, la <em>reconnaissance vocal</em> de google ou la communication avec des cartes <em>Arduino</em>.</p>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                     <img id="php" src="ressources/php-mysql-logo.png">
                 </div>
                 <div class="back face">
-                    <p>Ce site en entier est construit en <em>PHP</em>, et que j'ai fait mon propre <em>CMS</em> afin de facilement gérer les différents tutoriels qui seront écrits. J'ai suivi en entier le <em>cours PHP et MySQL</em> d'OpenClassrooms. Je n'ai pas peur d'utiliser les <em>bases de données</em>, puisque moi même j'en utilises.</p>
+                    <p>Ce site en entier est construit en <em>PHP</em>, et que j'ai fait mon propre <em>CMS</em> afin de facilement gérer les différents tutoriels qui seront écrits. J'ai suivi en entier le <em>cours PHP et MySQL</em> d'OpenClassrooms. J'utilise également des <em>bases de données</em>.</p>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                     <img id="cpp" src="ressources/cpp.svg">
                 </div>
                 <div class="back face">
-                    <p>Je ne vais pas m'étendre sur <em>C++</em>. C'est un langage que j'ai appris par <em>curiosité</em>. J'aime me documenter, et apprendre. Il le semblait donc tout indiqué d'essayer au moins une fois le C++. Je ne l'ai pas appris afin de devenir un pro, mais simplement pour <em>découvrir de nouveaux horizons</em>.</p>
+                    <p>Je ne vais pas m'étendre sur <em>C++</em>. C'est un langage que j'ai appris par <em>curiosité</em> car j'aime apprendre. Il me semblait donc tout indiqué d'essayer au moins une fois le C++. Je ne l'ai pas appris afin de devenir un pro, mais simplement pour <em>découvrir de nouveaux horizons</em>.</p>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
                     <img id="java" src="ressources/java_logo.png">
                 </div>
                 <div class="back face">
-                    <p>De la même façon que pour le C++, <em>Java</em> est un langage appris par curiosité. Mais contrairement au C++, je suis allé plus loin dans mon apprentissage du Java, car j'avais comme objectif de <em>créer un jeux-vidéo</em> ! La bonne blague, je ne suis pas allé plus loin que les bases d'un <em>GUI</em>.</p>
+                    <p>De la même façon que pour le C++, <em>Java</em> est un langage appris par curiosité. Mais contrairement au C++, je suis allé plus loin dans mon apprentissage du Java. Je ne suis pas allé plus loin que les bases d'un <em>GUI</em>.</p>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
                     <img id="jquery" src="ressources/jquery.png">
                 </div>
                 <div class="back face">
-                    <p>Au début de mon apprentissage de <em>Javascript</em>, je souhaitais ne jamais utiliser le JQuery pour la simple et bonne raison que je n'en voyais pas l'utilité. Mais suite à la <em>formation Développeur Web</em>, je vois JQuery tout autrement, et il m'est désormais d'une <em>aide précieuses</em>.</p>
+                    <p>J'ai été amené lors de ma <em>formation Développeur Web</em>, à apprendre le JQuery. C'est un outil intéressant mais qui ne remplace pas à mon avis la rapidité du <em>Javascript</em>.</p>
                 </div>
             </div>
 
@@ -101,7 +101,7 @@
                     <img id="react" src="ressources/react.png">
                 </div>
                 <div class="back face">
-                    <p><em>React</em> est sur ma To-Do List de bibliothèque Js à apprendre. J'ai déjà commencé à apprendre les bases, et sais créer des <em>composants</em>, mais j'ai encore beaucoup à apprendre de cette <em>outil puissant</em>.</p>
+                    <p><em>React</em> est sur ma To-Do List de bibliothèque Js à apprendre. J'ai déjà commencé à apprendre les bases, et sais créer des <em>composants</em>, mais j'ai encore beaucoup à apprendre.</p>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
                     <img id="gsap" src="ressources/three.png">
                 </div>
                 <div class="back face">
-                    <p><em>ThreeJs</em> est une bibliothèque que j'ai toujours voulu essayer. Grâce à l'aide nombreux tutoriels Youtube, j'ai pu toucher du doigt les possibilité qu'offre ThreeJs et ainsi produire quelques projets que vous trouvez ici. ThreeJs m'a également permis d'essayer la <em>modélisation 3D</em> avec <em>Blender</em>.</p>
+                    <p><em>ThreeJs</em> est une bibliothèque que j'ai toujours voulu essayer. J'ai pu toucher du doigt les possibilité qu'offre ThreeJs et ainsi produire quelques projets que vous trouvez ici. ThreeJs m'a également permis d'essayer la <em>modélisation 3D</em> avec <em>Blender</em>.</p>
                 </div>
             </div>
         </div>
@@ -137,7 +137,7 @@
                     <img id="flutter" src="ressources/flutter.png">
                 </div>
                 <div class="back face">
-                    <p>J'ai eu une période de <em>dévellopement d'application mobile</em>. Pour cela, j'ai décidé d'apprendre <em>Flutter</em>. J'ai réalisé quelques projets, comme une appli de chat ou qui affiche l'heure en fonction des pays. Cela m'a appris à utiliser des <em>API</em> et des <em>firebase</em>.</p>
+                    <p>J'ai essayer de <em>dévelloper des applications mobile</em>. Pour cela, j'ai décidé d'apprendre <em>Flutter</em>. J'ai réalisé quelques projets, comme une appli de chat, ou qui affiche l'heure en fonction des pays. Cela m'a appris à utiliser des <em>API</em> et des <em>firebase</em>.</p>
                 </div>
             </div>
         </div>

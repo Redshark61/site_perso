@@ -1,35 +1,26 @@
 @forward 'abstracts/variables';
-@import "componenents/card_style";
 
 .container_article {
     display: block;
-    @include container-card(space-between);
     margin: 10vh 10vw;
-    padding: auto 10vw;
+    padding: 1rem;
+    background-color: $dark-bg;
+    color: $bg-color;
+    box-shadow: 5px 10px 3px rgba(0, 0, 0, 0.342);
+
     h3 {
         font-size: $font-size-h3;
-        margin: auto 5vw;
-        margin-bottom: $font-size-h3;
 
-        margin-top: 2rem;
+        margin-top: 0;
     }
     h2 {
         font-size: $font-size-h2;
-        margin: auto 5vw;
+        margin: 0 0 2rem 0;
         margin-bottom: $font-size-h2;
-        position: relative;
-        &::before {
-            position: absolute;
-            content: "";
-            top: 0;
-            left: 0;
-            height: 100%;
-        }
     }
     p {
         font-size: $font-size-p;
-        margin-bottom: $font-size-p;
-        margin: auto 10vw;
+        margin: 0 0 1rem 0;
     }
 }
 

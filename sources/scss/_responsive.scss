@@ -1,5 +1,32 @@
 @forward 'abstracts/variables';
 
+@media screen and (max-width: 1300px) {
+    #title,
+    nav h1 {
+        font-size: 55px;
+    }
+
+    .div-nav button {
+        font-size: 16px;
+        letter-spacing: 0.1rem;
+    }
+
+    .home-container {
+        margin: 0 10vw;
+        width: auto;
+    }
+
+    section.competence {
+        padding: 1rem;
+        justify-content: center;
+    }
+
+    .wrapper {
+        flex-basis: 46%;
+        flex-grow: 0;
+    }
+}
+
 @media screen and (max-width: 700px) {
     * {
         cursor: default;
@@ -12,6 +39,11 @@
     html,
     body {
         overflow-x: hidden;
+    }
+
+    #index-html,
+    #index-body {
+        overflow-y: hidden;
     }
 
     .div-nav {
@@ -165,14 +197,13 @@
 
     section.competence {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 10vw;
-        padding-bottom: 10vh;
+        align-content: stretch;
 
         .wrapper {
             width: 100%;
+
+            flex-basis: 100%;
+            flex-grow: 0;
             .container_competence {
                 img {
                     max-height: 10vh;
@@ -191,6 +222,22 @@
     }
     a.container_article {
         flex-direction: column;
+        padding: 1rem;
+
+        & > h2 {
+            font-size: 24px;
+            margin: 0 0 2rem 0;
+        }
+
+        & > p {
+            font-size: 16px;
+            margin: 0 0 1rem 0;
+        }
+
+        & > h3 {
+            font-size: 18px;
+            margin: 0;
+        }
     }
 
     .tuto_contenu {
@@ -215,31 +262,24 @@
         padding: 0;
         margin: 5vh 10vw 2vh;
     }
-}
 
-@media screen and (max-width: 1300px) {
-    #title,
-    nav h1 {
-        font-size: 55px;
+    section.history {
+        object {
+            &:nth-child(2) {
+                transform: translateY(-25%);
+            }
+            &:nth-child(3) {
+                transform: translateY(-75%);
+            }
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3) {
+                margin: 0;
+            }
+        }
     }
 
-    .div-nav button {
-        font-size: 16px;
-        letter-spacing: 0.1rem;
-    }
-
-    .home-container {
-        margin: 0 10vw;
-        width: auto;
-    }
-
-    section.competence {
-        padding: 1rem;
-        justify-content: center;
-    }
-
-    .wrapper {
-        flex-basis: 46%;
-        flex-grow: 0;
+    button#open {
+        font-size: 24px;
     }
 }

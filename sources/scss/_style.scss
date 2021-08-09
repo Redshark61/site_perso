@@ -19,7 +19,6 @@ body {
 
 html,
 body {
-    height: 100%;
     width: 100%;
     font-size: $font-size-p;
     cursor: none;
@@ -158,21 +157,6 @@ nav {
     }
 }
 
-// .unhide {
-//     background: #313153;
-//     z-index: 3;
-//     height: 100vh;
-//     width: 100%;
-//     position: absolute;
-//     top: 10vh;
-//     right: 0px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: start;
-//     transform: translate(100%);
-//     text-align: center;
-// }
-
 section {
     line-height: 30px;
     z-index: 0;
@@ -181,13 +165,6 @@ section {
     width: 50vw;
     padding: 2rem;
     padding-top: 0;
-
-    &:last-child {
-        margin-bottom: 10%;
-    }
-}
-
-section {
     p {
         font-size: $font-size-p;
         line-height: 30px;

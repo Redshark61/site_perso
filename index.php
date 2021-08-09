@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" id="index-html">
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
     <title>BeRedy - Acceuil</title>
 </head>
 
-<body>
+<body id="index-body">
     <div class="cursor"></div>
     <?php require 'nav.php' ?>
 

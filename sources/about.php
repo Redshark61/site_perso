@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-    <script src="js/responsive.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
     <script src="js/cursor.js" defer></script>
     <script src="./js/about_cards.js" defer></script>
+    <script src="./js/open.js" defer></script>
+    <script src="js/responsive.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
@@ -122,7 +123,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>ThreeJs</h3>
-                    <img id="gsap" src="ressources/three.png">
+                    <img id="three" src="ressources/three.png">
                 </div>
                 <div class="back face">
                     <p><em>ThreeJs</em> est une bibliothèque que j'ai toujours voulu essayer. J'ai pu toucher du doigt les possibilité qu'offre ThreeJs et ainsi produire quelques projets que vous trouvez ici. ThreeJs m'a également permis d'essayer la <em>modélisation 3D</em> avec <em>Blender</em>.</p>
@@ -144,7 +145,23 @@
 
 
     </section>
-
+    <button id="open">Ouvrir</button>
+    <svg id="wave_about" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveedAspectratio="xMidyMid meet">
+        <path fill="#6b9ac4" fill-opacity="1" d="M0,32L21.8,42.7C43.6,53,87,75,131,90.7C174.5,107,218,117,262,117.3C305.5,117,349,107,393,117.3C436.4,128,480,160,524,154.7C567.3,149,611,107,655,90.7C698.2,75,742,85,785,117.3C829.1,149,873,203,916,202.7C960,203,1004,149,1047,117.3C1090.9,85,1135,75,1178,74.7C1221.8,75,1265,85,1309,101.3C1352.7,117,1396,139,1418,149.3L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path>
+    </svg>
+    <section class="history">
+        <object type="image/svg+xml" data="ressources/Options.svg" alt="Mes options au lycée : Mathématiques
+Matématiques expertes
+Anglais euro
+Science de l’ingénieure"></object>
+        <object type="image/svg+xml" data="ressources/parcours.svg" alt="J’ai commencé la programation dès le collège avec Scratch. C’est plutôt basique mais ça m’a donné l’envie de créer et d’inventer. Par la suite la programation c’est faite en Basic sur ma Casio. Puis j’ai appris le Python à mon entrée en seconde. Beaucoup de perspective se sont alors ouvertes. J’ai décidé d’en apprendre plus, et d’être meilleur en programmation. J’ai donc beaucoup exploré en apprenant le Java, C++, Flutter, mais c’est mon apprentissage du Js qui m’a le plus marqué et m’a convaincu d’être un développeur web."></object>
+        <object type="image/svg+xml" data="ressources/formation.svg" alt="Je suis un autodidacte, je ne suis donc pas allée dans des écoles spécialisé. J’ai beaucoup appris sur le site OpenClassroom. J’y ai 
+suivi des cours de Pyhton, Java, PHP & MySQL, HTML, CSS, Js et 
+bien d’autres. Ce site m’a donnée toutes les bases nécessaire à mon apprentissage. Par la suite, j’ai approfondie mes connaissances au fur
+et à mesure de mes besoins en allant sur internet. Je me suis 
+également beaucoup instruit par des chaînes Youtube comme 
+Grafikart, FireShip ou DesignCourse."></object>
+    </section>
 
 </body>
 

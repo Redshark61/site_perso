@@ -1,5 +1,4 @@
 @forward 'abstracts/variables';
-@import "componenents/card_style";
 
 html,
 body {
@@ -63,15 +62,13 @@ section {
         flex-wrap: wrap;
         flex-direction: row;
         align-content: stretch;
-        margin: 0 0 5vh 0;
-        padding: 4rem;
+        margin: 0 auto 1vh auto;
         transform: translate(0);
-        width: 100%;
+        width: 90%;
         overflow-x: hidden;
         max-width: none;
-        &:last-child {
-            margin-bottom: 0;
-        }
+        overflow: hidden;
+        box-shadow: inset 0px -35px 15px -30px rgba(0, 0, 0, 0.7);
 
         .container_competence {
             box-shadow: 0px 13px 20px -2px rgba(0, 0, 0, 0.6);
@@ -90,6 +87,7 @@ section {
                 text-decoration: underline 4px $text-color;
                 font-size: $font-size-h3 + 10px;
                 padding: 0;
+                text-align: center;
             }
             img {
                 max-width: 80%;
@@ -105,6 +103,27 @@ section {
         }
     }
 }
+
+button#open {
+    font-size: $font-size-h2;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    width: 40vw;
+    height: 8vh;
+    background: $text-color;
+    color: $accentuate-color;
+    border: none;
+    transition: all 100ms ease-out;
+    box-shadow: 0px 10px 18px 2px rgba(0, 0, 0, 0.31);
+
+    &:hover {
+        box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.31);
+        // background: #cfaa5f;
+        color: #5c78d4;
+    }
+}
+
 .wrapper {
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -147,5 +166,37 @@ section {
 
     .face {
         backface-visibility: hidden;
+    }
+}
+
+#wave_about {
+    display: block;
+}
+
+section.history {
+    background: $nav-button-color;
+    transform: translateX(0);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    object {
+        cursor: none;
+        pointer-events: none;
+
+        &:nth-child(1) {
+            margin: 0 auto 5vw 30vw;
+            max-width: 477px;
+        }
+        &:nth-child(2) {
+            margin: 0 auto 0 40vw;
+            max-width: 698px;
+        }
+        &:nth-child(3) {
+            margin: 0 45vw 0 auto;
+            max-width: 714px;
+        }
     }
 }

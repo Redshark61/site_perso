@@ -182,12 +182,11 @@ section.history {
     max-width: none;
     display: flex;
     flex-direction: column;
-    object {
-        cursor: none;
-        pointer-events: none;
 
+    picture {
+        width: min-content;
         &:nth-child(1) {
-            margin: 0 auto 5vw 30vw;
+            margin: 0 auto 0 30vw;
             max-width: 477px;
         }
         &:nth-child(2) {
@@ -198,5 +197,10 @@ section.history {
             margin: 0 45vw 0 auto;
             max-width: 714px;
         }
+    }
+
+    .svg-history {
+        cursor: none;
+        pointer-events: none;
     }
 }

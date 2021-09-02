@@ -7,12 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style/main.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <link rel="shortcut icon" href="./sources/ressources/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./sources/style/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 
-    <script src="js/responsive.js" defer></script>
-    <script src="js/cursor.js" defer></script>
+    <script src="./sources/js/responsive.js" defer></script>
+    <script src="./sources/js/cursor.js" defer></script>
     <title>Projets</title>
 </head>
 
@@ -25,12 +25,12 @@
     </section>
 
     <div class="projet">
-        
 
-        <a href="../fancy_introo/index.html">
+
+        <a href="./fancy_introo/index.html">
             <div class="card">
                 <h3 class="h3_projets">Affichage avec Gsap</h3>
-                <img src="../fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">
+                <img src="./fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark" style="color: red;">X</span></h3>
                     <p>Essai d'affichage avec Gsap. Application du tutoriel de DevEd.</p>
@@ -38,50 +38,50 @@
             </div>
         </a>
 
-        <a href="../threejs/src/index.html">
+        <a href="./threejs/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Balle 3D avec ThreeJs</h3>
-                <img src="ressources/three_ball.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
+                <img src="./sources/ressources/three_ball.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Tout premier projet de 3D avec ThreeJs.</p>
                 </div>
             </div>
         </a>
-        <a href="../particules/src/index.html">
+        <a href="./particules/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Particules 3D avec ThreeJs</h3>
-                <img src="ressources/three_particles.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
+                <img src="./sources/ressources/three_particles.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Essaie de particules 3D avec ThreeJs.</p>
                 </div>
             </div>
         </a>
-        <a href="../raycasting/src/index.html">
+        <a href="./raycasting/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Raycasting avec ThreeJs</h3>
-                <img src="ressources/three_raycasting.png" alt="Image de présentation pour le projet de raycasting avec ThreeJs">
+                <img src="./sources/ressources/three_raycasting.png" alt="Image de présentation pour le projet de raycasting avec ThreeJs">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Effet de cartes et essai d'interaction avec ThreeJs</p>
                 </div>
             </div>
         </a>
-        <a href="../svg_bouncing_line/index.html">
+        <a href="./svg_bouncing_line/index.html">
             <div class="card">
                 <h3 class="h3_projets">Animation de SVG</h3>
-                <img src="ressources/svg_bouncing_line.png" alt="Image de présentation pour le projet d'animation de SVG">
+                <img src="./sources/ressources/svg_bouncing_line.png" alt="Image de présentation pour le projet d'animation de SVG">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Animation de SVG avec Gsap</p>
                 </div>
             </div>
         </a>
-        <a href="../three_blender/src/index.html">
+        <a href="./three_blender/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Modélisation avec Blender</h3>
-                <img src="ressources/three_blender.png" alt="Image de présentation pour le projet d'intégration d'objet 3D fait avec Blender dans ThreeJs">
+                <img src="./sources/ressources/three_blender.png" alt="Image de présentation pour le projet d'intégration d'objet 3D fait avec Blender dans ThreeJs">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark">&#10003;</span></h3>
                     <p>Essai d'intégration d'objet 3D fait avec Blender dans ThreeJs</p>

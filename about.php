@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="./sources/style/main.css">
     <link rel="shortcut icon" href="ressources/logo.ico" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
-    <script src="js/cursor.js" defer></script>
-    <script src="./js/about_cards.js" defer></script>
-    <script src="./js/open.js" defer></script>
-    <script src="js/responsive.js" defer></script>
+    <script src="./sources/js/cursor.js" defer></script>
+    <script src="./sources//js/about_cards.js" defer></script>
+    <script src="./sources//js/open.js" defer></script>
+    <script src="./sources/js/responsive.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
@@ -23,8 +23,8 @@
 
     <div class="about_intro">
         <picture>
-            <source srcset="ressources/grand_photo_profil.jpg" alt="Moi" media="(min-width: 1000px)">
-            <img src="ressources/photo_profil.jpg" alt="Moi">
+            <source srcset="./sources/ressources/grand_photo_profil.jpg" alt="Moi" media="(min-width: 1000px)">
+            <img src="./sources/ressources/photo_profil.jpg" alt="Moi">
         </picture>
         <section class="about">
             <h1 class="about__title">Hey !</h1>
@@ -39,7 +39,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>Python</h3>
-                    <img id="python" src="ressources/python.png">
+                    <img id="python" src="./sources/ressources/python.png">
                 </div>
                 <div class="back face">
                     <p>Cela fait désormais 4 ans que j'ai appris le python. J'ai par exemple fais un <em>bot discord</em> et différents scripts qui m'ont amené à utiliser différentes librairies tel que <em>Tkinter</em>, la <em>reconnaissance vocal</em> de google ou la communication avec des cartes <em>Arduino</em>.</p>
@@ -51,7 +51,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>PHP et MySQL</h3>
-                    <img id="php" src="ressources/php-mysql-logo.png">
+                    <img id="php" src="./sources/ressources/php-mysql-logo.png">
                 </div>
                 <div class="back face">
                     <p>Ce site en entier est construit en <em>PHP</em>, et que j'ai fait mon propre <em>CMS</em> afin de facilement gérer les différents tutoriels qui seront écrits. J'ai suivi en entier le <em>cours PHP et MySQL</em> d'OpenClassrooms. J'utilise également des <em>bases de données</em>.</p>
@@ -63,7 +63,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>C++</h3>
-                    <img id="cpp" src="ressources/cpp.svg">
+                    <img id="cpp" src="./sources/ressources/cpp.svg">
                 </div>
                 <div class="back face">
                     <p>Je ne vais pas m'étendre sur <em>C++</em>. C'est un langage que j'ai appris par <em>curiosité</em> car j'aime apprendre. Il me semblait donc tout indiqué d'essayer au moins une fois le C++. Je ne l'ai pas appris afin de devenir un pro, mais simplement pour <em>découvrir de nouveaux horizons</em>.</p>
@@ -75,7 +75,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>Java</h3>
-                    <img id="java" src="ressources/java_logo.png">
+                    <img id="java" src="./sources/ressources/java_logo.png">
                 </div>
                 <div class="back face">
                     <p>De la même façon que pour le C++, <em>Java</em> est un langage appris par curiosité. Mais contrairement au C++, je suis allé plus loin dans mon apprentissage du Java. Je ne suis pas allé plus loin que les bases d'un <em>GUI</em>.</p>
@@ -87,7 +87,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>JQuery</h3>
-                    <img id="jquery" src="ressources/jquery.png">
+                    <img id="jquery" src="./sources/ressources/jquery.png">
                 </div>
                 <div class="back face">
                     <p>J'ai été amené lors de ma <em>formation Développeur Web</em>, à apprendre le JQuery. C'est un outil intéressant mais qui ne remplace pas à mon avis la rapidité du <em>Javascript</em>.</p>
@@ -99,7 +99,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>React</h3>
-                    <img id="react" src="ressources/react.png">
+                    <img id="react" src="./sources/ressources/react.png">
                 </div>
                 <div class="back face">
                     <p><em>React</em> est sur ma To-Do List de bibliothèque Js à apprendre. J'ai déjà commencé à apprendre les bases, et sais créer des <em>composants</em>, mais j'ai encore beaucoup à apprendre.</p>
@@ -111,7 +111,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>GSAP</h3>
-                    <img id="gsap" src="ressources/gsap.png">
+                    <img id="gsap" src="./sources/ressources/gsap.png">
                 </div>
                 <div class="back face">
                     <p>J'ai déjà utilisé <em>GSAP</em> dans différents projets que vous pouvez retrouver sur ce site. Cette librairie simple d'utilisation dévoile tout son potentiel lorsqu'elle est utilisé de pair avec d'autres outils, tel que <em>ThreeJs</em>.</p>
@@ -123,7 +123,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>ThreeJs</h3>
-                    <img id="three" src="ressources/three.png">
+                    <img id="three" src="./sources/ressources/three.png">
                 </div>
                 <div class="back face">
                     <p><em>ThreeJs</em> est une bibliothèque que j'ai toujours voulu essayer. J'ai pu toucher du doigt les possibilité qu'offre ThreeJs et ainsi produire quelques projets que vous trouvez ici. ThreeJs m'a également permis d'essayer la <em>modélisation 3D</em> avec <em>Blender</em>.</p>
@@ -135,7 +135,7 @@
             <div class="container_competence">
                 <div class="front face">
                     <h3>Flutter</h3>
-                    <img id="flutter" src="ressources/flutter.png">
+                    <img id="flutter" src="./sources/ressources/flutter.png">
                 </div>
                 <div class="back face">
                     <p>J'ai essayer de <em>dévelloper des applications mobile</em>. Pour cela, j'ai décidé d'apprendre <em>Flutter</em>. J'ai réalisé quelques projets, comme une appli de chat, ou qui affiche l'heure en fonction des pays. Cela m'a appris à utiliser des <em>API</em> et des <em>firebase</em>.</p>
@@ -151,21 +151,21 @@
     </svg>
     <section class="history">
         <picture>
-            <source media="(max-width:750px)" srcset="ressources/Options_small.svg">
-            <img class="svg-history" src="ressources/Options.svg" alt="Mes options au lycée : Mathématiques
+            <source media="(max-width:750px)" srcset="./sources/ressources/Options_small.svg">
+            <img class="svg-history" src="./sources/ressources/Options.svg" alt="Mes options au lycée : Mathématiques
             Matématiques expertes
             Anglais euro
             Science de l’ingénieure">
         </picture>
         <picture>
-            <source media="(max-width:750px)" srcset="ressources/parcours_small.svg">
+            <source media="(max-width:750px)" srcset="./sources/ressources/parcours_small.svg">
 
-            <img class="svg-history" src="ressources/parcours.svg" alt="J’ai commencé la programation dès le collège avec Scratch. C’est plutôt basique mais ça m’a donné l’envie de créer et d’inventer. Par la suite la programation c’est faite en Basic sur ma Casio. Puis j’ai appris le Python à mon entrée en seconde. Beaucoup de perspective se sont alors ouvertes. J’ai décidé d’en apprendre plus, et d’être meilleur en programmation. J’ai donc beaucoup exploré en apprenant le Java, C++, Flutter, mais c’est mon apprentissage du Js qui m’a le plus marqué et m’a convaincu d’être un développeur web."></img>
+            <img class="svg-history" src="./sources/ressources/parcours.svg" alt="J’ai commencé la programation dès le collège avec Scratch. C’est plutôt basique mais ça m’a donné l’envie de créer et d’inventer. Par la suite la programation c’est faite en Basic sur ma Casio. Puis j’ai appris le Python à mon entrée en seconde. Beaucoup de perspective se sont alors ouvertes. J’ai décidé d’en apprendre plus, et d’être meilleur en programmation. J’ai donc beaucoup exploré en apprenant le Java, C++, Flutter, mais c’est mon apprentissage du Js qui m’a le plus marqué et m’a convaincu d’être un développeur web."></img>
         </picture>
         <picture>
-            <source media="(max-width:750px)" srcset="ressources/formation_small.svg">
+            <source media="(max-width:750px)" srcset="./sources/ressources/formation_small.svg">
 
-            <img class="svg-history" src="ressources/formation.svg" alt="Je suis un autodidacte, je ne suis donc pas allée dans des écoles spécialisé. J’ai beaucoup appris sur le site OpenClassroom. J’y ai 
+            <img class="svg-history" src="./sources/ressources/formation.svg" alt="Je suis un autodidacte, je ne suis donc pas allée dans des écoles spécialisé. J’ai beaucoup appris sur le site OpenClassroom. J’y ai 
             suivi des cours de Pyhton, Java, PHP & MySQL, HTML, CSS, Js et 
             bien d’autres. Ce site m’a donnée toutes les bases nécessaire à mon apprentissage. Par la suite, j’ai approfondie mes connaissances au fur
             et à mesure de mes besoins en allant sur internet. Je me suis 

@@ -139,18 +139,30 @@ h1.contact__title {
 .tuto_contenu {
   margin: 2rem 10vw;
   white-space: pre-wrap;
+  position: relative;
 }
 
-.tuto_contenu img {
+.tuto_contenu img,
+.tuto_contenu video {
   max-width: 100%;
   min-width: 100%;
 }
 
+.tuto_contenu img.clicked-img,
+.tuto_contenu video.clicked-img {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 3;
+}
+
 .tuto_contenu span.code {
-  background: rgba(98, 98, 98, 0.514);
-  padding: 0.3rem;
+  background: rgba(46, 46, 46, 0.616);
+  padding: 0.2rem;
   color: white;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .tuto_contenu p {
@@ -183,6 +195,33 @@ h1.contact__title {
   width: 20vw;
   max-width: 80px;
   margin-right: 3rem;
+}
+
+#exit {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: none;
+  width: 100px;
+  height: 100px;
+  background: white;
+  color: black;
+  z-index: 4;
+  font-size: 64px;
+  text-align: center;
+}
+
+#overlay {
+  position: absolute;
+  z-index: 3;
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 @forward 'abstracts/variables';

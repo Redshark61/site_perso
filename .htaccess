@@ -1,0 +1,17 @@
+Options +MultiViews
+
+#Remove extensions
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+) $1.php [NC,L]
+
+#Redirect from extensions to non-extensions
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,NE,L]
+
+#Error redirect
+ErrorDocument 404 /site_perso/errors/404.html
+ErrorDocument 403 /site_perso/errors/403.html
+ErrorDocument 401 /site_perso/errors/401.html
+ErrorDocument 500 /site_perso/errors/500.html

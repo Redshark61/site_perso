@@ -74,6 +74,23 @@
     }
 }
 
+#tuto-title {
+    text-align: center;
+    margin: 10vh 20vw 20vh 20vw;
+    font-size: 60px;
+    font-weight: 900;
+    border-bottom: 2px solid $accentuate-color;
+    text-transform: uppercase;
+}
+
+h2.sub-h1 {
+    color: #f4b942;
+}
+
+b {
+    font-weight: 900;
+}
+
 #exit {
     position: fixed;
     top: 0;
@@ -87,15 +104,20 @@
     z-index: 4;
     font-size: 64px;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
 #overlay {
-    position: absolute;
+    position: fixed;
     z-index: 3;
     display: none;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100vw;
+    height: 100vh;
     background: rgba($color: black, $alpha: 0.5);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

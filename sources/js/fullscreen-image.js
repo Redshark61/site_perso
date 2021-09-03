@@ -8,17 +8,17 @@ console.log(document);
 
 for (let index = 0; index < img.length; index++) {
     img[index].addEventListener("click", () => {
+        html.style.overflowY = "hidden";
         overlay.style.display = "block";
+        overlay.style.backgroundImage = `url(${img[index].src})`;
         exit.style.display = "block";
-        console.log(clicked_img);
-        clicked_img.setAttribute("src", img[index].src);
-        clicked_img.classList.add("clicked-img");
-        contenu.appendChild(clicked_img);
     });
 }
 
 exit.addEventListener("click", () => {
+    html.style.overflowY = "scroll";
+
     overlay.style.display = "none";
+    overlay.style.backgroundImage = `none`;
     exit.style.display = "none";
-    clicked_img.remove();
 });

@@ -145,6 +145,7 @@ button#open {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        transform: rotateX(0deg);
     }
 
     .back {

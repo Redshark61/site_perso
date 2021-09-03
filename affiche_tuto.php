@@ -38,9 +38,11 @@ $donnees = $reponse->fetch();
     if ($_SERVER['SERVER_NAME'] == 'beredy.tk') {
         $contenu = str_replace('source src="ressources/tuto', 'source src="http://create-tuto.beredy.tk/ressources/tuto', $donnees['contenu']);
         $contenu = str_replace('img src="ressources/tuto', 'img src="http://create-tuto.beredy.tk/ressources/tuto', $contenu);
+        $contenu = str_replace('img src="ressources/question-mark.png', 'img src="./sources/ressources/question-mark.png', $contenu);
     } elseif ($_SERVER['SERVER_NAME'] == 'localhost') {
         $contenu = str_replace('source src="ressources/tuto', 'source src="http://localhost/BDD-MySQL/ressources/tuto', $donnees['contenu']);
         $contenu = str_replace('img src="ressources/tuto', 'img src="http://localhost/BDD-MySQL/ressources/tuto', $contenu);
+        $contenu = '<h1 id="tuto-title">' . $donnees['titre'] . '</h1>' . $contenu;
     }
 
     echo $contenu;

@@ -805,6 +805,11 @@ nav .line {
   color: #f4b942;
   font-family: "Newsreader", serif;
   font-size: 42px;
+  text-shadow: 1px 1px 2px #383838;
+}
+
+.main-title #title .orange {
+  color: #4059ad;
 }
 
 .main-title.hovered {

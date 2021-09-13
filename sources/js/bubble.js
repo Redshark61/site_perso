@@ -19,6 +19,6 @@ projet.addEventListener("click", () => {
         }
     );
     setInterval(() => {
-        window.location.href = window.location.href + "http://www.beredy.tk/sources/projet.php";
+        window.location.href = "https://tcode.fr/projet.php";
     }, 1500);
 });

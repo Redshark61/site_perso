@@ -30,7 +30,7 @@ $reponse = $bdd->query('SELECT * FROM tuto');
     while ($donnees = $reponse->fetch()) {
         if ($donnees['readable']) :
     ?>
-            <a href="http://<?= $_SERVER['HTTP_HOST'] ?>/site_perso/affiche_tuto.php?name=<?= $donnees['file_name'] ?>" class="container_article">
+            <a href="http://<?= $_SERVER['HTTP_HOST'] ?>/affiche_tuto.php?name=<?= $donnees['file_name'] ?>" class="container_article">
                 <h2><?= $donnees['titre'] ?></h2>
                 <p><?= htmlspecialchars($donnees['description']) ?></p>
                 <h3><?= htmlspecialchars($donnees['date_creation']) ?></h3>

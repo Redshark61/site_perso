@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="sources/js/bubble.js" defer></script>
-    <title>BeRedy - Acceuil</title>
+    <title>Tcode - Acceuil</title>
 </head>
 
 <body id="index-body">

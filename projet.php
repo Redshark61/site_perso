@@ -27,10 +27,10 @@
     <div class="projet">
 
 
-        <a href="./fancy_introo/index.html">
+        <a href="./public/fancy_introo/index.html">
             <div class="card">
                 <h3 class="h3_projets">Affichage avec Gsap</h3>
-                <img src="./fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">
+                <img src="./public/fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">
                 <div class="projet-description">
                     <h3 class="h3--petit">Adaptatif : <span class="mark" style="color: red;">X</span></h3>
                     <p>Essai d'affichage avec Gsap. Application du tutoriel de DevEd.</p>
@@ -38,7 +38,7 @@
             </div>
         </a>
 
-        <a href="./threejs/src/index.html">
+        <a href="./public/threejs/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Balle 3D avec ThreeJs</h3>
                 <img src="./sources/ressources/three_ball.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </a>
-        <a href="./particules/src/index.html">
+        <a href="./public/particules/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Particules 3D avec ThreeJs</h3>
                 <img src="./sources/ressources/three_particles.png" alt="Image de présentation pour le projet de balle 3D avec ThreeJs">
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </a>
-        <a href="./raycasting/src/index.html">
+        <a href="./public/raycasting/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Raycasting avec ThreeJs</h3>
                 <img src="./sources/ressources/three_raycasting.png" alt="Image de présentation pour le projet de raycasting avec ThreeJs">
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </a>
-        <a href="./svg_bouncing_line/index.html">
+        <a href="./public/svg_bouncing_line/index.html">
             <div class="card">
                 <h3 class="h3_projets">Animation de SVG</h3>
                 <img src="./sources/ressources/svg_bouncing_line.png" alt="Image de présentation pour le projet d'animation de SVG">
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </a>
-        <a href="./three_blender/src/index.html">
+        <a href="./public/three_blender/src/index.html">
             <div class="card">
                 <h3 class="h3_projets">Modélisation avec Blender</h3>
                 <img src="./sources/ressources/three_blender.png" alt="Image de présentation pour le projet d'intégration d'objet 3D fait avec Blender dans ThreeJs">

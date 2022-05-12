@@ -27,7 +27,7 @@
     <div class="projet">
 
 
-        <a href="./public/fancy_introo/index.html">
+        <a href="./public/fancy_introo/index">
             <div class="card">
                 <h3 class="h3_projets">Affichage avec Gsap</h3>
                 <img src="./public/fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">

@@ -1,0 +1,44 @@
+nav {
+	background: $fluo-pink;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 8vh;
+	padding: 0 2rem;
+}
+
+.site-name {
+	font-family: "Fraunces";
+	font-style: normal;
+	font-weight: 330;
+	font-size: 32px;
+	line-height: 39px;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #000000;
+	font-variation-settings: "SOFT" 0, "WONK" 1;
+}
+
+.nav-button {
+	font-family: "Anek";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 19px;
+	text-transform: uppercase;
+	color: #000000;
+	font-stretch: 125;
+	text-decoration: none;
+
+	&:hover {
+		text-shadow: 0 0 10px $pink;
+		transform: scale(1.1);
+	}
+}
+
+.div-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 30%;
+}

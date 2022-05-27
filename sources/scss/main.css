@@ -1,0 +1,126 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "Anek";
+  src: url("../../public/fonts/Anek_Gurmukhi/AnekGurmukhi-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("../../public/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+}
+
+nav {
+  background: #ff7af2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8vh;
+  padding: 0 2rem;
+}
+
+.site-name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 330;
+  font-size: 32px;
+  line-height: 39px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
+  font-variation-settings: "SOFT" 0, "WONK" 1;
+}
+
+.nav-button {
+  font-family: "Anek";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  font-stretch: 125;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  text-shadow: 0 0 10px #ebadf5;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.div-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+.hero {
+  font-size: 100px;
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 5vw;
+}
+
+.hero-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -10%;
+}
+
+.main-title {
+  font-family: "Anek";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 0.8em;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #000000;
+  font-stretch: 125;
+}
+
+body {
+  background-color: #f6c86c;
+}
+/*# sourceMappingURL=main.css.map */

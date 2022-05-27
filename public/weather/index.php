@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/site_perso/public/weather/style.css">
         <title>Météo</title>
     </head>
 
@@ -22,8 +22,8 @@
             <div class="temperature-description">** It's bitterly cold **</div>
         </div>
 
-        <script src="skycons.js"></script>
-        <script src="app.js"></script>
+        <script src="/site_perso/public/weather/skycons.js"></script>
+        <script src="/site_perso/public/weather/app.js"></script>
     </body>
 
 </html>

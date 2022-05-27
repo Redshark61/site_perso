@@ -27,7 +27,7 @@
     <div class="projet">
 
 
-        <a href="./public/fancy_introo/index">
+        <a href="./projet/gsap">
             <div class="card">
                 <h3 class="h3_projets">Affichage avec Gsap</h3>
                 <img src="./public/fancy_introo/hero.jpg" alt="Image de présentation du test avec gsap">
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </a>
-        <a href="./public/svg_bouncing_line/index.html">
+        <a href="./projet/svg_bouncing_line">
             <div class="card">
                 <h3 class="h3_projets">Animation de SVG</h3>
                 <img src="./sources/ressources/svg_bouncing_line.png" alt="Image de présentation pour le projet d'animation de SVG">

@@ -8,8 +8,8 @@
     <link rel="shortcut icon" href="./sources/ressources/logo.ico" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
     <script src="./sources/js/cursor.js" defer></script>
-    <script src="./sources//js/about_cards.js" defer></script>
-    <script src="./sources//js/open.js" defer></script>
+    <script src="./sources/js/about_cards.js" defer></script>
+    <script src="./sources/js/open.js" defer></script>
     <script src="./sources/js/responsive.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
@@ -165,11 +165,11 @@
         <picture>
             <source media="(max-width:750px)" srcset="./sources/ressources/formation_small.svg">
 
-            <img class="svg-history" src="./sources/ressources/formation.svg" alt="Je suis un autodidacte, je ne suis donc pas allée dans des écoles spécialisé. J’ai beaucoup appris sur le site OpenClassroom. J’y ai 
-            suivi des cours de Pyhton, Java, PHP & MySQL, HTML, CSS, Js et 
+            <img class="svg-history" src="./sources/ressources/formation.svg" alt="Je suis un autodidacte, je ne suis donc pas allée dans des écoles spécialisé. J’ai beaucoup appris sur le site OpenClassroom. J’y ai
+            suivi des cours de Pyhton, Java, PHP & MySQL, HTML, CSS, Js et
             bien d’autres. Ce site m’a donnée toutes les bases nécessaire à mon apprentissage. Par la suite, j’ai approfondie mes connaissances au fur
-            et à mesure de mes besoins en allant sur internet. Je me suis 
-            également beaucoup instruit par des chaînes Youtube comme 
+            et à mesure de mes besoins en allant sur internet. Je me suis
+            également beaucoup instruit par des chaînes Youtube comme
             Grafikart, FireShip ou DesignCourse."></img>
         </picture>
     </section>

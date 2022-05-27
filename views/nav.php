@@ -2,7 +2,7 @@
     function addClass($url)
     {
         if (($_SERVER['REQUEST_URI'] == "/site_perso/" . $url) || ($_SERVER['REQUEST_URI'] == "/site_perso/sources/" . $url) || ($_SERVER['REQUEST_URI'] == '/sources/' . $url) || ($_SERVER['REQUEST_URI'] == "/" . $url)) {
-            echo " class='current_location'";
+            return " class='current_location'";
         }
     }
     ?>
@@ -15,19 +15,19 @@
             <div class="line"></div>
         </div>
         <div class="div-nav">
-            <a href="./"><button <?php
+            <a href="./"><button <?=
                                     addClass('')
                                     ?>>Accueil</button></a>
-            <a href="./projets"><button <?php
+            <a href="./projets"><button <?=
                                         addClass('projets')
                                         ?>>Projets</button></a>
-            <a href="./about"><button <?php
+            <a href="./about"><button <?=
                                         addClass('about')
                                         ?>>A propos</button></a>
-            <a href="./contact"><button <?php
+            <a href="./contact"><button <?=
                                         addClass('contact')
                                         ?>>Me contacter</button></a>
-            <a href="./affiche_liste"><button <?php
+            <a href="./affiche_liste"><button <?=
                                                 addClass('affiche_liste')
                                                 ?>>Tutoriels</button></a>
         </div>

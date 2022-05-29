@@ -14,10 +14,15 @@
     <?php require 'nav.php' ?>
 
     <div class="hero">
-        <div class="hero-header">
-            <h1 class="main-title">Un simple portfolio ?</h1>
-            <h1 class="main-title">Un mine d'or !</h1>
+        <div class="hero__header">
+            <h1 class="hero__main-title">Un simple portfolio ?</h1>
+            <h1 class="hero__main-title">Un mine d'or !</h1>
         </div>
+        <picture class="hero__picture">
+            <source media="(max-width: 769px)" srcset="sources/ressources/Myself.png">
+            <img class="hero__img" src="sources/ressources/Myself@2x.png" alt="">
+        </picture>
+        <!-- <img class="hero__picture" src="./sources/ressources/Myself@2x.png" alt=""> -->
     </div>
 
 </body>

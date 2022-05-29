@@ -35,19 +35,19 @@ nav {
           align-items: center;
   height: 8vh;
   padding: 0 2rem;
+  border-bottom: 3px solid #000;
 }
 
 .site-name {
   font-family: "Fraunces";
   font-style: normal;
-  font-weight: 330;
   font-size: 32px;
   line-height: 39px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-transform: uppercase;
   color: #000000;
-  font-variation-settings: "SOFT" 0, "WONK" 1;
+  font-variation-settings: "SOFT" 0, "WONK" 1, "wght" 300;
 }
 
 .nav-button {
@@ -118,6 +118,11 @@ nav {
   text-transform: uppercase;
   color: #000000;
   font-stretch: 125;
+}
+
+.shadow {
+  -webkit-box-shadow: 4px 7px 0px #000000;
+          box-shadow: 4px 7px 0px #000000;
 }
 
 body {

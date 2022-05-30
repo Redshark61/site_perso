@@ -1,0 +1,16 @@
+.skills {
+	margin-top: 20vh;
+	background: #fff;
+	border-top: 2px solid #000;
+	display: flex;
+	justify-content: center;
+	padding-top: 5vh;
+
+	&__title {
+		font-family: "Anek";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 94%;
+	}
+}

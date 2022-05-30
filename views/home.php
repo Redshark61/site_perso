@@ -21,15 +21,21 @@
 
     <div class="hero">
         <div class="hero__header">
-            <h1 class="hero__main-title">Un simple portfolio ?</h1>
-            <h1 class="hero__main-title">Un mine d'or !</h1>
+            <h1 class="hero__main-title uppercase">Un simple portfolio ?</h1>
+            <h1 class="hero__main-title uppercase">Un mine d'or !</h1>
         </div>
         <picture class="hero__picture">
             <source media="(max-width: 700px)" srcset="sources/ressources/Myself.png">
             <img class="hero__img" src="sources/ressources/Myself@2x.png" alt="">
         </picture>
-        <!-- <img class="hero__picture" src="./sources/ressources/Myself@2x.png" alt=""> -->
+
+
     </div>
+
+    <main class="skills">
+        <h1 class="skills__title t-center uppercase">Mes compétences</h1>
+
+    </main>
 
 </body>
 

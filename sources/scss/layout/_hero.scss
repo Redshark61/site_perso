@@ -15,7 +15,7 @@
 
 		@include breakpoint {
 			justify-content: flex-start;
-			margin-top: 0;
+			margin-top: 10vh;
 		}
 	}
 
@@ -23,7 +23,7 @@
 		font-family: "Anek";
 		font-style: normal;
 		font-weight: 700;
-		font-size: clamp(2rem, 9vw, 100px);
+		font-size: clamp(3rem, 6vw, 100px);
 		line-height: 0.8em;
 		letter-spacing: -0.015em;
 		text-transform: uppercase;
@@ -35,8 +35,20 @@
 	&__picture {
 		position: absolute;
 		right: -200px;
+		top: -100px;
 		transform: scale(0.8);
 		aspect-ratio: 1;
 		z-index: 0;
+
+		@include breakpoint(1550px) {
+			right: -250px;
+			transform: scale(0.6);
+		}
+
+		@include breakpoint {
+			right: -80px;
+			top: 5vh;
+			transform: scale(0.8);
+		}
 	}
 }

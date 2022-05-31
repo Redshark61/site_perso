@@ -1,3 +1,7 @@
+<?php
+require_once 'sources/functions/helper.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr" id="index-html">
 
@@ -32,10 +36,48 @@
 
     </div>
 
-    <main class="skills">
+    <section class="skills">
         <h1 class="skills__title t-center uppercase">Mes compétences</h1>
+        <div class="skills__container">
+            <?php
+            $skills = [
+                [
+                    $title = "Django",
+                    $img = "django.svg",
+                ],
+                [
+                    $title = "JavaScript",
+                    $img = "js.svg",
+                ],
+                [
+                    $title = "PostgreSQL",
+                    $img = "postgres.svg",
+                ],
+                [
+                    $title = "Sass",
+                    $img = "sass.svg",
+                ],
+                [
+                    $title = "PHP",
+                    $img = "php.svg",
+                ],
+                [
+                    $title = "Python",
+                    $img = "python.svg",
+                ],
+                [
+                    $title = "React.js",
+                    $img = "react.svg",
+                ],
+            ];
 
-    </main>
+            foreach ($skills as $key => $value) {
+                echo card($value[0], $value[1]);
+            }
+            ?>
+
+        </div>
+    </section>
 
 </body>
 

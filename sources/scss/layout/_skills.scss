@@ -3,8 +3,11 @@
 	background: #fff;
 	border-top: 2px solid #000;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	padding-top: 5vh;
+	position: relative;
+	z-index: 0;
 
 	&__title {
 		font-family: "Anek";
@@ -12,5 +15,18 @@
 		font-weight: 500;
 		font-size: 36px;
 		line-height: 94%;
+	}
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		width: 100%;
+		gap: 5vw;
+		padding: 3rem;
 	}
 }

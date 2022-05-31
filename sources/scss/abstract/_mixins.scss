@@ -7,3 +7,11 @@
 		@content;
 	}
 }
+
+@mixin variant-h3 {
+	font-family: "Anek";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 94%;
+}

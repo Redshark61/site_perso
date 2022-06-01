@@ -3,7 +3,7 @@
 	height: 92vh;
 	display: flex;
 	flex-direction: row;
-	margin-left: 5vw;
+	padding-left: 5vw;
 	position: relative;
 	overflow: hidden;
 
@@ -12,6 +12,8 @@
 		flex-direction: column;
 		justify-content: center;
 		margin-top: -10%;
+		position: relative;
+		z-index: 1;
 
 		@include breakpoint {
 			justify-content: flex-start;

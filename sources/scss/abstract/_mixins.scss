@@ -1,5 +1,5 @@
-@mixin shadow {
-	box-shadow: 4px 7px 0px #000000;
+@mixin shadow($xOffset: $x-offset, $yOffset: $y-offset, $color: #000) {
+	box-shadow: $xOffset $yOffset 0px $color;
 }
 
 @mixin breakpoint($size: 700px) {

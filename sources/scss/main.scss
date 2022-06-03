@@ -7,10 +7,12 @@
 @import "base/font";
 
 // layout
+@import "layout/grid";
 @import "layout/nav";
 @import "layout/hero";
 @import "layout/skills";
 @import "layout/image";
+@import "layout/projects";
 
 // components
 @import "components/shadow";

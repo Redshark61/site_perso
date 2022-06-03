@@ -9,14 +9,6 @@
 	position: relative;
 	z-index: 0;
 
-	&__title {
-		font-family: "Anek";
-		font-style: normal;
-		font-weight: 500;
-		font-size: 36px;
-		line-height: 94%;
-	}
-
 	&__container {
 		display: flex;
 		flex-direction: row;

@@ -38,7 +38,7 @@ require_once 'sources/functions/helper.php';
     </div>
 
     <section class="skills">
-        <h1 class="skills__title t-center uppercase">Mes compétences</h1>
+        <h2 class="subtitle t-center uppercase">Mes compétences</h2>
         <div class="skills__container">
             <?php
             $skills = [
@@ -77,6 +77,20 @@ require_once 'sources/functions/helper.php';
             }
             ?>
 
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2 class="subtitle t-center uppercase">Mes projets</h2>
+        <div class="grid grid--2-2 mt-5">
+            <div class="projects__image">
+                <img src="./sources/ressources/projects/image1.png" alt="">
+            </div>
+            <div class="projects__text">C'est le tout premier "vrai" projet Python que j'ai fait.</div>
+            <div class="projects__text">Un jeu qui utilise PostgreSQL.</div>
+            <div class="projects__image">
+                <img src="./sources/ressources/projects/image2.png" alt="">
+            </div>
         </div>
     </section>
 

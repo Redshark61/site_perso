@@ -1,0 +1,45 @@
+.projects {
+	background: #fff;
+	border-top: 2px solid #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 5vh;
+
+	div {
+		border-style: solid;
+		border-color: #000;
+
+		&:nth-child(odd) {
+			border-width: 3px 3px 3px 0;
+		}
+
+		&:nth-child(even) {
+			border-width: 3px 0 3px 3px;
+		}
+	}
+
+	&__image {
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 4rem;
+
+		&:nth-child(odd) {
+			background: $light-green;
+		}
+
+		&:nth-child(even) {
+			background: $pink;
+		}
+
+		img {
+			max-width: inherit;
+		}
+	}
+
+	&__text {
+		background: #fff;
+	}
+}

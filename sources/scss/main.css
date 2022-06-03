@@ -35,7 +35,13 @@ html {
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 94%;
+}
+
+.text {
+  font-family: "Anek";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
 }
 
 .grid {
@@ -289,6 +295,13 @@ nav {
 
 .projects__text {
   background: #fff;
+  font-size: 1.5rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.projects__text p {
+  margin-bottom: 1rem;
 }
 
 .shadow {
@@ -395,6 +408,30 @@ nav {
   opacity: 1;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
+}
+
+.github {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  z-index: 0;
+  padding: 0.5rem 2rem;
+}
+
+.github img {
+  max-height: 100%;
 }
 
 body {

@@ -86,7 +86,11 @@ require_once 'sources/functions/helper.php';
             <div class="projects__image">
                 <img src="./sources/ressources/projects/image1.png" alt="">
             </div>
-            <div class="projects__text">C'est le tout premier "vrai" projet Python que j'ai fait.</div>
+            <div class="projects__text text">
+                <p>C'est le tout premier "vrai" projet Python que j'ai fait. Il fallait faire un jeu Python en console, sans aucun modules, et surtout SANS POO (programmation orientée objets). Ce fut ardu, mais l'objectif a été atteint. Le but du jeu était de résoudre trois énigmes pour pouvoir s'échapper d'une île.</p>
+                <p>J'ai d'ailleurs fait un site pour le présenter : <a href="https://redshark61.github.io/ile_au_python_site.github.io/index.html" target="_blank"> L'île aux Pythons</a></p>
+                <?= githubLink("L'île aux Pythons", "https://github.com/Redshark61/Python-Island") ?>
+            </div>
             <div class="projects__text">Un jeu qui utilise PostgreSQL.</div>
             <div class="projects__image">
                 <img src="./sources/ressources/projects/image2.png" alt="">

@@ -19,3 +19,14 @@ function card(string $title, string $img): string
 HTML;
   return $html;
 }
+
+function githubLink(string $title, string $link): string
+{
+  $html = <<<HTML
+  <a href="$link" target="_blank" class="button github">
+    <img src="./sources/ressources/github.svg" alt="$title">
+    <span class="github-link__title text">$title</span>
+  </a>
+HTML;
+  return $html;
+}

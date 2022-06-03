@@ -41,5 +41,12 @@
 
 	&__text {
 		background: #fff;
+		font-size: 1.5rem;
+		padding: 2rem;
+		position: relative;
+
+		p {
+			margin-bottom: 1rem;
+		}
 	}
 }

@@ -10,6 +10,7 @@
 body,
 html {
   min-height: 100vh;
+  height: auto;
 }
 
 @font-face {
@@ -44,10 +45,14 @@ html {
   font-size: 24px;
 }
 
+.emphasis {
+  background-color: #f6c86c;
+  color: #111111;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
-  height: 100vh;
 }
 
 .grid--2-2 {
@@ -301,7 +306,11 @@ nav {
 }
 
 .projects__text p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.projects__text p:first-of-type {
+  margin-top: 1rem;
 }
 
 .shadow {

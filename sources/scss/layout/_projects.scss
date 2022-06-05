@@ -46,7 +46,11 @@
 		position: relative;
 
 		p {
-			margin-bottom: 1rem;
+			margin-bottom: 0.4rem;
+
+			&:first-of-type {
+				margin-top: 1rem;
+			}
 		}
 	}
 }

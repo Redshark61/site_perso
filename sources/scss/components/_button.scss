@@ -1,5 +1,6 @@
 .button {
 	background: transparent;
+	display: block;
 	overflow: hidden;
 	@include shadow;
 	font-family: "Fraunces";
@@ -42,6 +43,30 @@
 		&::after {
 			opacity: 1;
 			transform: translate(-50%, -50%) scale(1);
+		}
+	}
+
+	&--pink {
+		&::before {
+			background: $pink;
+		}
+	}
+
+	&--center {
+		margin-inline: auto;
+	}
+
+	&--green {
+		&::before {
+			background: $lighter-green;
+		}
+	}
+
+	&--no-hover {
+		&:hover {
+			&::after {
+				opacity: 0;
+			}
 		}
 	}
 }

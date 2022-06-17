@@ -27,7 +27,7 @@ require_once 'sources/functions/helper.php';
         <div class="hero__header">
             <h1 class="hero__main-title uppercase">Un simple portfolio ?</h1>
             <h1 class="hero__main-title uppercase">Un mine d'or !</h1>
-            <button class="button">Tu veux en voir plus ?</button>
+            <button class="button">Des projets, plein de projets !</button>
         </div>
         <picture class="hero__picture">
             <source media="(max-width: 700px)" srcset="sources/ressources/Myself.png">
@@ -112,7 +112,40 @@ require_once 'sources/functions/helper.php';
                 <p>Vous pouvez toujours l'utiliser chez vous en suivant les instructions sur le repo GitHub ci-dessous :</p>
                 <?= githubLink("Mon carnet de santé", "https://github.com/Redshark61/mon-carnet-de-sante") ?>
             </div>
+        </div>
+    </section>
 
+    <a class="button button--pink button--center" href="https://github.com/Redshark61" target="_blank">Tu veux en voir plus ?</a>
+
+    <section class="contact">
+        <div class="contact__links">
+            <img src="sources/ressources/contact.svg" alt="">
+            <div class="contact__mean">
+                <ul>
+                    <li><?= links("Redshark61", "https://github.com/Redshark61", "github") ?></li>
+                    <li><?= links("tim.vannier@gmail.com", "#", "mail") ?></li>
+                    <li><?= links("Timothée Vannier", "https://www.linkedin.com/in/timothée-vannier-19150b238/", "linkedin") ?></li>
+                    <li><?= links("TimotheeVannier", "https://twitter.com/TimotheeVannier", "twitter") ?></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact__mail text">
+            <h3>Tu as un petit message ?</h3>
+            <form action="">
+                <div class="form__group">
+                    <label for="mail">Ton mail</label>
+                    <input type="email" id="mail" name="mail" placeholder="Ton mail">
+                </div>
+                <div class="form__group">
+                    <label for="subject">Le sujet du message</label>
+                    <input type="text" id="subject" name="subject" placeholder="Le sujet">
+                </div>
+                <div class="form__group">
+                    <label for="message">Ton message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
         </div>
     </section>
 

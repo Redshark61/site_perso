@@ -30,3 +30,14 @@ function githubLink(string $title, string $link): string
 HTML;
   return $html;
 }
+
+function links(string $title, string $link, string $icon): string
+{
+  $html = <<<HTML
+  <a href="$link" target="_blank" class="github button button--green button--no-hover">
+    <img src="./sources/ressources/$icon.svg" alt="$title">
+    <span class="link__title text">$title</span>
+  </a>
+HTML;
+  return $html;
+}

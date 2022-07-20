@@ -13,6 +13,7 @@ require_once 'sources/functions/helper.php';
     <script src="sources/js/responsive.js" defer></script>
     <script src="sources/js/size.js" defer></script>
     <script src="sources/js/resize_title.js" defer></script>
+    <script src="sources/js/mail.js" defer></script>
     <title>Tcode - Acceuil</title>
 </head>
 
@@ -149,7 +150,7 @@ require_once 'sources/functions/helper.php';
                         <label for="message" class="label">Ton message</label>
                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </div>
-                    <button type="button" class="button button--pink button--center">Envoyer !</button>
+                    <button type="button" id="js-send-mail" class="button button--pink button--center">Envoyer !</button>
                 </form>
             </div>
         </div>

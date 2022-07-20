@@ -12,6 +12,7 @@ require_once 'sources/functions/helper.php';
     <link rel="stylesheet" href="./sources/scss/main.css">
     <script src="sources/js/responsive.js" defer></script>
     <script src="sources/js/size.js" defer></script>
+    <script src="sources/js/resize_title.js" defer></script>
     <title>Tcode - Acceuil</title>
 </head>
 
@@ -119,7 +120,10 @@ require_once 'sources/functions/helper.php';
 
     <section class="contact">
         <div class="contact__links">
-            <img src="sources/ressources/contact.svg" alt="">
+            <!-- <img src="sources/ressources/contact.svg" alt=""> -->
+            <div>
+                <h1 id="js-contact-title">Contacte moi !</h1>
+            </div>
             <div class="contact__mean">
                 <ul>
                     <li><?= links("Redshark61", "https://github.com/Redshark61", "github") ?></li>

@@ -361,6 +361,11 @@ nav {
   width: 100%;
   border-bottom: 2px solid #000;
 }
+.contact__links > div > h1 {
+  position: relative;
+  transform-origin: left top;
+  display: inline-block;
+}
 .contact__links a {
   line-height: initial;
 }

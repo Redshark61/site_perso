@@ -20,6 +20,12 @@
 			border-bottom: 2px solid #000;
 		}
 
+		> div > h1{
+			position: relative;
+			transform-origin: left top;
+			display: inline-block;
+		}
+
 		a {
 			line-height: initial;
 		}

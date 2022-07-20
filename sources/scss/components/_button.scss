@@ -3,6 +3,7 @@
 	display: block;
 	overflow: hidden;
 	@include shadow;
+	border: 1px solid #000;
 	font-family: "Fraunces";
 	font-style: normal;
 	font-weight: 400;

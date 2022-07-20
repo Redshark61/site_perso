@@ -1,6 +1,6 @@
 const hamburger = document.getElementsByClassName("hamburger")[0];
 const nav = document.getElementsByClassName("div-nav")[0];
-console.log(hamburger);
+
 is_overflow = true;
 
 hamburger.addEventListener("click", () => {

@@ -123,7 +123,7 @@ const tick = () => {
 
     for (const object of objects) {
         if (!intersects.find((intersect) => intersect.object === object)) {
-            console.log("not intersected anymore");
+
             gsap.to(object.scale, { x: 1, y: 1 });
             gsap.to(object.rotation, { y: 0 });
             gsap.to(object.position, { z: 0 });

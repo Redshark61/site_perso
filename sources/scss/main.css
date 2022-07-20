@@ -20,6 +20,10 @@ html {
   font-family: "Fraunces";
   src: url("../../public/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Poppins";
+  src: url("../../public/fonts/Poppins/Poppins-Thin.ttf") format("truetype");
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -40,6 +44,11 @@ html {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
+}
+
+.label {
+  font-family: "Poppins";
+  font-size: 20px;
 }
 
 .emphasis {
@@ -115,7 +124,9 @@ nav {
   box-shadow: 4px 7px 0px #000000;
   position: relative;
   flex-grow: 1;
-  flex-basis: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-shrink: 1;
   aspect-ratio: 1;
   max-width: 15vw;
@@ -147,6 +158,7 @@ nav {
   display: block;
   overflow: hidden;
   box-shadow: 4px 7px 0px #000;
+  border: 1px solid #000;
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 400;
@@ -236,6 +248,10 @@ nav {
   width: 100%;
   gap: 5vw;
   padding: 3rem;
+}
+.skills__container img {
+  width: 50%;
+  height: auto;
 }
 
 .hero {
@@ -361,7 +377,11 @@ nav {
   width: 100%;
   border-bottom: 2px solid #000;
 }
-.contact__links > div > h1 {
+.contact__links > div:nth-child(1) {
+  border-bottom: 2px solid #000;
+  background: #fff;
+}
+.contact__links > div:nth-child(1) > h1 {
   position: relative;
   transform-origin: left top;
   display: inline-block;
@@ -374,12 +394,59 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+}
+.contact__mail h3 {
+  margin-bottom: 2rem;
+}
+.contact__mail button {
+  align-self: flex-start;
+  margin: 0;
+}
+.contact__mail .form__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.contact__mail .form__group input, .contact__mail .form__group textarea {
+  width: 100%;
+  border: 1px solid #000;
+  background: #9686fd;
+  color: white;
+  font-family: "Anek";
+  font-size: 18px;
+  padding: 0.6rem;
+}
+.contact__mail .form__group input::-moz-placeholder, .contact__mail .form__group textarea::-moz-placeholder {
+  color: #c2b8fe;
+}
+.contact__mail .form__group input:-ms-input-placeholder, .contact__mail .form__group textarea:-ms-input-placeholder {
+  color: #c2b8fe;
+}
+.contact__mail .form__group input::placeholder, .contact__mail .form__group textarea::placeholder {
+  color: #c2b8fe;
 }
 .contact__mean {
   grid-area: mean;
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.contact__mean ul {
+  list-style: none;
+}
+.contact__mean a {
+  width: 100%;
 }
 
 body {

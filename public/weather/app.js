@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
 					return response.json();
 				})
 				.then((data) => {
-					console.log(data);
+
 					const { temperature, windspeed, weathercode } = data.current_weather;
 
 					//Set the DOM element :
@@ -42,7 +42,7 @@ window.addEventListener("load", () => {
 					// 	codes.push(code);
 					// }
 					let icon = "";
-					console.log(weathercode);
+
 
 					for (const key in icons) {
 						if (typeof icons[key] === "object") {
@@ -60,7 +60,7 @@ window.addEventListener("load", () => {
 						}
 					}
 
-					console.log(icon);
+
 
 					//FORMULA FOR CELSIUS :
 					var fareinheit = (temperature * 9) / 5 + 32;

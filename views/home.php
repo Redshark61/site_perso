@@ -120,7 +120,6 @@ require_once 'sources/functions/helper.php';
 
     <section class="contact">
         <div class="contact__links">
-            <!-- <img src="sources/ressources/contact.svg" alt=""> -->
             <div>
                 <h1 id="js-contact-title">Contacte moi !</h1>
             </div>
@@ -135,21 +134,24 @@ require_once 'sources/functions/helper.php';
         </div>
 
         <div class="contact__mail text">
-            <h3>Tu as un petit message ?</h3>
-            <form action="">
-                <div class="form__group">
-                    <label for="mail">Ton mail</label>
-                    <input type="email" id="mail" name="mail" placeholder="Ton mail">
-                </div>
-                <div class="form__group">
-                    <label for="subject">Le sujet du message</label>
-                    <input type="text" id="subject" name="subject" placeholder="Le sujet">
-                </div>
-                <div class="form__group">
-                    <label for="message">Ton message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                </div>
-            </form>
+            <div class="container">
+                <h3 class="subtitle">Tu as un petit message ?</h3>
+                <form action="">
+                    <div class="form__group">
+                        <label for="mail" class="label">Ton mail</label>
+                        <input type="email" id="mail" name="mail" placeholder="Ton mail">
+                    </div>
+                    <div class="form__group">
+                        <label for="subject" class="label">Le sujet du message</label>
+                        <input type="text" id="subject" name="subject" placeholder="Le sujet">
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="label">Ton message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="button" class="button button--pink button--center">Envoyer !</button>
+                </form>
+            </div>
         </div>
     </section>
 

@@ -1,5 +1,5 @@
 function setScale() {
-  console.log('setScale');
+
   const title = document.querySelector('#js-contact-title');
 
   // get the width of its container

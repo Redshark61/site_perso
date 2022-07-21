@@ -12,6 +12,6 @@
 	font-family: "Anek";
 	font-style: normal;
 	font-weight: 500;
-	font-size: 28px;
+	font-size: clamp(1rem, 3vw, 20px);
 	line-height: 94%;
 }

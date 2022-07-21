@@ -19,9 +19,21 @@
 		margin-bottom: 5vh;
 		width: 100%;
 		gap: 5vw;
-		padding: 3rem;
+		padding: 3vw;
 
-		img{
+		>.card {
+			flex-basis: 20%;
+		}
+
+		@include breakpoint() {
+			>.card {
+				flex-basis: 50%;
+				max-width: 40vw;
+				margin-bottom: 5vh;
+			}
+		}
+
+		img {
 			width: 50%;
 			height: auto;
 		}

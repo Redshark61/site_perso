@@ -14,7 +14,6 @@ require_once 'sources/functions/helper.php';
     <link rel="shortcut icon" href="sources/ressources/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./sources/scss/main.css">
     <script src="sources/js/responsive.js" defer></script>
-    <script src="sources/js/size.js" defer></script>
     <script src="sources/js/resize_title.js" defer></script>
     <script src="sources/js/mail.js" defer></script>
     <title>Tcode - Acceuil</title>
@@ -23,10 +22,6 @@ require_once 'sources/functions/helper.php';
 <body>
     <?php require 'nav.php' ?>
 
-    <div id="sizes">
-        <p id="x"></p>
-        <p id="y"></p>
-    </div>
 
     <?php require 'hero.php' ?>
 

@@ -48,7 +48,8 @@
 
 		@include breakpoint {
 			right: -80px;
-			top: 5vh;
+			top: inherit;
+			bottom: 10%;
 			transform: scale(0.8);
 		}
 	}

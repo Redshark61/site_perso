@@ -1,17 +1,16 @@
 @font-face {
 	font-family: "Anek";
-	src: url("../../public/fonts/Anek_Gurmukhi/AnekGurmukhi-VariableFont_wdth,wght.ttf")
-		format("truetype");
+	src: url("../../public/fonts/Anek_Gurmukhi/AnekGurmukhi-VariableFont_wdth,wght.ttf") format("truetype");
 }
+
 @font-face {
 	font-family: "Fraunces";
-	src: url("../../public/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf")
-		format("truetype");
+	src: url("../../public/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
 }
+
 @font-face {
 	font-family: "Poppins";
-	src: url("../../public/fonts/Poppins/Poppins-Thin.ttf")
-		format("truetype");
+	src: url("../../public/fonts/Poppins/Poppins-Thin.ttf") format("truetype");
 }
 
 .uppercase {
@@ -33,10 +32,10 @@
 	font-family: "Anek";
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: clamp(18px, 2vw, 24px);
 }
 
-.label{
+.label {
 	font-family: 'Poppins';
 	font-size: 20px;
 }

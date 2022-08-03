@@ -13,9 +13,8 @@ function addClass($url)
         <div class="line"></div>
     </div>
     <div class="div-nav">
-        <a href="./" class="nav-button<?= addClass('') ?>">Accueil</a>
-        <a href="./projets" class="nav-button<?= addClass('projets') ?>">Projets</a>
-        <a href="./about" class="nav-button<?= addClass('about') ?>">A propos</a>
-        <a href="./contact" class="nav-button<?= addClass('contact') ?>">Me contacter</a>
+        <a href="#projects" class="nav-button<?= addClass('projets') ?>">Projets</a>
+        <a href="#skills" class="nav-button<?= addClass('about') ?>">A propos</a>
+        <a href="#contact" class="nav-button<?= addClass('contact') ?>">Me contacter</a>
     </div>
 </nav>

@@ -7,7 +7,7 @@ class Route
     $uri = $_SERVER['REQUEST_URI'];
 
 
-    if ($uri == "/site_perso$urlName") {
+    if ($uri == "$urlName" || $uri == "/site_perso$urlName") {
       require "./views/$viewsName.php";
       exit;
     }

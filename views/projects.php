@@ -1,5 +1,5 @@
-<section class="projects">
-  <h2 class="subtitle t-center uppercase">Mes projets</h2>
+<section class="projects" id="projects">
+  <h2 class=" subtitle t-center uppercase">Mes projets</h2>
   <div class="mt-5">
     <div class="container">
       <div class="projects__image">

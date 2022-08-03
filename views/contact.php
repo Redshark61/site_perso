@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contact" id="contact">
   <div class="contact__links">
     <div>
       <h1 id="js-contact-title">Contacte moi !</h1>

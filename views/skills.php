@@ -1,4 +1,4 @@
-<section class="skills">
+<section class="skills" id="skills">
   <h2 class="subtitle t-center uppercase">Mes compétences</h2>
   <div class="skills__container">
     <?php

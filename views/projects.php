@@ -19,6 +19,7 @@
         <h3>Social Media</h3>
         <p>Ce site est aussi tiré d'un tutoriel de JavasciptMastery, mais est cette fois-ci axé sur les technologies <span class="emphasis">MERN</span>. J'ai donc pu utiliser <span class="emphasis">MongoDB</span> comme base données, ainsi que <span class="emphasis">Node</span> comme serveur.</p>
         <p>Il est impossible de se connecter avec Google, car la connexion utilise une ancienne version.</p>
+        <p>Voir le site : <a href="https://my-react-memories.netlify.app/posts" target="_blank">Social Media</a></p>
         <?= githubLink("Social Media", "https://github.com/Redshark61/mern") ?>
       </div>
       <div class="projects__image">

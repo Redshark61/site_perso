@@ -1,7 +1,7 @@
     <div class="hero">
       <div class="hero__header">
         <h1 class="hero__main-title uppercase">Un simple portfolio ?</h1>
-        <h1 class="hero__main-title uppercase">Un mine d'or !</h1>
+        <h1 class="hero__main-title uppercase">Une mine d'or !</h1>
         <button class="button">Des projets, plein de projets !</button>
       </div>
       <picture class="hero__picture">

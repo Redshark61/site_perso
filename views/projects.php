@@ -6,19 +6,20 @@
         <img src="./sources/ressources/projects/image1.png" alt="">
       </div>
       <div class="projects__text text">
-        <h3>L'île aux Pythons</h3>
-        <p>C'est le tout premier "vrai" projet <span class="emphasis">Python</span> que j'ai fait. Il fallait faire un jeu en <span class="emphasis">console</span>, sans aucun modules, et surtout SANS POO (programmation orientée objets). Ce fut ardu, mais l'objectif a été atteint. </p>
-        <p>Le but du jeu était de résoudre trois énigmes pour pouvoir s'échapper d'une île.</p>
-        <p>J'ai d'ailleurs fait <span class="emphasis">un site</span> pour le présenter : <a href="https://redshark61.github.io/ile_au_python_site.github.io/index.html" target="_blank"> L'île aux Pythons</a></p>
-        <?= githubLink("L'île aux Pythons", "https://github.com/Redshark61/Python-Island") ?>
+        <h3>Fitness App</h3>
+        <p>Ce site avait pour but d'utiliser une <span class="emphasis">API</span> depuis RapidAPI. C'est une API qui contient plus de 1300 exercices de sport, accompagnés de GIFs.</p>
+        <p>J'ai suivi un tutoriel de JavasciptMastery, et cela m'a permis d'apprendre des techniques, et d'utiliser la libraire <span class="emphasis">Material UI</span>.</p>
+        <p>Même si j'ai suivi un tutoriel, je l'ai grandement amélioré, notamment par l'utilisation de <span class="emphasis">Redux Toolkit</span>. Cela me permet d'effectuer moins de requêtes à l'API, et ainsi d'optimiser la vitesse du site.</p>
+        <p> Voir le site : <a href="https://redsharks-gym.netlify.app/" target="_blank">Fitness App</a></p>
+        <?= githubLink("Fitness App", "https://github.com/Redshark61/gym-app") ?>
       </div>
     </div>
     <div class="container">
       <div class="projects__text text">
-        <h3>Night Monster Fever</h3>
-        <p>Le but de se projet était de faire un jeu 2D en <span class="emphasis">Python</span> qui utilise une base de données. La base en question était une base <span class="emphasis">PostgreSQL</span>.</p>
-        <p>Le but du jeu est de finir 5 Donjons remplis de monstres. La particularité du jeu est le cycle jour nuit, où durant la nuit les monstres sont plus forts, mais rapportent plus d'expérience.</p>
-        <?= githubLink("Night Monster Fever", "https://github.com/Redshark61/night-monster-fever") ?>
+        <h3>Social Media</h3>
+        <p>Ce site est aussi tiré d'un tutoriel de JavasciptMastery, mais est cette fois-ci axé sur les technologies <span class="emphasis">MERN</span>. J'ai donc pu utiliser <span class="emphasis">MongoDB</span> comme base données, ainsi que <span class="emphasis">Node</span> comme serveur.</p>
+        <p>Il est impossible de se connecter avec Google, car la connexion utilise une ancienne version.</p>
+        <?= githubLink("Social Media", "https://github.com/Redshark61/mern") ?>
       </div>
       <div class="projects__image">
         <img src="./sources/ressources/projects/image2.png" alt="">
